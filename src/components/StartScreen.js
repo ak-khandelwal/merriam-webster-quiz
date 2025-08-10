@@ -3,6 +3,20 @@ import { useState } from "react";
 function StartScreen({ dispatch, allQuestions }) {
   const [selected, setSelected] = useState({});
 
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
   const years = allQuestions ? Object.keys(allQuestions) : [];
 
   const handleMonthChange = (year, month) => {
@@ -89,7 +103,7 @@ function StartScreen({ dispatch, allQuestions }) {
                       checked={selected[year]?.includes(month) || false}
                       onChange={() => handleMonthChange(year, month)}
                     />
-                    <label htmlFor={`${year}-${month}`}>{month}</label>
+                    <label htmlFor={`${year}-${month}`}>{monthNames[month]}</label>
                   </span>
                 ))}
               </div>
