@@ -1,4 +1,5 @@
 import { useEffect, useReducer } from "react";
+import questionsData from "../data/questions.json";
 
 import Header from "./Header";
 import Main from "./Main";
@@ -17,6 +18,7 @@ const SECS_PER_QUESTION = 5;
 
 // We need to define the intialState in order to use useReduce Hook.
 const initialState = {
+  allQuestions: {},
   questions: [],
   // 'loading', 'error', 'ready', 'active', 'finished'
   status: "loading",
@@ -32,13 +34,25 @@ function reducer(state, action) {
     case "dataReceived":
       return {
         ...state,
-        questions: action.payload,
+        allQuestions: action.payload,
         status: "ready",
       };
     case "dataFailed":
       return {
         ...state,
         status: "error",
+      };
+    case "startQuiz":
+      const { year, months } = action.payload;
+      const selectedQuestions = months.flatMap(
+        (month) => state.allQuestions[year][month]
+      );
+
+      return {
+        ...state,
+        questions: selectedQuestions,
+        status: "active",
+        secondsRemaining: selectedQuestions.length * SECS_PER_QUESTION,
       };
     case "start":
       return {
@@ -67,7 +81,11 @@ function reducer(state, action) {
           state.points > state.highscore ? state.points : state.highscore,
       };
     case "restart":
-      return { ...initialState, questions: state.questions, status: "ready" };
+      return {
+        ...initialState,
+        allQuestions: state.allQuestions,
+        status: "ready",
+      };
 
     case "tick":
       return {
@@ -89,7 +107,16 @@ function reducer(state, action) {
 
 export default function App() {
   const [
-    { questions, status, index, answer, points, highscore, secondsRemaining },
+    {
+      questions,
+      status,
+      index,
+      answer,
+      points,
+      highscore,
+      secondsRemaining,
+      allQuestions,
+    },
     dispatch,
   ] = useReducer(reducer, initialState);
 
@@ -100,15 +127,7 @@ export default function App() {
   );
 
   useEffect(function () {
-    fetch("https://vinayak9669.github.io/React_quiz_api/questions.json")
-      .then((res) => res.json())
-      .then((data) =>
-        dispatch({
-          type: "dataReceived",
-          payload: data["questions"],
-        })
-      )
-      .catch((err) => dispatch({ type: "dataFailed" }));
+    dispatch({ type: "dataReceived", payload: questionsData });
   }, []);
 
   return (
@@ -121,7 +140,7 @@ export default function App() {
             {status === "loading" && <Loader />}
             {status === "error" && <Error />}
             {status === "ready" && (
-              <StartScreen numQuestions={numQuestions} dispatch={dispatch} />
+              <StartScreen dispatch={dispatch} allQuestions={allQuestions} />
             )}{" "}
             {status === "active" && (
               <>
