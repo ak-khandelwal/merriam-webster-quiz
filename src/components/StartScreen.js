@@ -1,84 +1,113 @@
 import { useState } from "react";
 
 function StartScreen({ dispatch, allQuestions }) {
-  const [selectedYear, setSelectedYear] = useState("");
-  const [selectedMonths, setSelectedMonths] = useState([]);
+  const [selected, setSelected] = useState({});
 
   const years = allQuestions ? Object.keys(allQuestions) : [];
 
-  const months = selectedYear ? Object.keys(allQuestions[selectedYear]) : [];
+  const handleMonthChange = (year, month) => {
+    setSelected((prevSelected) => {
+      const newSelected = { ...prevSelected };
+      const yearMonths = newSelected[year] || [];
 
-  const handleMonthChange = (month) => {
-    setSelectedMonths((prevMonths) =>
-      prevMonths.includes(month)
-        ? prevMonths.filter((m) => m !== month)
-        : [...prevMonths, month]
-    );
+      if (yearMonths.includes(month)) {
+        newSelected[year] = yearMonths.filter((m) => m !== month);
+      } else {
+        newSelected[year] = [...yearMonths, month];
+      }
+
+      // Clean up empty year arrays
+      if (newSelected[year].length === 0) {
+        delete newSelected[year];
+      }
+
+      return newSelected;
+    });
+  };
+
+  const handleSelectAll = (year) => {
+    setSelected((prevSelected) => {
+      const newSelected = { ...prevSelected };
+      const allMonthsForYear = Object.keys(allQuestions[year]);
+
+      if (newSelected[year]?.length === allMonthsForYear.length) {
+        // Deselect all
+        delete newSelected[year];
+      } else {
+        // Select all
+        newSelected[year] = allMonthsForYear;
+      }
+
+      return newSelected;
+    });
   };
 
   const handleStart = () => {
     dispatch({
-      type: "startQuiz", // I'll need to add this reducer case in App.js
-      payload: { year: selectedYear, months: selectedMonths },
+      type: "startQuiz",
+      payload: selected,
     });
   };
 
-  const numSelectedQuestions = selectedYear && selectedMonths.length > 0
-    ? selectedMonths.reduce((acc, month) => acc + allQuestions[selectedYear][month].length, 0)
-    : 0;
+  const numSelectedQuestions = Object.entries(selected).reduce(
+    (acc, [year, months]) =>
+      acc +
+      months.reduce(
+        (monthAcc, month) => monthAcc + allQuestions[year][month].length,
+        0
+      ),
+    0
+  );
 
   return (
     <div className="start">
       <h2>Welcome to The React Quiz!</h2>
-      { allQuestions && Object.keys(allQuestions).length > 0 ? (
-        <>
-            <h3>Select questions to start</h3>
-            <div>
-              <label>Select Year:</label>
-              <select value={selectedYear} onChange={(e) => {
-                  setSelectedYear(e.target.value);
-                  setSelectedMonths([]); // reset months on year change
-              }}>
-                <option value="">--Please choose a year--</option>
-                {years.map((year) => (
-                  <option key={year} value={year}>
-                    {year}
-                  </option>
-                ))}
-              </select>
-            </div>
+      <h3>Select questions to start</h3>
 
-            {selectedYear && (
+      {years.map((year) => {
+        const allMonthsForYear = Object.keys(allQuestions[year]);
+        const areAllSelectedForYear = selected[year]?.length === allMonthsForYear.length && allMonthsForYear.length > 0;
+
+        return (
+            <div key={year} style={{ marginBottom: "20px" }}>
+              <h4>{year}</h4>
               <div>
-                <p>Select Months (0 = Jan, 1 = Feb, ...):</p>
-                {months.map((month) => (
-                  <span key={month} style={{marginRight: "10px"}}>
+                <span style={{ marginRight: "10px" }}>
+                  <input
+                    type="checkbox"
+                    id={`select-all-${year}`}
+                    checked={areAllSelectedForYear}
+                    onChange={() => handleSelectAll(year)}
+                  />
+                  <label htmlFor={`select-all-${year}`}>Select All</label>
+                </span>
+                {allMonthsForYear.map((month) => (
+                  <span key={month} style={{ marginRight: "10px" }}>
                     <input
                       type="checkbox"
-                      id={month}
-                      value={month}
-                      checked={selectedMonths.includes(month)}
-                      onChange={() => handleMonthChange(month)}
+                      id={`${year}-${month}`}
+                      checked={selected[year]?.includes(month) || false}
+                      onChange={() => handleMonthChange(year, month)}
                     />
-                    <label htmlFor={month}>{month}</label>
+                    <label htmlFor={`${year}-${month}`}>{month}</label>
                   </span>
                 ))}
               </div>
-            )}
+            </div>
+        )
+      })}
 
-            {numSelectedQuestions > 0 && <h4>{numSelectedQuestions} questions selected.</h4>}
-
-            <button
-              className="btn btn-ui"
-              onClick={handleStart}
-              disabled={!selectedYear || selectedMonths.length === 0}
-            >
-              Let's start
-            </button>
-        </>
-      ) : (
-        <h3>No questions available to start.</h3>
+      {numSelectedQuestions > 0 && (
+        <h4>{numSelectedQuestions} questions selected.</h4>
       )}
+
+      <button
+        className="btn btn-ui"
+        onClick={handleStart}
+        disabled={Object.keys(selected).length === 0}
+      >
+        Let's start
+      </button>
     </div>
   );
 }

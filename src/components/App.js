@@ -43,9 +43,10 @@ function reducer(state, action) {
         status: "error",
       };
     case "startQuiz":
-      const { year, months } = action.payload;
-      const selectedQuestions = months.flatMap(
-        (month) => state.allQuestions[year][month]
+      const selectedYearMonth = action.payload;
+      const selectedQuestions = Object.entries(selectedYearMonth).flatMap(
+        ([year, months]) =>
+          months.flatMap((month) => state.allQuestions[year][month])
       );
 
       return {
