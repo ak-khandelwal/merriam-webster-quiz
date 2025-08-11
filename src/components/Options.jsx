@@ -1,4 +1,3 @@
-import '../styles/Options.css';
 function Options({ question, dispatch, answer }) {
   const hasAnswered = answer !== null;
 

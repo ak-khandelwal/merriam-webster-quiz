@@ -26,7 +26,6 @@ function Timer({ dispatch, secondsRemaining }) {
 
 const timer = {
   float: "left",
-  fontSize: "calc(100vmin - 97vmin)",
   color: "var(--color-medium)",
   border: "2px solid var(--color-dark)",
   padding: "1.35rem 2.8rem",
@@ -34,7 +33,7 @@ const timer = {
   marginLeft: "-2rem",
 };
   return (
-    <div style={timer}>
+    <div style={timer} className="text-2xl sm:text-3xl">
       {mins < 10 && "0"}
       {mins}:{seconds < 10 && "0"}
       {seconds}

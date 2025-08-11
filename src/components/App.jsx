@@ -12,7 +12,6 @@ import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
 import "../App.css";
-// import "../index.css";
 const SECS_PER_QUESTION = 5;
 
 // We need to define the intialState in order to use useReduce Hook.
@@ -119,7 +118,6 @@ export default function App() {
     },
     dispatch,
   ] = useReducer(reducer, initialState);
-
   const numQuestions = questions.length;
   const maxPossiblePoints = questions.reduce(
     (prev, cur) => prev + cur.points,
@@ -131,9 +129,6 @@ export default function App() {
   }, []);
 
   return (
-    <div className="wrapper">
-      <div className="app">
-        <div className="headerWrapper">
           <Main>
             {status === "loading" && <Loader />}
             {status === "error" && <Error />}
@@ -141,7 +136,7 @@ export default function App() {
               <StartScreen dispatch={dispatch} allQuestions={allQuestions} />
             )}{" "}
             {status === "active" && (
-              <>
+              <div className="px-10 py-12 text-xl sm:text-2xl">
                 <Progress
                   index={index}
                   numQuestions={numQuestions}
@@ -166,7 +161,7 @@ export default function App() {
                     index={index}
                   />
                 </Footer>
-              </>
+              </div>
             )}
             {status === "finished" && (
               <FinishScreen
@@ -177,8 +172,5 @@ export default function App() {
               />
             )}
           </Main>
-        </div>
-      </div>
-    </div>
   );
 }

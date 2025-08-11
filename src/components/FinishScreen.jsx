@@ -1,4 +1,3 @@
-import '../styles/FinishScreen.css';
 
 function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
   const percentage = (points / maxPossiblePoints) * 100;
@@ -12,7 +11,7 @@ function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
 
   return (
     <div className="result_container">
-      <p className="result">
+      <p className="result text-2xl sm:text-3xl">
         <span>{emoji}</span> You scored <strong>{points}</strong> out of{" "}
         {maxPossiblePoints} ({Math.ceil(percentage)}%)
       </p>
