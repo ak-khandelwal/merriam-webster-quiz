@@ -84,7 +84,7 @@ function StartScreen({ dispatch, allQuestions }) {
         </h3>
 
         {/* Modified container for full screen width */}
-        <div className="w-full space-y-8 min-h-screen overflow-y-auto">
+        <div className="w-full min-h-[400px] space-y-8  overflow-y-auto">
           {years.map((year) => {
             const allMonthsForYear = Object.keys(allQuestions[year]);
             const areAllSelectedForYear =
