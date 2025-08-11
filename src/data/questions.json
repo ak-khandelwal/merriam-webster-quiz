@@ -1,5 +1,1878 @@
 {
+  "2024": {
+    "9": [
+      {
+        "question": "What does 'Dubious' mean?",
+        "options": [
+          "Doubtful",
+          "Pathetic / ill",
+          "Concrete",
+          "Car's trunk"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Dire' mean?",
+        "options": [
+          "Small compartment in car under dashboard",
+          "Theory",
+          "Pathetic / ill",
+          "Funny"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Corroborative' mean?",
+        "options": [
+          "Short period",
+          "Type of shocks",
+          "Concrete",
+          "Calm / free from disturbance"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Boot' mean?",
+        "options": [
+          "Happy",
+          "Car's trunk",
+          "Tend to change to original",
+          "Fact/news"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Glove box' mean?",
+        "options": [
+          "Fake/harmful",
+          "Small compartment in car under dashboard",
+          "Asking for free / homeless person",
+          "To stare"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Hunch' mean?",
+        "options": [
+          "To cancel",
+          "Theory",
+          "Unaffected",
+          "Ill will"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Rib tickling' mean?",
+        "options": [
+          "To search thoroughly",
+          "Funny",
+          "A man in UK",
+          "To understand"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Jiffy/ Jiff' mean?",
+        "options": [
+          "To abide by",
+          "Short period",
+          "Capture someone forcefully",
+          "Twsited"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Leg warmers' mean?",
+        "options": [
+          "To share sorrow",
+          "Related to money",
+          "Type of shocks",
+          "To gain / buy"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Tranquil' mean?",
+        "options": [
+          "A permit to release fare amount of greenhouse gases (GHGs)",
+          "Trape heat inside them (green house gases)",
+          "To reduce",
+          "Calm / free from disturbance"
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What does 'Ecstatic' mean?",
+        "options": [
+          "Doubtful",
+          "Happy",
+          "Concrete",
+          "Car's trunk"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Loo' mean?",
+        "options": [
+          "Toilet",
+          "Theory",
+          "Unaffected",
+          "Ill will"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Resilient' mean?",
+        "options": [
+          "Tend to change to original",
+          "Funny",
+          "A man in UK",
+          "To understand"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Scoop' mean?",
+        "options": [
+          "To abide by",
+          "Fact/news",
+          "Capture someone forcefully",
+          "Twsited"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Bogus' mean?",
+        "options": [
+          "To share sorrow",
+          "Related to money",
+          "Fake/harmful",
+          "To gain / buy"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Bum' mean?",
+        "options": [
+          "A permit to release fare amount of greenhouse gases (GHGs)",
+          "Trape heat inside them (green house gases)",
+          "Asking for free / homeless person",
+          "To reduce"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Gaze' mean?",
+        "options": [
+          "Doubtful",
+          "To stare",
+          "Pathetic / ill",
+          "Car's trunk"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Call off' mean?",
+        "options": [
+          "Small compartment in car under dashboard",
+          "To cancel",
+          "Concrete",
+          "Funny"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Wear off' mean?",
+        "options": [
+          "Unaffected",
+          "Short period",
+          "Type of shocks",
+          "Calm / free from disturbance"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Grudge' mean?",
+        "options": [
+          "Happy",
+          "Ill will",
+          "Tend to change to original",
+          "Fact/news"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Rooting around' mean?",
+        "options": [
+          "Fake/harmful",
+          "To search thoroughly",
+          "Asking for free / homeless person",
+          "To stare"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Bloke' mean?",
+        "options": [
+          "To cancel",
+          "Unaffected",
+          "A man in UK",
+          "Ill will"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Follow' mean?",
+        "options": [
+          "To search thoroughly",
+          "A man in UK",
+          "To understand",
+          "To abide by"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Comply' mean?",
+        "options": [
+          "Capture someone forcefully",
+          "To abide by",
+          "To understand",
+          "Twsited"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Hostage' mean?",
+        "options": [
+          "To share sorrow",
+          "Related to money",
+          "Capture someone forcefully",
+          "To gain / buy"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Contortion' mean?",
+        "options": [
+          "A permit to release fare amount of greenhouse gases (GHGs)",
+          "Twsited",
+          "To reduce",
+          "Calm / free from disturbance"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Condols' mean?",
+        "options": [
+          "Doubtful",
+          "To share sorrow",
+          "Concrete",
+          "Car's trunk"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Monetary' mean?",
+        "options": [
+          "Small compartment in car under dashboard",
+          "Related to money",
+          "Pathetic / ill",
+          "Funny"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Procure' mean?",
+        "options": [
+          "To gain / buy",
+          "Short period",
+          "Type of shocks",
+          "Calm / free from disturbance"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Carbon credit' mean?",
+        "options": [
+          "Happy",
+          "A permit to release fare amount of greenhouse gases (GHGs)",
+          "Tend to change to original",
+          "Fact/news"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'GHGs' mean?",
+        "options": [
+          "Fake/harmful",
+          "Trape heat inside them (green house gases)",
+          "Asking for free / homeless person",
+          "To stare"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Mitigate' mean?",
+        "options": [
+          "To cancel",
+          "Unaffected",
+          "Ill will",
+          "To reduce"
+        ],
+        "correctOption": 3,
+        "points": 10
+      }
+    ],
+    "10": [
+      {
+        "question": "What does 'Bluff' mean?",
+        "options": [
+          "Fake",
+          "Artistic design",
+          "Excited/ discuss",
+          "Motionless, sturdy"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Carving' mean?",
+        "options": [
+          "Lay anchor for parking",
+          "Related to ship",
+          "Artistic design",
+          "Horrible place/ unattractive"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Agitate' mean?",
+        "options": [
+          "Excited/ discuss",
+          "Ship parking area",
+          "Poorly behave",
+          "Hard to understand/ difficult"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Stagnant' mean?",
+        "options": [
+          "Motionless, sturdy",
+          "Thing that hold something together",
+          "To escape",
+          "Beautiful woman"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Berth' mean?",
+        "options": [
+          "A contract",
+          "Lay anchor for parking",
+          "To leave",
+          "Fail"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Nautical' mean?",
+        "options": [
+          "To invent",
+          "Related to ship",
+          "Fake",
+          "Artistic design"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Dreaded' mean?",
+        "options": [
+          "Excited/ discuss",
+          "Horrible place/ unattractive",
+          "Lay anchor for parking",
+          "Related to ship"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Anchorage' mean?",
+        "options": [
+          "Ship parking area",
+          "Motionless, sturdy",
+          "Thing that hold something together",
+          "To escape"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Miscreants' mean?",
+        "options": [
+          "Beautiful woman",
+          "Poorly behave",
+          "A contract",
+          "To leave"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Obscure' mean?",
+        "options": [
+          "Fail",
+          "To invent",
+          "Hard to understand/ difficult",
+          "Artistic design"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Hinges' mean?",
+        "options": [
+          "Thing that hold something together",
+          "Excited/ discuss",
+          "Motionless, sturdy",
+          "Lay anchor for parking"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Spring' mean?",
+        "options": [
+          "To escape",
+          "Related to ship",
+          "Ship parking area",
+          "Poorly behave"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Bonny lass' mean?",
+        "options": [
+          "Hard to understand/ difficult",
+          "Beautiful woman",
+          "A contract",
+          "To leave"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Accord' mean?",
+        "options": [
+          "Fail",
+          "To invent",
+          "Fake",
+          "A contract"
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What does 'Run off' mean?",
+        "options": [
+          "To leave",
+          "Horrible place/ unattractive",
+          "Thing that hold something together",
+          "To escape"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Foil' mean?",
+        "options": [
+          "Beautiful woman",
+          "Fail",
+          "A contract",
+          "To leave"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Hatch' mean?",
+        "options": [
+          "Fail",
+          "To invent",
+          "Fake",
+          "Artistic design"
+        ],
+        "correctOption": 1,
+        "points": 10
+      }
+    ],
+    "11": [
+      {
+        "question": "What does 'Delectation' mean?",
+        "options": [
+          "Enjoyment",
+          "Present all over",
+          "Review/ feedback",
+          "Blissful"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Ambient' mean?",
+        "options": [
+          "Give something in return",
+          "Cleverly escape",
+          "Present all over",
+          "Very happy"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Testimonial' mean?",
+        "options": [
+          "Review/ feedback",
+          "Doubt",
+          "Extra",
+          "Related to words"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Beatific' mean?",
+        "options": [
+          "Enjoyment",
+          "Blissful",
+          "Do not direct",
+          "Indirect reference"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Requite' mean?",
+        "options": [
+          "Lack of concern",
+          "Give something in return",
+          "To admire",
+          "Large"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Elude' mean?",
+        "options": [
+          "Cleverly escape",
+          "To imitate",
+          "To channel",
+          "Dazzlingly bright"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Elated' mean?",
+        "options": [
+          "Very happy",
+          "To do something (a action)",
+          "Badly planned",
+          "To defeat"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Qualm' mean?",
+        "options": [
+          "Doubt",
+          "Currency note/ group of people",
+          "Aggressive",
+          "Accept"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Auxiliary' mean?",
+        "options": [
+          "Extra",
+          "To hold something tight",
+          "Pin to keep things firm",
+          "Tight, solid"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Lexical' mean?",
+        "options": [
+          "Polite",
+          "Related to words",
+          "Enjoyment",
+          "Review/ feedback"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Allusion' mean?",
+        "options": [
+          "Do not direct",
+          "Blissful",
+          "Cleverly escape",
+          "Give something in return"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Allude' mean?",
+        "options": [
+          "Indirect reference",
+          "To admire",
+          "Large",
+          "To imitate"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Cavalier' mean?",
+        "options": [
+          "To channel",
+          "Lack of concern",
+          "Dazzlingly bright",
+          "To do something (a action)"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Venerate' mean?",
+        "options": [
+          "To defeat",
+          "Badly planned",
+          "To admire",
+          "Enjoyment"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Immense' mean?",
+        "options": [
+          "Large",
+          "Currency note/ group of people",
+          "Present all over",
+          "Aggressive"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Pastiche' mean?",
+        "options": [
+          "To imitate",
+          "Accept",
+          "Extra",
+          "Related to words"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Sublimate' mean?",
+        "options": [
+          "To channel",
+          "To hold something tight",
+          "Polite",
+          "Blissful"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Fulgent' mean?",
+        "options": [
+          "Indirect reference",
+          "Dazzlingly bright",
+          "Lack of concern",
+          "To admire"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Galvanize' mean?",
+        "options": [
+          "To do something (a action)",
+          "Large",
+          "To imitate",
+          "To channel"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Misbegotten' mean?",
+        "options": [
+          "Badly planned",
+          "To defeat",
+          "Currency note/ group of people",
+          "Aggressive"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Drub' mean?",
+        "options": [
+          "To defeat",
+          "Accept",
+          "To hold something tight",
+          "Pin to keep things firm"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Denominations' mean?",
+        "options": [
+          "Tight, solid",
+          "Enjoyment",
+          "Currency note/ group of people",
+          "Review/ feedback"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Feisty' mean?",
+        "options": [
+          "Blissful",
+          "Aggressive",
+          "Cleverly escape",
+          "Give something in return"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Condone/Entertain' mean?",
+        "options": [
+          "To admire",
+          "Accept",
+          "Large",
+          "To imitate"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Clamp' mean?",
+        "options": [
+          "To hold something tight",
+          "Badly planned",
+          "To defeat",
+          "Currency note/ group of people"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Linchpin' mean?",
+        "options": [
+          "Pin to keep things firm",
+          "Tight, solid",
+          "Enjoyment",
+          "Aggressive"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Firmly' mean?",
+        "options": [
+          "Accept",
+          "Tight, solid",
+          "To hold something tight",
+          "Review/ feedback"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Urbane' mean?",
+        "options": [
+          "Polite",
+          "Blissful",
+          "Cleverly escape",
+          "Give something in return"
+        ],
+        "correctOption": 0,
+        "points": 10
+      }
+    ]
+  },
   "2025": {
+    "0": [
+      {
+        "question": "What does 'Rejuvenate' mean?",
+        "options": [
+          "To young and energize",
+          "Collection of something or mixture of dry flower and liquid",
+          "Confused / odd / unusual",
+          "Odd / unusual"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Potpourri' mean?",
+        "options": [
+          "Loudly or angerly complain",
+          "Action taken against a danger or threat",
+          "Collection of something or mixture of dry flower and liquid",
+          "To end"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Addlepated' mean?",
+        "options": [
+          "Bad anticipation / seize something",
+          "To improve",
+          "Boring because used too often (overused)",
+          "Confused / odd / unusual"
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What does 'Eccentric' mean?",
+        "options": [
+          "Odd / unusual",
+          "A wildcard character who solved impossible problem",
+          "Not religious",
+          "Small"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Fulminated' mean?",
+        "options": [
+          "To deceive",
+          "Loudly or angerly complain",
+          "Recurring idea",
+          "Related to fraud"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Countermeasure' mean?",
+        "options": [
+          "Action taken against a danger or threat",
+          "To end",
+          "To deceive",
+          "Large no of peoples"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Wind-up' mean?",
+        "options": [
+          "Not religious",
+          "To end",
+          "Bad anticipation / seize something",
+          "To convince"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Apprehension' mean?",
+        "options": [
+          "Boring because used too often (overused)",
+          "Bad anticipation / seize something",
+          "Related to fraud",
+          "Undefendable"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Parlay' mean?",
+        "options": [
+          "To improve",
+          "Skilled in particular field",
+          "Short trip for fun",
+          "To convince"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Hackneyed' mean?",
+        "options": [
+          "Extreme cold",
+          "Boring because used too often (overused)",
+          "Thick book",
+          "Blue like sky"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Deus ex machina' mean?",
+        "options": [
+          "A wildcard character who solved impossible problem",
+          "To expel",
+          "To deceive",
+          "To young and energize"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Secular' mean?",
+        "options": [
+          "To get aware of",
+          "Large in size",
+          "Not religious",
+          "Not smooth"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Minuscule' mean?",
+        "options": [
+          "Separated from group",
+          "Small",
+          "Irresponsible/ careless",
+          "Type of leggies"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Leitmotif' mean?",
+        "options": [
+          "Recurring idea",
+          "Sinister/ unlikely",
+          "Wood bed for dead bodies",
+          "Servant who serves wines"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Cozen' mean?",
+        "options": [
+          "To deceive",
+          "Betrayal",
+          "Attractive",
+          "Intense study of something"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Scores of people' mean?",
+        "options": [
+          "To express opinion",
+          "Large no of peoples",
+          "Impossible to copy",
+          "Who praise good food and drink or excess eat"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Persuade' mean?",
+        "options": [
+          "A person likes to travel",
+          "More than one",
+          "To convince",
+          "Very strange"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Fraudulent' mean?",
+        "options": [
+          "Related to fraud",
+          "Sorrowful",
+          "Evil",
+          "Expert"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Untenable' mean?",
+        "options": [
+          "System for naming in science",
+          "Long, not direct",
+          "Undefendable",
+          "To teach their mind and soul"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Virtuoso' mean?",
+        "options": [
+          "Skilled in particular field",
+          "Garden",
+          "A silly remark which is improper",
+          "Move gradually to reach unusual place or gradually take someone else things"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Excursion' mean?",
+        "options": [
+          "To separate from main body",
+          "Short trip for fun",
+          "To young and energize",
+          "Tolerate"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Gelid' mean?",
+        "options": [
+          "Extreme cold",
+          "A wildcard character who solved impossible problem",
+          "To end",
+          "To get aware of"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Beleaguer' mean?",
+        "options": [
+          "To deceive",
+          "To convince",
+          "Constant troublemaker",
+          "Thick book"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Tome' mean?",
+        "options": [
+          "Related to fraud",
+          "Blue like sky",
+          "Thick book",
+          "To expel"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Cerulean' mean?",
+        "options": [
+          "Blue like sky",
+          "Bad anticipation / seize something",
+          "Constant troublemaker",
+          "To get aware of"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Evict' mean?",
+        "options": [
+          "Large in size",
+          "To expel",
+          "Not smooth",
+          "Separated from group"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Cognizance' mean?",
+        "options": [
+          "To get aware of",
+          "To end",
+          "Irresponsible/ careless",
+          "Type of leggies"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Grandeur' mean?",
+        "options": [
+          "Sinister/ unlikely",
+          "Betrayal",
+          "Large in size",
+          "Wood bed for dead bodies"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Rough' mean?",
+        "options": [
+          "Attractive",
+          "Not smooth",
+          "Intense study of something",
+          "To young and energize"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Rogue' mean?",
+        "options": [
+          "Irresponsible/ careless",
+          "To express opinion",
+          "Separated from group",
+          "Impossible to copy"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Deadbeat' mean?",
+        "options": [
+          "Who praise good food and drink or excess eat",
+          "A person likes to travel",
+          "Irresponsible/ careless",
+          "More than one"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Pantyhose' mean?",
+        "options": [
+          "Type of leggies",
+          "Very strange",
+          "Sorrowful",
+          "Evil"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Untoward' mean?",
+        "options": [
+          "Expert",
+          "Sinister/ unlikely",
+          "System for naming in science",
+          "Long, not direct"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Pyre' mean?",
+        "options": [
+          "Wood bed for dead bodies",
+          "To teach their mind and soul",
+          "Garden",
+          "A silly remark which is improper"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Cup-bearer' mean?",
+        "options": [
+          "Servant who serves wines",
+          "Move gradually to reach unusual place or gradually take someone else things",
+          "To convince",
+          "To end"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Treason' mean?",
+        "options": [
+          "Betrayal",
+          "Collection of something or mixture of dry flower and liquid",
+          "Bad anticipation / seize something",
+          "Boring because used too often (overused)"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Alluring' mean?",
+        "options": [
+          "To improve",
+          "Attractive",
+          "Thick book",
+          "To expel"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Scrutiny' mean?",
+        "options": [
+          "Intense study of something",
+          "To end",
+          "Not smooth",
+          "Separated from group"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Opine' mean?",
+        "options": [
+          "To get aware of",
+          "To express opinion",
+          "Irresponsible/ careless",
+          "Type of leggies"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Inimitable' mean?",
+        "options": [
+          "Impossible to copy",
+          "Sinister/ unlikely",
+          "Wood bed for dead bodies",
+          "Servant who serves wines"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Gourmand/ Glutton' mean?",
+        "options": [
+          "Who praise good food and drink or excess eat",
+          "Betrayal",
+          "Attractive",
+          "Intense study of something"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Wanderlust' mean?",
+        "options": [
+          "To express opinion",
+          "A person likes to travel",
+          "Impossible to copy",
+          "Who praise good food and drink or excess eat"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Divers' mean?",
+        "options": [
+          "A person likes to travel",
+          "More than one",
+          "Very strange",
+          "Sorrowful"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Uncanny' mean?",
+        "options": [
+          "Evil",
+          "Expert",
+          "Very strange",
+          "System for naming in science"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Mourn' mean?",
+        "options": [
+          "Long, not direct",
+          "Sorrowful",
+          "To teach their mind and soul",
+          "Garden"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Wicked' mean?",
+        "options": [
+          "Evil",
+          "A silly remark which is improper",
+          "Move gradually to reach unusual place or gradually take someone else things",
+          "To young and energize"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Scholar' mean?",
+        "options": [
+          "Expert",
+          "A wildcard character who solved impossible problem",
+          "To end",
+          "Collection of something or mixture of dry flower and liquid"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Nomenclature' mean?",
+        "options": [
+          "Confused / odd / unusual",
+          "System for naming in science",
+          "Bad anticipation / seize something",
+          "To improve"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Circuitous' mean?",
+        "options": [
+          "Long, not direct",
+          "Related to fraud",
+          "Not religious",
+          "Small"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Edify' mean?",
+        "options": [
+          "To teach their mind and soul",
+          "Recurring idea",
+          "To deceive",
+          "Large no of peoples"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Sward' mean?",
+        "options": [
+          "A person likes to travel",
+          "More than one",
+          "Garden",
+          "Not smooth"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Facetious' mean?",
+        "options": [
+          "Irresponsible/ careless",
+          "A silly remark which is improper",
+          "Sinister/ unlikely",
+          "Wood bed for dead bodies"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Encroach' mean?",
+        "options": [
+          "Servant who serves wines",
+          "Move gradually to reach unusual place or gradually take someone else things",
+          "Betrayal",
+          "Attractive"
+        ],
+        "correctOption": 1,
+        "points": 10
+      }
+    ],
+    "1": [
+      {
+        "question": "What does 'Vicious' mean?",
+        "options": [
+          "Violent, cruel",
+          "Extreme praise",
+          "A person who provokes controversies and argument",
+          "Sign of something happening in future"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Flattery' mean?",
+        "options": [
+          "Not well planned",
+          "Extreme praise",
+          "Self govern",
+          "A person in heavy debt"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Disputatious person' mean?",
+        "options": [
+          "A person who provokes controversies and argument",
+          "Stone coffin",
+          "Rounded figure",
+          "False story/ rumor"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Presage' mean?",
+        "options": [
+          "W/o prepared",
+          "Word swap error",
+          "Sign of something happening in future",
+          "Not well planned"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Spontaneous' mean?",
+        "options": [
+          "Not well planned",
+          "Dealing with people in diplomatic way",
+          "Happy",
+          "Traces"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Autonomous' mean?",
+        "options": [
+          "Rebellion",
+          "Self govern",
+          "Related to heaven",
+          "Discharge from a job"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Insolvent' mean?",
+        "options": [
+          "A person in heavy debt",
+          "Hidden/ hard to understand",
+          "A biography idolizes a person",
+          "To think carefully"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Sarcophagus' mean?",
+        "options": [
+          "A person who provokes controversies and argument",
+          "Stone coffin",
+          "Bold/ courageous",
+          "Not following the conversation"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Zaftig' mean?",
+        "options": [
+          "Violent, cruel",
+          "Related to heaven",
+          "Rounded figure",
+          "Belong to"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Canard' mean?",
+        "options": [
+          "Hidden/ hard to understand",
+          "False story/ rumor",
+          "Not clear",
+          "To struggle"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Ad-lib' mean?",
+        "options": [
+          "W/o prepared",
+          "A person in heavy debt",
+          "Extreme praise",
+          "Dealing with people in diplomatic way"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Malapropism' mean?",
+        "options": [
+          "Violent, cruel",
+          "Word swap error",
+          "Not well planned",
+          "Happy"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Finesse way' mean?",
+        "options": [
+          "Traces",
+          "Dealing with people in diplomatic way",
+          "Rebellion",
+          "Related to heaven"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Ecstatic' mean?",
+        "options": [
+          "Discharge from a job",
+          "To think carefully",
+          "Happy",
+          "Stone coffin"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Vestige' mean?",
+        "options": [
+          "A person in heavy debt",
+          "Rounded figure",
+          "False story/ rumor",
+          "Traces"
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What does 'Insurgency' mean?",
+        "options": [
+          "W/o prepared",
+          "Rebellion",
+          "Word swap error",
+          "Dealing with people in diplomatic way"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Celestial' mean?",
+        "options": [
+          "Related to heaven",
+          "Happy",
+          "Violent, cruel",
+          "Self govern"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Sack' mean?",
+        "options": [
+          "Discharge from a job",
+          "Hidden/ hard to understand",
+          "A biography idolizes a person",
+          "Bold/ courageous"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Cryptic' mean?",
+        "options": [
+          "Sign of something happening in future",
+          "To think carefully",
+          "Hidden/ hard to understand",
+          "Not following the conversation"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Ruminate' mean?",
+        "options": [
+          "Belong to",
+          "To think carefully",
+          "Not clear",
+          "To struggle"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Hagiography' mean?",
+        "options": [
+          "A biography idolizes a person",
+          "Traces",
+          "A person who provokes controversies and argument",
+          "Self govern"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Gallant' mean?",
+        "options": [
+          "Bold/ courageous",
+          "Rebellion",
+          "Violent, cruel",
+          "To think carefully"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Non sequitur' mean?",
+        "options": [
+          "Not following the conversation",
+          "Belong to",
+          "A biography idolizes a person",
+          "Hidden/ hard to understand"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Pertain' mean?",
+        "options": [
+          "Belong to",
+          "Not clear",
+          "To struggle",
+          "Extreme praise"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Obtuse' mean?",
+        "options": [
+          "Not clear",
+          "A person in heavy debt",
+          "Bold/ courageous",
+          "W/o prepared"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Floundered' mean?",
+        "options": [
+          "To struggle",
+          "Related to heaven",
+          "Dealing with people in diplomatic way",
+          "Traces"
+        ],
+        "correctOption": 0,
+        "points": 10
+      }
+    ],
+    "2": [
+      {
+        "question": "What does 'Agnostic' mean?",
+        "options": [
+          "To separate from main body",
+          "Indecisive",
+          "To get familiar with",
+          "Open space for ppl to gether"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Segregate' mean?",
+        "options": [
+          "To separate from main body",
+          "To get familiar with",
+          "Indecisive",
+          "To separate"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Acquainted' mean?",
+        "options": [
+          "Open space for ppl to gether",
+          "To separate",
+          "To get familiar with",
+          "Tolerate"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Concourse' mean?",
+        "options": [
+          "To separate from main body",
+          "Tolerate",
+          "Open space for ppl to gether",
+          "To present"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Bifurcation' mean?",
+        "options": [
+          "To present",
+          "To separate",
+          "To get familiar with",
+          "To improve"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Put up with' mean?",
+        "options": [
+          "To continue",
+          "To find answer",
+          "Indecisive",
+          "Tolerate"
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What does 'Show up' mean?",
+        "options": [
+          "To get familiar with",
+          "To present",
+          "To find answer",
+          "To investigate"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Brush up on' mean?",
+        "options": [
+          "To improve",
+          "Encounter something",
+          "To separate",
+          "Indecisive"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Carry on' mean?",
+        "options": [
+          "Look real but isn't - bogus",
+          "To continue",
+          "To improve",
+          "To present"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Figure out' mean?",
+        "options": [
+          "Tolerate",
+          "To find answer",
+          "Encounter something",
+          "To investigate"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Look into' mean?",
+        "options": [
+          "To investigate",
+          "Indecisive",
+          "Look real but isn't - bogus",
+          "To find answer"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What does 'Run into' mean?",
+        "options": [
+          "To continue",
+          "To separate",
+          "To separate from main body",
+          "Encounter something"
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What does 'Ostensible' mean?",
+        "options": [
+          "Look real but isn't - bogus",
+          "To improve",
+          "To get familiar with",
+          "Open space for ppl to gether"
+        ],
+        "correctOption": 0,
+        "points": 10
+      }
+    ],
     "5": [
       {
         "question": "What does 'Impute' mean?",
@@ -411,756 +2284,389 @@
     ],
     "6": [
       {
-        "question": "Sample question for 2025 level 6 - 1?",
+        "question": "What does 'Verbose' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "More words than necessary",
+          "To make loud and clumsy sound",
+          "Not related to subject",
+          "An American"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2025 level 6 - 2?",
+        "question": "What does 'Galumph' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Irritating / annoying",
+          "To make loud and clumsy sound",
+          "To regret or apologize",
+          "Very successfully"
         ],
         "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "7": [
+        "points": 10
+      },
       {
-        "question": "Sample question for 2025 level 7 - 1?",
+        "question": "What does 'Desultory' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Wildly playful / funny act or action",
+          "More words than necessary",
+          "Not related to subject/ lack planning / disappointing in progress",
+          "To revoke or end"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Yankee' mean?",
+        "options": [
+          "An American",
+          "Freedom from punishment",
+          "To regret or apologize",
+          "Very good or exceptional"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2025 level 7 - 2?",
+        "question": "What does 'Cantankerous' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "To make loud and clumsy sound",
+          "Irritating / annoying",
+          "To revoke or end",
+          "Very subtle difference"
         ],
         "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "8": [
+        "points": 10
+      },
       {
-        "question": "Sample question for 2025 level 8 - 1?",
+        "question": "What does 'Antic' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Wildly playful / funny act or action",
+          "Unpleasant or evil",
+          "To prevent something to succeed",
+          "An American"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2025 level 8 - 2?",
+        "question": "What does 'Exemplary' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "To make loud and clumsy sound",
+          "Official order to claim",
+          "Very good or exceptional",
+          "Irritating / annoying"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Boffo' mean?",
+        "options": [
+          "More words than necessary",
+          "Very successfully",
+          "To prevent something to succeed",
+          "To revoke or end"
         ],
         "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "9": [
+        "points": 10
+      },
       {
-        "question": "Sample question for 2025 level 9 - 1?",
+        "question": "What does 'Rescind' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Not related to subject",
+          "To prevent something to succeed",
+          "To revoke or end",
+          "To regret or apologize"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Impunity' mean?",
+        "options": [
+          "Irritating / annoying",
+          "Freedom from punishment",
+          "Wildly playful / funny act or action",
+          "Very good or exceptional"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Contrite' mean?",
+        "options": [
+          "To regret or apologize",
+          "Very subtle difference",
+          "Unpleasant or evil",
+          "To revoke or end"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2025 level 9 - 2?",
+        "question": "What does 'Nuance' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "More words than necessary",
+          "Very subtle difference",
+          "Wildly playful / funny act or action",
+          "Official order to claim"
         ],
         "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "10": [
+        "points": 10
+      },
       {
-        "question": "Sample question for 2025 level 10 - 1?",
+        "question": "What does 'Despicable' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Unpleasant or evil",
+          "Very successfully",
+          "Freedom from punishment",
+          "Not related to subject"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2025 level 10 - 2?",
+        "question": "What does 'Sabotage' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "11": [
-      {
-        "question": "Sample question for 2025 level 11 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "To prevent something to succeed",
+          "To malign",
+          "To revoke or end",
+          "An American"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2025 level 11 - 2?",
+        "question": "What does 'Requisition' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Wildly playful / funny act or action",
+          "To regret or apologize",
+          "Official order to claim or use material",
+          "Unpleasant or evil"
         ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ]
-  },
-  "2026": {
-    "0": [
+        "correctOption": 2,
+        "points": 10
+      },
       {
-        "question": "Sample question for 2026 level 0 - 1?",
+        "question": "What does 'Impugn' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "To malign",
+          "Not related to subject",
+          "To feeling exciting",
+          "Irritating / annoying"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2026 level 0 - 2?",
+        "question": "What does 'Lest' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "1": [
-      {
-        "question": "Sample question for 2026 level 1 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "To prevent",
+          "To revoke or end",
+          "To prevent something to succeed",
+          "More words than necessary"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2026 level 1 - 2?",
+        "question": "What does 'Tantalize' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Freedom from punishment",
+          "To feeling exciting",
+          "Extremely bad or severe",
+          "Very successfully"
         ],
         "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "2": [
+        "points": 10
+      },
       {
-        "question": "Sample question for 2026 level 2 - 1?",
+        "question": "What does 'Abject' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "An American",
+          "Escapee",
+          "Extremely bad or severe",
+          "To malign"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What does 'Fugitive' mean?",
+        "options": [
+          "Escapee",
+          "Subject of honor or praise",
+          "To create or invent",
+          "Unpleasant or evil"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2026 level 2 - 2?",
+        "question": "What does 'Meritorious' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Not decisive",
+          "Subject of honor or praise",
+          "To create or invent",
+          "Wildly playful / funny act or action"
         ],
         "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "3": [
+        "points": 10
+      },
       {
-        "question": "Sample question for 2026 level 3 - 1?",
+        "question": "What does 'Devise' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "To create or invent",
+          "To prevent",
+          "Overconfident / too pride",
+          "To drop / rid of something"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2026 level 3 - 2?",
+        "question": "What does 'Logy' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "4": [
-      {
-        "question": "Sample question for 2026 level 4 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Not decisive",
+          "Unpleasant or evil",
+          "Highest in degree",
+          "An universal remedy"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2026 level 4 - 2?",
+        "question": "What does 'Jettison' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Unlike anyone or everyone",
+          "To create or invent",
+          "To drop / rid of something",
+          "Make attractive"
         ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ]
-  },
-  "2027": {
-    "0": [
+        "correctOption": 2,
+        "points": 10
+      },
       {
-        "question": "Sample question for 2027 level 0 - 1?",
+        "question": "What does 'Hubris' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Overconfident / too pride",
+          "Great excitement or concern to something",
+          "More words than necessary",
+          "Easily done"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2027 level 0 - 2?",
+        "question": "What does 'Utmost' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "1": [
-      {
-        "question": "Sample question for 2027 level 1 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Highest in degree",
+          "Complaining",
+          "Not related to subject",
+          "Lookalike"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2027 level 1 - 2?",
+        "question": "What does 'Panacea' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Lookalike",
+          "An universal remedy",
+          "Overconfident / too pride",
+          "Irritating / annoying"
         ],
         "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "2": [
+        "points": 10
+      },
       {
-        "question": "Sample question for 2027 level 2 - 1?",
+        "question": "What does 'Sui generis' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Unlike anyone or everyone",
+          "Unpleasant or evil",
+          "Make attractive",
+          "An American"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2027 level 2 - 2?",
+        "question": "What does 'Embellish' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Highest in degree",
+          "Great excitement or concern to something",
+          "Make attractive",
+          "More words than necessary"
         ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "3": [
+        "correctOption": 2,
+        "points": 10
+      },
       {
-        "question": "Sample question for 2027 level 3 - 1?",
+        "question": "What does 'Brouhaha' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Great excitement or concern to something",
+          "Easily done",
+          "To malign",
+          "Complaining"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2027 level 3 - 2?",
+        "question": "What does 'Facile' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "To regret or apologize",
+          "Easily done",
+          "Enthusiasm",
+          "Annoyed"
         ],
         "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "4": [
+        "points": 10
+      },
       {
-        "question": "Sample question for 2027 level 4 - 1?",
+        "question": "What does 'Quibbling' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Complaining",
+          "Unpleasant or evil",
+          "Not decisive",
+          "Subject of honor or praise"
         ],
         "correctOption": 0,
-        "points": 5
+        "points": 10
       },
       {
-        "question": "Sample question for 2027 level 4 - 2?",
+        "question": "What does 'Doppelgänger' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "To drop / rid of something",
+          "Lookalike",
+          "Enthusiasm",
+          "Easily done"
         ],
         "correctOption": 1,
-        "points": 5
-      }
-    ]
-  },
-  "2028": {
-    "0": [
+        "points": 10
+      },
       {
-        "question": "Sample question for 2028 level 0 - 1?",
+        "question": "What does 'Exuberance' mean?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Highest in degree",
+          "Enthusiasm",
+          "Annoyed",
+          "Lookalike"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What does 'Petulant' mean?",
+        "options": [
+          "Annoyed",
+          "Not related to subject",
+          "To revoke or end",
+          "Very successfully"
         ],
         "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2028 level 0 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "1": [
-      {
-        "question": "Sample question for 2028 level 1 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2028 level 1 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "2": [
-      {
-        "question": "Sample question for 2028 level 2 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2028 level 2 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "3": [
-      {
-        "question": "Sample question for 2028 level 3 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2028 level 3 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "4": [
-      {
-        "question": "Sample question for 2028 level 4 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2028 level 4 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ]
-  },
-  "2029": {
-    "0": [
-      {
-        "question": "Sample question for 2029 level 0 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2029 level 0 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "1": [
-      {
-        "question": "Sample question for 2029 level 1 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2029 level 1 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "2": [
-      {
-        "question": "Sample question for 2029 level 2 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2029 level 2 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "3": [
-      {
-        "question": "Sample question for 2029 level 3 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2029 level 3 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "4": [
-      {
-        "question": "Sample question for 2029 level 4 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2029 level 4 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ]
-  },
-  "2030": {
-    "0": [
-      {
-        "question": "Sample question for 2030 level 0 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2030 level 0 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "1": [
-      {
-        "question": "Sample question for 2030 level 1 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2030 level 1 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "2": [
-      {
-        "question": "Sample question for 2030 level 2 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2030 level 2 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "3": [
-      {
-        "question": "Sample question for 2030 level 3 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2030 level 3 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
-      }
-    ],
-    "4": [
-      {
-        "question": "Sample question for 2030 level 4 - 1?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 0,
-        "points": 5
-      },
-      {
-        "question": "Sample question for 2030 level 4 - 2?",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ],
-        "correctOption": 1,
-        "points": 5
+        "points": 10
       }
     ]
   }
