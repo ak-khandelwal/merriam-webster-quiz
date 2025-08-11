@@ -74,55 +74,81 @@ function StartScreen({ dispatch, allQuestions }) {
   );
 
   return (
-    <div className="start">
-      <h2>Welcome to The React Quiz!</h2>
-      <h3>Select questions to start</h3>
+    <div className="tailwind-page">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-100 px-4 py-8">
+  <h2 className="text-4xl font-extrabold mb-2 text-blue-400 drop-shadow">
+    Welcome to The React Quiz!
+  </h2>
+  <h3 className="text-lg font-medium mb-8 text-gray-300">
+    Select questions to start
+  </h3>
 
-      {years.map((year) => {
-        const allMonthsForYear = Object.keys(allQuestions[year]);
-        const areAllSelectedForYear = selected[year]?.length === allMonthsForYear.length && allMonthsForYear.length > 0;
+  <div className="w-full max-w-3xl space-y-8">
+    {years.map((year) => {
+      const allMonthsForYear = Object.keys(allQuestions[year]);
+      const areAllSelectedForYear =
+        selected[year]?.length === allMonthsForYear.length &&
+        allMonthsForYear.length > 0;
 
-        return (
-            <div key={year} style={{ marginBottom: "20px" }}>
-              <h4>{year}</h4>
-              <div>
-                <span style={{ marginRight: "10px" }}>
-                  <input
-                    type="checkbox"
-                    id={`select-all-${year}`}
-                    checked={areAllSelectedForYear}
-                    onChange={() => handleSelectAll(year)}
-                  />
-                  <label htmlFor={`select-all-${year}`}>Select All</label>
-                </span>
-                {allMonthsForYear.map((month) => (
-                  <span key={month} style={{ marginRight: "10px" }}>
-                    <input
-                      type="checkbox"
-                      id={`${year}-${month}`}
-                      checked={selected[year]?.includes(month) || false}
-                      onChange={() => handleMonthChange(year, month)}
-                    />
-                    <label htmlFor={`${year}-${month}`}>{monthNames[month]}</label>
-                  </span>
-                ))}
-              </div>
-            </div>
-        )
-      })}
+      return (
+        <div
+          key={year}
+          className="bg-gray-800/60 border border-gray-700 rounded-xl p-5 shadow-lg hover:shadow-blue-500/20 transition-all duration-200"
+        >
+          <div className="flex items-center justify-between mb-4">
+        <h4 className="text-2xl font-semibold text-blue-300">{year}</h4>
+        <label className="flex items-center gap-3 cursor-pointer">
+          <input
+            type="checkbox"
+            id={`select-all-${year}`}
+            checked={areAllSelectedForYear}
+            onChange={() => handleSelectAll(year)}
+            className="h-6 w-6 accent-blue-500 rounded border-2 border-blue-500 bg-gray-900 transition-transform duration-150 hover:scale-110"
+          />
+          <span className="text-blue-300 font-medium">Select All</span>
+        </label>
+          </div>
 
-      {numSelectedQuestions > 0 && (
-        <h4>{numSelectedQuestions} questions selected.</h4>
-      )}
+          <div className="flex flex-wrap gap-4">
+        {allMonthsForYear.map((month) => (
+          <label
+            key={month}
+            htmlFor={`${year}-${month}`}
+            className="flex items-center gap-3 bg-gray-900/50 border border-gray-700 px-4 py-2 rounded-lg hover:bg-gray-700/50 transition cursor-pointer"
+          >
+            <input
+          type="checkbox"
+          id={`${year}-${month}`}
+          checked={selected[year]?.includes(month) || false}
+          onChange={() => handleMonthChange(year, month)}
+          className="h-6 w-6 accent-blue-400 rounded border-2 border-blue-400 bg-gray-900 transition-transform duration-150 hover:scale-110"
+            />
+            <span className="text-gray-200 font-medium">
+          {monthNames[month]}
+            </span>
+          </label>
+        ))}
+          </div>
+        </div>
+      );
+    })}
+  </div>
 
-      <button
-        className="btn btn-ui"
-        onClick={handleStart}
-        disabled={Object.keys(selected).length === 0}
-      >
-        Let's start
-      </button>
-    </div>
+  {numSelectedQuestions > 0 && (
+    <h4 className="mt-6 text-green-400 font-semibold">
+      {numSelectedQuestions} questions selected.
+    </h4>
+  )}
+
+  <button
+    className="mt-8 px-10 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl shadow-md hover:from-blue-500 hover:to-blue-600 transition disabled:opacity-50 disabled:cursor-not-allowed font-semibold tracking-wide"
+    onClick={handleStart}
+    disabled={Object.keys(selected).length === 0}
+  >
+    🚀 Let's Start
+  </button>
+</div>
+</div>
   );
 }
 

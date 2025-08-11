@@ -1,3 +1,4 @@
+import "../styles/Progress.css";
 function Progress({ index, numQuestions, points, maxPossiblePoints, answer }) {
   return (
     <header className="progress">

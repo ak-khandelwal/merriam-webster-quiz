@@ -1,7 +1,6 @@
 import { useEffect, useReducer } from "react";
 import questionsData from "../data/questions.json";
 
-import Header from "./Header";
 import Main from "./Main";
 import Loader from "./Loader";
 import Error from "./Error";
@@ -12,8 +11,8 @@ import Progress from "./Progress";
 import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
-import "../index.css";
-
+import "../App.css";
+// import "../index.css";
 const SECS_PER_QUESTION = 5;
 
 // We need to define the intialState in order to use useReduce Hook.
@@ -135,7 +134,6 @@ export default function App() {
     <div className="wrapper">
       <div className="app">
         <div className="headerWrapper">
-          <Header />
           <Main>
             {status === "loading" && <Loader />}
             {status === "error" && <Error />}

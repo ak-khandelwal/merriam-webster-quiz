@@ -1,3 +1,5 @@
+import '../styles/FinishScreen.css';
+
 function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
   const percentage = (points / maxPossiblePoints) * 100;
 

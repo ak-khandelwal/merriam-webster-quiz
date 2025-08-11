@@ -14,9 +14,27 @@ function Timer({ dispatch, secondsRemaining }) {
     },
     [dispatch]
   );
+// timer =  {
+//   float: left;
+//   font-size: calc(100vmin - 97vmin);
+//   color: var(--color-medium);
+//   border: 2px solid var(--color-dark);
+//   padding: 1.35rem 2.8rem;
+//   border-radius: 100px;
+//   margin-left: -2rem;
+// }
 
+const timer = {
+  float: "left",
+  fontSize: "calc(100vmin - 97vmin)",
+  color: "var(--color-medium)",
+  border: "2px solid var(--color-dark)",
+  padding: "1.35rem 2.8rem",
+  borderRadius: "100px",
+  marginLeft: "-2rem",
+};
   return (
-    <div className="timer">
+    <div style={timer}>
       {mins < 10 && "0"}
       {mins}:{seconds < 10 && "0"}
       {seconds}

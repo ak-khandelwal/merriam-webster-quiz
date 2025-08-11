@@ -1,0 +1,29 @@
+
+.result_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  background-color: var(--color-theme);
+  color: var(--color-light);
+  border-radius: calc(2vmin + 7px);
+  text-align: center;
+  padding: calc(2vmin + 11px) calc(2vmin + 9px);
+  font-size: calc(2vmin + 7px);
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+
+.result span {
+  display: block;
+  font-size: 2.2rem;
+  margin-right: 4px;
+}
+
+.highscore {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
