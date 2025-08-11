@@ -96,7 +96,21 @@ function StartScreen({ dispatch, allQuestions }) {
           className="bg-gray-800/60 border border-gray-700 rounded-xl p-5 shadow-lg hover:shadow-blue-500/20 transition-all duration-200"
         >
           <div className="flex items-center justify-between mb-4">
-        <h4 className="text-2xl font-semibold text-blue-300">{year}</h4>
+        <h4 className="text-2xl font-semibold text-blue-300">{year} <span className="text-lg text-green-400 font-semibold mr-4">
+          {selected[year]
+            ? selected[year].reduce(
+                (acc, month) => acc + allQuestions[year][month].length,
+                0
+              )
+            : 0}
+          {" / "}
+          {Object.values(allQuestions[year]).reduce(
+            (acc, arr) => acc + arr.length,
+            0
+          )}{" "}
+          questions selected
+        </span></h4>
+        
         <label className="flex items-center gap-3 cursor-pointer">
           <input
             type="checkbox"
@@ -134,11 +148,11 @@ function StartScreen({ dispatch, allQuestions }) {
     })}
   </div>
 
-  {numSelectedQuestions > 0 && (
+  {/* {numSelectedQuestions > 0 && (
     <h4 className="mt-6 text-green-400 font-semibold">
       {numSelectedQuestions} questions selected.
     </h4>
-  )}
+  )} */}
 
   <button
     className="mt-8 px-10 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl shadow-md hover:from-blue-500 hover:to-blue-600 transition disabled:opacity-50 disabled:cursor-not-allowed font-semibold tracking-wide"
