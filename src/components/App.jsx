@@ -12,6 +12,7 @@ import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
 import "../App.css";
+import shuffleArray from "../utils/suffleArray";
 const SECS_PER_QUESTION = 5;
 
 // We need to define the intialState in order to use useReduce Hook.
@@ -25,7 +26,7 @@ const initialState = {
   points: 0,
   highscore: 0,
   secondsRemaining: null,
-  isTimerOn:true
+  isTimerOn:false
 };
 
 function reducer(state, action) {
@@ -47,10 +48,11 @@ function reducer(state, action) {
         ([year, months]) =>
           months.flatMap((month) => state.allQuestions[year][month])
       );
-
+      // Shuffle the selected questions
+      const shuffledArray = shuffleArray(selectedQuestions);
       return {
         ...state,
-        questions: selectedQuestions,
+        questions: shuffledArray,
         status: "active",
         secondsRemaining: selectedQuestions.length * SECS_PER_QUESTION,
       };
