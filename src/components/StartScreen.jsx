@@ -1,5 +1,5 @@
 import { useState } from "react";
-function StartScreen({ dispatch, allQuestions }) {
+function StartScreen({ dispatch, allQuestions,isTimerOn }) {
   const [selected, setSelected] = useState({});
 
   const monthNames = [
@@ -41,8 +41,8 @@ function StartScreen({ dispatch, allQuestions }) {
   const handleSelectAll = (year) => {
     setSelected((prevSelected) => {
       const newSelected = { ...prevSelected };
+      // ["0","1"] - contains index of the month
       const allMonthsForYear = Object.keys(allQuestions[year]);
-
       if (newSelected[year]?.length === allMonthsForYear.length) {
         // Deselect all
         delete newSelected[year];
@@ -62,19 +62,8 @@ function StartScreen({ dispatch, allQuestions }) {
     });
   };
 
-  const numSelectedQuestions = Object.entries(selected).reduce(
-    (acc, [year, months]) =>
-      acc +
-      months.reduce(
-        (monthAcc, month) => monthAcc + allQuestions[year][month].length,
-        0
-      ),
-    0
-  );
-
   return (
     <div className="tailwind-page text-2xl sm:text-3xl">
-    {/* <div className="tailwind-page"> */}
       <div className="flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-100 px-4 py-8 ">
         <h2 className="font-extrabold mb-2 text-blue-400 drop-shadow text-4xl sm:text-5xl">
           Merriam-Webster Quiz
@@ -151,13 +140,19 @@ function StartScreen({ dispatch, allQuestions }) {
             );
           })}
         </div>
-
-        {/* {numSelectedQuestions > 0 && (
-    <h4 className="mt-6 text-green-400 font-semibold">
-      {numSelectedQuestions} questions selected.
-    </h4>
-  )} */}
-
+                  <label className="flex cursor-pointer select-none items-center mt-6">
+          Timer:
+          <div className="relative ml-2">
+            <input
+              type="checkbox"
+              checked={isTimerOn}
+              onChange={() => dispatch({ type: "toggleTimer" })}
+              className="sr-only peer"
+            />
+            <div className="block h-8 w-14 rounded-full bg-gray-400 peer-checked:bg-blue-600 transition"></div>
+            <div className="dot absolute left-1 top-1 h-6 w-6 rounded-full bg-white transition transform peer-checked:translate-x-full"></div>
+          </div>
+        </label>
         <button
           className="mt-8 px-10 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl shadow-md hover:from-blue-500 hover:to-blue-600 transition disabled:opacity-50 disabled:cursor-not-allowed font-semibold tracking-wide"
           onClick={handleStart}

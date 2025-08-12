@@ -25,6 +25,7 @@ const initialState = {
   points: 0,
   highscore: 0,
   secondsRemaining: null,
+  isTimerOn:true
 };
 
 function reducer(state, action) {
@@ -52,12 +53,6 @@ function reducer(state, action) {
         questions: selectedQuestions,
         status: "active",
         secondsRemaining: selectedQuestions.length * SECS_PER_QUESTION,
-      };
-    case "start":
-      return {
-        ...state,
-        status: "active",
-        secondsRemaining: state.questions.length * SECS_PER_QUESTION,
       };
     case "newAnswer":
       const question = state.questions.at(state.index);
@@ -98,7 +93,11 @@ function reducer(state, action) {
             : state.highscore,
         status: state.secondsRemaining === 0 ? "finished" : state.status,
       };
-
+    case "toggleTimer":
+      return {
+        ...state,
+        isTimerOn: !state.isTimerOn,
+      };
     default:
       throw new Error("Action unkonwn");
   }
@@ -115,6 +114,7 @@ export default function App() {
       highscore,
       secondsRemaining,
       allQuestions,
+      isTimerOn, // added timer on/off state
     },
     dispatch,
   ] = useReducer(reducer, initialState);
@@ -133,7 +133,7 @@ export default function App() {
             {status === "loading" && <Loader />}
             {status === "error" && <Error />}
             {status === "ready" && (
-              <StartScreen dispatch={dispatch} allQuestions={allQuestions} />
+              <StartScreen dispatch={dispatch} allQuestions={allQuestions} isTimerOn={isTimerOn}/>
             )}{" "}
             {status === "active" && (
               <div className="px-10 py-12 text-xl sm:text-2xl">
@@ -150,10 +150,12 @@ export default function App() {
                   answer={answer}
                 />
                 <Footer>
+                  {isTimerOn && (
                   <Timer
                     dispatch={dispatch}
                     secondsRemaining={secondsRemaining}
                   />
+                  )}
                   <NextButton
                     dispatch={dispatch}
                     answer={answer}
