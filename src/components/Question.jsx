@@ -1,4 +1,4 @@
-import Options from "./Options";
+import Options from './Options';
 
 function Question({ question, dispatch, answer }) {
   return (
@@ -10,8 +10,12 @@ function Question({ question, dispatch, answer }) {
         </span>
       </h4>
       <Options question={question} dispatch={dispatch} answer={answer} />
+      {question.example && (
+        <p className="text-white tracking-wide mt-4">
+          <strong>Example:</strong> {question.example}
+        </p>
+      )}
     </div>
   );
 }
-
 export default Question;
