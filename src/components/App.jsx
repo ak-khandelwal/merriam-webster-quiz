@@ -1,18 +1,18 @@
-import { useEffect, useReducer } from "react";
-import questionsData from "../data/questions.json";
+import { useEffect, useReducer } from 'react';
+import questionsData from '../data/questions.json';
 
-import Main from "./Main";
-import Loader from "./Loader";
-import Error from "./Error";
-import StartScreen from "./StartScreen";
-import Question from "./Question";
-import NextButton from "./NextButton";
-import Progress from "./Progress";
-import FinishScreen from "./FinishScreen";
-import Footer from "./Footer";
-import Timer from "./Timer";
-import "../App.css";
-import shuffleArray from "../utils/suffleArray";
+import Main from './Main';
+import Loader from './Loader';
+import Error from './Error';
+import StartScreen from './StartScreen';
+import Question from './Question';
+import NextButton from './NextButton';
+import Progress from './Progress';
+import FinishScreen from './FinishScreen';
+import Footer from './Footer';
+import Timer from './Timer';
+import '../App.css';
+import shuffleArray from '../utils/suffleArray';
 const SECS_PER_QUESTION = 5;
 
 // We need to define the intialState in order to use useReduce Hook.
@@ -20,29 +20,29 @@ const initialState = {
   allQuestions: {},
   questions: [],
   // 'loading', 'error', 'ready', 'active', 'finished'
-  status: "loading",
+  status: 'loading',
   index: 0,
   answer: null,
   points: 0,
   highscore: 0,
   secondsRemaining: null,
-  isTimerOn:false
+  isTimerOn: false
 };
 
 function reducer(state, action) {
   switch (action.type) {
-    case "dataReceived":
+    case 'dataReceived':
       return {
         ...state,
         allQuestions: action.payload,
-        status: "ready",
+        status: 'ready'
       };
-    case "dataFailed":
+    case 'dataFailed':
       return {
         ...state,
-        status: "error",
+        status: 'error'
       };
-    case "startQuiz":
+    case 'startQuiz':
       const selectedYearMonth = action.payload;
       const selectedQuestions = Object.entries(selectedYearMonth).flatMap(
         ([year, months]) =>
@@ -53,37 +53,36 @@ function reducer(state, action) {
       return {
         ...state,
         questions: shuffledArray,
-        status: "active",
-        secondsRemaining: selectedQuestions.length * SECS_PER_QUESTION,
+        status: 'active',
+        secondsRemaining: selectedQuestions.length * SECS_PER_QUESTION
       };
-    case "newAnswer":
+    case 'newAnswer':
       const question = state.questions.at(state.index);
-
       return {
         ...state,
         answer: action.payload,
         points:
           action.payload === question.correctOption
             ? state.points + question.points
-            : state.points,
+            : state.points
       };
-    case "nextQuestion":
+    case 'nextQuestion':
       return { ...state, index: state.index + 1, answer: null };
-    case "finish":
+    case 'finish':
       return {
         ...state,
-        status: "finished",
+        status: 'finished',
         highscore:
-          state.points > state.highscore ? state.points : state.highscore,
+          state.points > state.highscore ? state.points : state.highscore
       };
-    case "restart":
+    case 'restart':
       return {
         ...initialState,
         allQuestions: state.allQuestions,
-        status: "ready",
+        status: 'ready'
       };
 
-    case "tick":
+    case 'tick':
       return {
         ...state,
         secondsRemaining: state.secondsRemaining - 1,
@@ -93,15 +92,15 @@ function reducer(state, action) {
               ? state.points
               : state.highscore
             : state.highscore,
-        status: state.secondsRemaining === 0 ? "finished" : state.status,
+        status: state.secondsRemaining === 0 ? 'finished' : state.status
       };
-    case "toggleTimer":
+    case 'toggleTimer':
       return {
         ...state,
-        isTimerOn: !state.isTimerOn,
+        isTimerOn: !state.isTimerOn
       };
     default:
-      throw new Error("Action unkonwn");
+      throw new Error('Action unkonwn');
   }
 }
 
@@ -116,9 +115,9 @@ export default function App() {
       highscore,
       secondsRemaining,
       allQuestions,
-      isTimerOn, // added timer on/off state
+      isTimerOn // added timer on/off state
     },
-    dispatch,
+    dispatch
   ] = useReducer(reducer, initialState);
   const numQuestions = questions.length;
   const maxPossiblePoints = questions.reduce(
@@ -127,54 +126,55 @@ export default function App() {
   );
 
   useEffect(function () {
-    dispatch({ type: "dataReceived", payload: questionsData });
+    dispatch({ type: 'dataReceived', payload: questionsData });
   }, []);
 
   return (
-          <Main>
-            {status === "loading" && <Loader />}
-            {status === "error" && <Error />}
-            {status === "ready" && (
-              <StartScreen dispatch={dispatch} allQuestions={allQuestions} isTimerOn={isTimerOn}/>
-            )}{" "}
-            {status === "active" && (
-              <div className="px-10 py-12 text-xl sm:text-2xl">
-                <Progress
-                  index={index}
-                  numQuestions={numQuestions}
-                  points={points}
-                  maxPossiblePoints={maxPossiblePoints}
-                  answer={answer}
-                />
-                <Question
-                  question={questions[index]}
-                  dispatch={dispatch}
-                  answer={answer}
-                />
-                <Footer>
-                  {isTimerOn && (
-                  <Timer
-                    dispatch={dispatch}
-                    secondsRemaining={secondsRemaining}
-                  />
-                  )}
-                  <NextButton
-                    dispatch={dispatch}
-                    answer={answer}
-                    numQuestions={numQuestions}
-                    index={index}
-                  />
-                </Footer>
-              </div>
+    <Main>
+      {status === 'loading' && <Loader />}
+      {status === 'error' && <Error />}
+      {status === 'ready' && (
+        <StartScreen
+          dispatch={dispatch}
+          allQuestions={allQuestions}
+          isTimerOn={isTimerOn}
+        />
+      )}{' '}
+      {status === 'active' && (
+        <div className="px-10 py-12 text-xl sm:text-2xl">
+          <Progress
+            index={index}
+            numQuestions={numQuestions}
+            points={points}
+            maxPossiblePoints={maxPossiblePoints}
+            answer={answer}
+          />
+          <Question
+            question={questions[index]}
+            dispatch={dispatch}
+            answer={answer}
+          />
+          <Footer>
+            {isTimerOn && (
+              <Timer dispatch={dispatch} secondsRemaining={secondsRemaining} />
             )}
-            {status === "finished" && (
-              <FinishScreen
-                points={points}
-                maxPossiblePoints={maxPossiblePoints}
-                highscore={highscore}
-                dispatch={dispatch}
-              />
-            )}
-          </Main>
+            <NextButton
+              dispatch={dispatch}
+              answer={answer}
+              numQuestions={numQuestions}
+              index={index}
+            />
+          </Footer>
+        </div>
+      )}
+      {status === 'finished' && (
+        <FinishScreen
+          points={points}
+          maxPossiblePoints={maxPossiblePoints}
+          highscore={highscore}
+          dispatch={dispatch}
+        />
+      )}
+    </Main>
   );
 }

@@ -1,20 +1,21 @@
 function Options({ question, dispatch, answer }) {
+  // answer is being set after clicking the option
   const hasAnswered = answer !== null;
 
   return (
     <div>
       {question.options.map((option, index) => (
         <button
-          className={`btn btn-option ${index === answer ? "answer" : ""} ${
+          className={`btn btn-option ${
             hasAnswered
               ? index === question.correctOption
-                ? "correct"
-                : "wrong"
-              : ""
+                ? 'correct'
+                : 'wrong'
+              : ''
           }`}
           key={index}
           disabled={hasAnswered}
-          onClick={() => dispatch({ type: "newAnswer", payload: index })}
+          onClick={() => dispatch({ type: 'newAnswer', payload: index })}
         >
           {option}
         </button>

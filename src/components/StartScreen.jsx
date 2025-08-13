@@ -1,20 +1,20 @@
-import { useState } from "react";
-function StartScreen({ dispatch, allQuestions,isTimerOn }) {
+import { useState } from 'react';
+function StartScreen({ dispatch, allQuestions, isTimerOn }) {
   const [selected, setSelected] = useState({});
 
   const monthNames = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
   ];
   const years = allQuestions ? Object.keys(allQuestions) : [];
 
@@ -57,8 +57,8 @@ function StartScreen({ dispatch, allQuestions,isTimerOn }) {
 
   const handleStart = () => {
     dispatch({
-      type: "startQuiz",
-      payload: selected,
+      type: 'startQuiz',
+      payload: selected
     });
   };
 
@@ -87,19 +87,20 @@ function StartScreen({ dispatch, allQuestions,isTimerOn }) {
               >
                 <div className="flex items-center justify-between mb-4">
                   <h4 className="font-semibold text-blue-300">
-                    {year}{" "}
+                    {year}{' '}
                     <span className="text-green-400 font-semibold mr-4">
                       {selected[year]
                         ? selected[year].reduce(
-                            (acc, month) => acc + allQuestions[year][month].length,
+                            (acc, month) =>
+                              acc + allQuestions[year][month].length,
                             0
                           )
                         : 0}
-                      {" / "}
+                      {' / '}
                       {Object.values(allQuestions[year]).reduce(
                         (acc, arr) => acc + arr.length,
                         0
-                      )}{" "}
+                      )}{' '}
                       questions selected
                     </span>
                   </h4>
@@ -112,7 +113,9 @@ function StartScreen({ dispatch, allQuestions,isTimerOn }) {
                       onChange={() => handleSelectAll(year)}
                       className="h-6 w-6 accent-blue-500 rounded border-2 border-blue-500 bg-gray-900 transition-transform duration-150 hover:scale-110"
                     />
-                    <span className="text-blue-300 font-medium">Select All</span>
+                    <span className="text-blue-300 font-medium">
+                      Select All
+                    </span>
                   </label>
                 </div>
 
@@ -140,13 +143,13 @@ function StartScreen({ dispatch, allQuestions,isTimerOn }) {
             );
           })}
         </div>
-                  <label className="flex cursor-pointer select-none items-center mt-6">
+        <label className="flex cursor-pointer select-none items-center mt-6">
           Timer:
           <div className="relative ml-2">
             <input
               type="checkbox"
               checked={isTimerOn}
-              onChange={() => dispatch({ type: "toggleTimer" })}
+              onChange={() => dispatch({ type: 'toggleTimer' })}
               className="sr-only peer"
             />
             <div className="block h-8 w-14 rounded-full bg-gray-400 peer-checked:bg-blue-600 transition"></div>

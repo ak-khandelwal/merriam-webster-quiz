@@ -3,17 +3,14 @@
     "9": [
       {
         "question": "What does 'Dubious' mean?",
-        "options": [
-          "Doubtful",
-          "Pathetic / ill",
-          "Concrete",
-          "Car's trunk"
-        ],
+        "type": "Adjective",
+        "options": ["Doubtful", "Pathetic / ill", "Concrete", "Car's trunk"],
         "correctOption": 0,
         "points": 10
       },
       {
         "question": "What does 'Dire' mean?",
+        "type": "Adjective",
         "options": [
           "Small compartment in car under dashboard",
           "Theory",
@@ -25,6 +22,7 @@
       },
       {
         "question": "What does 'Corroborative' mean?",
+        "type": "Verb",
         "options": [
           "Short period",
           "Type of shocks",
@@ -36,6 +34,7 @@
       },
       {
         "question": "What does 'Boot' mean?",
+        "type": "Noun",
         "options": [
           "Happy",
           "Car's trunk",
@@ -47,6 +46,7 @@
       },
       {
         "question": "What does 'Glove box' mean?",
+        "type": "Noun",
         "options": [
           "Fake/harmful",
           "Small compartment in car under dashboard",
@@ -58,17 +58,14 @@
       },
       {
         "question": "What does 'Hunch' mean?",
-        "options": [
-          "To cancel",
-          "Theory",
-          "Unaffected",
-          "Ill will"
-        ],
+        "type": "Noun",
+        "options": ["To cancel", "Theory", "Unaffected", "Ill will"],
         "correctOption": 1,
         "points": 10
       },
       {
         "question": "What does 'Rib tickling' mean?",
+        "type": "Adjective",
         "options": [
           "To search thoroughly",
           "Funny",
@@ -80,6 +77,7 @@
       },
       {
         "question": "What does 'Jiffy/ Jiff' mean?",
+        "type": "Noun",
         "options": [
           "To abide by",
           "Short period",
@@ -91,6 +89,7 @@
       },
       {
         "question": "What does 'Leg warmers' mean?",
+        "type": "Noun",
         "options": [
           "To share sorrow",
           "Related to money",
@@ -102,6 +101,7 @@
       },
       {
         "question": "What does 'Tranquil' mean?",
+        "type": "Adjective",
         "options": [
           "A permit to release fare amount of greenhouse gases (GHGs)",
           "Trape heat inside them (green house gases)",
@@ -113,28 +113,21 @@
       },
       {
         "question": "What does 'Ecstatic' mean?",
-        "options": [
-          "Doubtful",
-          "Happy",
-          "Concrete",
-          "Car's trunk"
-        ],
+        "type": "Adjective",
+        "options": ["Doubtful", "Happy", "Concrete", "Car's trunk"],
         "correctOption": 1,
         "points": 10
       },
       {
         "question": "What does 'Loo' mean?",
-        "options": [
-          "Toilet",
-          "Theory",
-          "Unaffected",
-          "Ill will"
-        ],
+        "type": "Noun",
+        "options": ["Toilet", "Theory", "Unaffected", "Ill will"],
         "correctOption": 0,
         "points": 10
       },
       {
         "question": "What does 'Resilient' mean?",
+        "type": "Adjective",
         "options": [
           "Tend to change to original",
           "Funny",
@@ -146,6 +139,7 @@
       },
       {
         "question": "What does 'Scoop' mean?",
+        "type": "Noun",
         "options": [
           "To abide by",
           "Fact/news",
@@ -157,6 +151,7 @@
       },
       {
         "question": "What does 'Bogus' mean?",
+        "type": "Adjective",
         "options": [
           "To share sorrow",
           "Related to money",
@@ -168,6 +163,7 @@
       },
       {
         "question": "What does 'Bum' mean?",
+        "type": "Noun",
         "options": [
           "A permit to release fare amount of greenhouse gases (GHGs)",
           "Trape heat inside them (green house gases)",
@@ -179,17 +175,14 @@
       },
       {
         "question": "What does 'Gaze' mean?",
-        "options": [
-          "Doubtful",
-          "To stare",
-          "Pathetic / ill",
-          "Car's trunk"
-        ],
+        "type": "Verb",
+        "options": ["Doubtful", "To stare", "Pathetic / ill", "Car's trunk"],
         "correctOption": 1,
         "points": 10
       },
       {
         "question": "What does 'Call off' mean?",
+        "type": "Verb",
         "options": [
           "Small compartment in car under dashboard",
           "To cancel",
@@ -201,6 +194,7 @@
       },
       {
         "question": "What does 'Wear off' mean?",
+        "type": "Verb",
         "options": [
           "Unaffected",
           "Short period",
@@ -212,6 +206,7 @@
       },
       {
         "question": "What does 'Grudge' mean?",
+        "type": "Noun",
         "options": [
           "Happy",
           "Ill will",
@@ -223,6 +218,7 @@
       },
       {
         "question": "What does 'Rooting around' mean?",
+        "type": "Verb",
         "options": [
           "Fake/harmful",
           "To search thoroughly",
@@ -234,17 +230,14 @@
       },
       {
         "question": "What does 'Bloke' mean?",
-        "options": [
-          "To cancel",
-          "Unaffected",
-          "A man in UK",
-          "Ill will"
-        ],
+        "type": "Noun",
+        "options": ["To cancel", "Unaffected", "A man in UK", "Ill will"],
         "correctOption": 2,
         "points": 10
       },
       {
         "question": "What does 'Follow' mean?",
+        "type": "Verb",
         "options": [
           "To search thoroughly",
           "A man in UK",
@@ -256,6 +249,7 @@
       },
       {
         "question": "What does 'Comply' mean?",
+        "type": "Verb",
         "options": [
           "Capture someone forcefully",
           "To abide by",
@@ -267,6 +261,7 @@
       },
       {
         "question": "What does 'Hostage' mean?",
+        "type": "Noun",
         "options": [
           "To share sorrow",
           "Related to money",
@@ -278,6 +273,7 @@
       },
       {
         "question": "What does 'Contortion' mean?",
+        "type": "Noun",
         "options": [
           "A permit to release fare amount of greenhouse gases (GHGs)",
           "Twsited",
@@ -289,17 +285,14 @@
       },
       {
         "question": "What does 'Condols' mean?",
-        "options": [
-          "Doubtful",
-          "To share sorrow",
-          "Concrete",
-          "Car's trunk"
-        ],
+        "type": "Verb",
+        "options": ["Doubtful", "To share sorrow", "Concrete", "Car's trunk"],
         "correctOption": 1,
         "points": 10
       },
       {
         "question": "What does 'Monetary' mean?",
+        "type": "Adjective",
         "options": [
           "Small compartment in car under dashboard",
           "Related to money",
@@ -311,6 +304,7 @@
       },
       {
         "question": "What does 'Procure' mean?",
+        "type": "Verb",
         "options": [
           "To gain / buy",
           "Short period",
@@ -322,6 +316,7 @@
       },
       {
         "question": "What does 'Carbon credit' mean?",
+        "type": "Noun",
         "options": [
           "Happy",
           "A permit to release fare amount of greenhouse gases (GHGs)",
@@ -333,6 +328,7 @@
       },
       {
         "question": "What does 'GHGs' mean?",
+        "type": "Noun",
         "options": [
           "Fake/harmful",
           "Trape heat inside them (green house gases)",
@@ -344,12 +340,8 @@
       },
       {
         "question": "What does 'Mitigate' mean?",
-        "options": [
-          "To cancel",
-          "Unaffected",
-          "Ill will",
-          "To reduce"
-        ],
+        "type": "Verb",
+        "options": ["To cancel", "Unaffected", "Ill will", "To reduce"],
         "correctOption": 3,
         "points": 10
       }
@@ -357,6 +349,7 @@
     "10": [
       {
         "question": "What does 'Bluff' mean?",
+        "type": "Verb",
         "options": [
           "Fake",
           "Artistic design",
@@ -368,6 +361,7 @@
       },
       {
         "question": "What does 'Carving' mean?",
+        "type": "Noun",
         "options": [
           "Lay anchor for parking",
           "Related to ship",
@@ -379,6 +373,7 @@
       },
       {
         "question": "What does 'Agitate' mean?",
+        "type": "Adjective",
         "options": [
           "Excited/ discuss",
           "Ship parking area",
@@ -390,6 +385,7 @@
       },
       {
         "question": "What does 'Stagnant' mean?",
+        "type": "Adjective",
         "options": [
           "Motionless, sturdy",
           "Thing that hold something together",
@@ -401,20 +397,17 @@
       },
       {
         "question": "What does 'Berth' mean?",
-        "options": [
-          "A contract",
-          "Lay anchor for parking",
-          "To leave",
-          "Fail"
-        ],
+        "type": "Noun",
+        "options": ["A contract", "Lay anchor for parking", "To leave", "Fail"],
         "correctOption": 1,
         "points": 10
       },
       {
-        "question": "What does 'Nautical' mean?",
+        "question": "What does 'Nautical miles' mean?",
+        "type": "Noun",
         "options": [
           "To invent",
-          "Related to ship",
+          "Distance for ships",
           "Fake",
           "Artistic design"
         ],
@@ -423,6 +416,7 @@
       },
       {
         "question": "What does 'Dreaded' mean?",
+        "type": "Adjective",
         "options": [
           "Excited/ discuss",
           "Horrible place/ unattractive",
@@ -434,6 +428,7 @@
       },
       {
         "question": "What does 'Anchorage' mean?",
+        "type": "Noun",
         "options": [
           "Ship parking area",
           "Motionless, sturdy",
@@ -445,6 +440,7 @@
       },
       {
         "question": "What does 'Miscreants' mean?",
+        "type": "Noun",
         "options": [
           "Beautiful woman",
           "Poorly behave",
@@ -456,6 +452,7 @@
       },
       {
         "question": "What does 'Obscure' mean?",
+        "type": "Adjective",
         "options": [
           "Fail",
           "To invent",
@@ -467,6 +464,7 @@
       },
       {
         "question": "What does 'Hinges' mean?",
+        "type": "Noun",
         "options": [
           "Thing that hold something together",
           "Excited/ discuss",
@@ -478,6 +476,7 @@
       },
       {
         "question": "What does 'Spring' mean?",
+        "type": "Verb",
         "options": [
           "To escape",
           "Related to ship",
@@ -489,6 +488,7 @@
       },
       {
         "question": "What does 'Bonny lass' mean?",
+        "type": "Noun",
         "options": [
           "Hard to understand/ difficult",
           "Beautiful woman",
@@ -500,17 +500,14 @@
       },
       {
         "question": "What does 'Accord' mean?",
-        "options": [
-          "Fail",
-          "To invent",
-          "Fake",
-          "A contract"
-        ],
+        "type": "Noun",
+        "options": ["Fail", "To invent", "Fake", "A contract"],
         "correctOption": 3,
         "points": 10
       },
       {
         "question": "What does 'Run off' mean?",
+        "type": "Verb",
         "options": [
           "To leave",
           "Horrible place/ unattractive",
@@ -522,23 +519,15 @@
       },
       {
         "question": "What does 'Foil' mean?",
-        "options": [
-          "Beautiful woman",
-          "Fail",
-          "A contract",
-          "To leave"
-        ],
+        "type": "Verb",
+        "options": ["Beautiful woman", "Fail", "A contract", "To leave"],
         "correctOption": 1,
         "points": 10
       },
       {
         "question": "What does 'Hatch' mean?",
-        "options": [
-          "Fail",
-          "To invent",
-          "Fake",
-          "Artistic design"
-        ],
+        "type": "Verb",
+        "options": ["Fail", "To invent", "Fake", "Artistic design"],
         "correctOption": 1,
         "points": 10
       }
@@ -546,6 +535,7 @@
     "11": [
       {
         "question": "What does 'Delectation' mean?",
+        "type": "Noun",
         "options": [
           "Enjoyment",
           "Present all over",
@@ -557,6 +547,7 @@
       },
       {
         "question": "What does 'Ambient' mean?",
+        "type": "Adjective",
         "options": [
           "Give something in return",
           "Cleverly escape",
@@ -568,17 +559,14 @@
       },
       {
         "question": "What does 'Testimonial' mean?",
-        "options": [
-          "Review/ feedback",
-          "Doubt",
-          "Extra",
-          "Related to words"
-        ],
+        "type": "Noun",
+        "options": ["Review/ feedback", "Doubt", "Extra", "Related to words"],
         "correctOption": 0,
         "points": 10
       },
       {
         "question": "What does 'Beatific' mean?",
+        "type": "Adjective",
         "options": [
           "Enjoyment",
           "Blissful",
@@ -590,6 +578,7 @@
       },
       {
         "question": "What does 'Requite' mean?",
+        "type": "Verb",
         "options": [
           "Lack of concern",
           "Give something in return",
@@ -601,6 +590,7 @@
       },
       {
         "question": "What does 'Elude' mean?",
+        "type": "Verb",
         "options": [
           "Cleverly escape",
           "To imitate",
@@ -612,6 +602,7 @@
       },
       {
         "question": "What does 'Elated' mean?",
+        "type": "Adjective",
         "options": [
           "Very happy",
           "To do something (a action)",
@@ -623,6 +614,7 @@
       },
       {
         "question": "What does 'Qualm' mean?",
+        "type": "Noun",
         "options": [
           "Doubt",
           "Currency note/ group of people",
@@ -634,6 +626,7 @@
       },
       {
         "question": "What does 'Auxiliary' mean?",
+        "type": "Adjective",
         "options": [
           "Extra",
           "To hold something tight",
@@ -645,6 +638,7 @@
       },
       {
         "question": "What does 'Lexical' mean?",
+        "type": "Adjective",
         "options": [
           "Polite",
           "Related to words",
@@ -656,6 +650,7 @@
       },
       {
         "question": "What does 'Allusion' mean?",
+        "type": "Noun",
         "options": [
           "Do not direct",
           "Blissful",
@@ -667,17 +662,14 @@
       },
       {
         "question": "What does 'Allude' mean?",
-        "options": [
-          "Indirect reference",
-          "To admire",
-          "Large",
-          "To imitate"
-        ],
+        "type": "Verb",
+        "options": ["Indirect reference", "To admire", "Large", "To imitate"],
         "correctOption": 0,
         "points": 10
       },
       {
         "question": "What does 'Cavalier' mean?",
+        "type": "Adjective",
         "options": [
           "To channel",
           "Lack of concern",
@@ -689,17 +681,14 @@
       },
       {
         "question": "What does 'Venerate' mean?",
-        "options": [
-          "To defeat",
-          "Badly planned",
-          "To admire",
-          "Enjoyment"
-        ],
+        "type": "Verb",
+        "options": ["To defeat", "Badly planned", "To admire", "Enjoyment"],
         "correctOption": 2,
         "points": 10
       },
       {
         "question": "What does 'Immense' mean?",
+        "type": "Adjective",
         "options": [
           "Large",
           "Currency note/ group of people",
@@ -711,17 +700,14 @@
       },
       {
         "question": "What does 'Pastiche' mean?",
-        "options": [
-          "To imitate",
-          "Accept",
-          "Extra",
-          "Related to words"
-        ],
+        "type": "Noun",
+        "options": ["To imitate", "Accept", "Extra", "Related to words"],
         "correctOption": 0,
         "points": 10
       },
       {
         "question": "What does 'Sublimate' mean?",
+        "type": "Verb",
         "options": [
           "To channel",
           "To hold something tight",
@@ -733,6 +719,7 @@
       },
       {
         "question": "What does 'Fulgent' mean?",
+        "type": "Adjective",
         "options": [
           "Indirect reference",
           "Dazzlingly bright",
@@ -744,6 +731,7 @@
       },
       {
         "question": "What does 'Galvanize' mean?",
+        "type": "Verb",
         "options": [
           "To do something (a action)",
           "Large",
@@ -755,6 +743,7 @@
       },
       {
         "question": "What does 'Misbegotten' mean?",
+        "type": "Adjective",
         "options": [
           "Badly planned",
           "To defeat",
@@ -766,6 +755,7 @@
       },
       {
         "question": "What does 'Drub' mean?",
+        "type": "Verb",
         "options": [
           "To defeat",
           "Accept",
@@ -777,6 +767,7 @@
       },
       {
         "question": "What does 'Denominations' mean?",
+        "type": "Noun",
         "options": [
           "Tight, solid",
           "Enjoyment",
@@ -788,6 +779,7 @@
       },
       {
         "question": "What does 'Feisty' mean?",
+        "type": "Adjective",
         "options": [
           "Blissful",
           "Aggressive",
@@ -799,17 +791,14 @@
       },
       {
         "question": "What does 'Condone/Entertain' mean?",
-        "options": [
-          "To admire",
-          "Accept",
-          "Large",
-          "To imitate"
-        ],
+        "type": "Verb",
+        "options": ["To admire", "Accept", "Large", "To imitate"],
         "correctOption": 1,
         "points": 10
       },
       {
         "question": "What does 'Clamp' mean?",
+        "type": "Verb",
         "options": [
           "To hold something tight",
           "Badly planned",
@@ -821,6 +810,7 @@
       },
       {
         "question": "What does 'Linchpin' mean?",
+        "type": "Noun",
         "options": [
           "Pin to keep things firm",
           "Tight, solid",
@@ -831,18 +821,8 @@
         "points": 10
       },
       {
-        "question": "What does 'Firmly' mean?",
-        "options": [
-          "Accept",
-          "Tight, solid",
-          "To hold something tight",
-          "Review/ feedback"
-        ],
-        "correctOption": 1,
-        "points": 10
-      },
-      {
         "question": "What does 'Urbane' mean?",
+        "type": "Adjective",
         "options": [
           "Polite",
           "Blissful",
@@ -858,6 +838,7 @@
     "0": [
       {
         "question": "What does 'Rejuvenate' mean?",
+        "type": "Verb",
         "options": [
           "To young and energize",
           "Collection of something or mixture of dry flower and liquid",
@@ -869,6 +850,7 @@
       },
       {
         "question": "What does 'Potpourri' mean?",
+        "type": "Noun",
         "options": [
           "Loudly or angerly complain",
           "Action taken against a danger or threat",
@@ -880,6 +862,7 @@
       },
       {
         "question": "What does 'Addlepated' mean?",
+        "type": "Adjective",
         "options": [
           "Bad anticipation / seize something",
           "To improve",
@@ -891,6 +874,7 @@
       },
       {
         "question": "What does 'Eccentric' mean?",
+        "type": "Noun",
         "options": [
           "Odd / unusual",
           "A wildcard character who solved impossible problem",
@@ -902,6 +886,7 @@
       },
       {
         "question": "What does 'Fulminated' mean?",
+        "type": "Verb",
         "options": [
           "To deceive",
           "Loudly or angerly complain",
@@ -913,6 +898,7 @@
       },
       {
         "question": "What does 'Countermeasure' mean?",
+        "type": "Noun",
         "options": [
           "Action taken against a danger or threat",
           "To end",
@@ -924,6 +910,7 @@
       },
       {
         "question": "What does 'Wind-up' mean?",
+        "type": "Verb",
         "options": [
           "Not religious",
           "To end",
@@ -935,6 +922,7 @@
       },
       {
         "question": "What does 'Apprehension' mean?",
+        "type": "Noun",
         "options": [
           "Boring because used too often (overused)",
           "Bad anticipation / seize something",
@@ -946,6 +934,7 @@
       },
       {
         "question": "What does 'Parlay' mean?",
+        "type": "Verb",
         "options": [
           "To improve",
           "Skilled in particular field",
@@ -957,6 +946,7 @@
       },
       {
         "question": "What does 'Hackneyed' mean?",
+        "type": "Adjective",
         "options": [
           "Extreme cold",
           "Boring because used too often (overused)",
@@ -968,6 +958,7 @@
       },
       {
         "question": "What does 'Deus ex machina' mean?",
+        "type": "Noun",
         "options": [
           "A wildcard character who solved impossible problem",
           "To expel",
@@ -979,6 +970,7 @@
       },
       {
         "question": "What does 'Secular' mean?",
+        "type": "Adjective",
         "options": [
           "To get aware of",
           "Large in size",
@@ -990,6 +982,7 @@
       },
       {
         "question": "What does 'Minuscule' mean?",
+        "type": "Adjective",
         "options": [
           "Separated from group",
           "Small",
@@ -1001,6 +994,7 @@
       },
       {
         "question": "What does 'Leitmotif' mean?",
+        "type": "Noun",
         "options": [
           "Recurring idea",
           "Sinister/ unlikely",
@@ -1012,6 +1006,7 @@
       },
       {
         "question": "What does 'Cozen' mean?",
+        "type": "Verb",
         "options": [
           "To deceive",
           "Betrayal",
@@ -1023,6 +1018,7 @@
       },
       {
         "question": "What does 'Scores of people' mean?",
+
         "options": [
           "To express opinion",
           "Large no of peoples",
@@ -1034,6 +1030,7 @@
       },
       {
         "question": "What does 'Persuade' mean?",
+        "type": "Verb",
         "options": [
           "A person likes to travel",
           "More than one",
@@ -1045,17 +1042,14 @@
       },
       {
         "question": "What does 'Fraudulent' mean?",
-        "options": [
-          "Related to fraud",
-          "Sorrowful",
-          "Evil",
-          "Expert"
-        ],
+        "type": "Adjective",
+        "options": ["Related to fraud", "Sorrowful", "Evil", "Expert"],
         "correctOption": 0,
         "points": 10
       },
       {
         "question": "What does 'Untenable' mean?",
+        "type": "Adjective",
         "options": [
           "System for naming in science",
           "Long, not direct",
@@ -1067,6 +1061,7 @@
       },
       {
         "question": "What does 'Virtuoso' mean?",
+        "type": "Noun",
         "options": [
           "Skilled in particular field",
           "Garden",
@@ -1078,6 +1073,7 @@
       },
       {
         "question": "What does 'Excursion' mean?",
+        "type": "Noun",
         "options": [
           "To separate from main body",
           "Short trip for fun",
@@ -1089,6 +1085,7 @@
       },
       {
         "question": "What does 'Gelid' mean?",
+        "type": "Adjective",
         "options": [
           "Extreme cold",
           "A wildcard character who solved impossible problem",
@@ -1100,6 +1097,7 @@
       },
       {
         "question": "What does 'Beleaguer' mean?",
+        "type": "Noun",
         "options": [
           "To deceive",
           "To convince",
@@ -1111,6 +1109,7 @@
       },
       {
         "question": "What does 'Tome' mean?",
+        "type": "Noun",
         "options": [
           "Related to fraud",
           "Blue like sky",
@@ -1122,6 +1121,7 @@
       },
       {
         "question": "What does 'Cerulean' mean?",
+        "type": "Noun",
         "options": [
           "Blue like sky",
           "Bad anticipation / seize something",
@@ -1133,6 +1133,7 @@
       },
       {
         "question": "What does 'Evict' mean?",
+        "type": "Noun",
         "options": [
           "Large in size",
           "To expel",
@@ -1144,6 +1145,7 @@
       },
       {
         "question": "What does 'Cognizance' mean?",
+        "type": "Noun",
         "options": [
           "To get aware of",
           "To end",
@@ -1155,6 +1157,7 @@
       },
       {
         "question": "What does 'Grandeur' mean?",
+        "type": "Noun",
         "options": [
           "Sinister/ unlikely",
           "Betrayal",
@@ -1166,6 +1169,7 @@
       },
       {
         "question": "What does 'Rough' mean?",
+        "type": "Noun",
         "options": [
           "Attractive",
           "Not smooth",
@@ -1177,6 +1181,7 @@
       },
       {
         "question": "What does 'Rogue' mean?",
+        "type": "Noun",
         "options": [
           "Irresponsible/ careless",
           "To express opinion",
@@ -1188,6 +1193,7 @@
       },
       {
         "question": "What does 'Deadbeat' mean?",
+        "type": "Noun",
         "options": [
           "Who praise good food and drink or excess eat",
           "A person likes to travel",
@@ -1199,17 +1205,14 @@
       },
       {
         "question": "What does 'Pantyhose' mean?",
-        "options": [
-          "Type of leggies",
-          "Very strange",
-          "Sorrowful",
-          "Evil"
-        ],
+        "type": "Noun",
+        "options": ["Type of leggies", "Very strange", "Sorrowful", "Evil"],
         "correctOption": 0,
         "points": 10
       },
       {
         "question": "What does 'Untoward' mean?",
+        "type": "Noun",
         "options": [
           "Expert",
           "Sinister/ unlikely",
@@ -1221,6 +1224,7 @@
       },
       {
         "question": "What does 'Pyre' mean?",
+        "type": "Noun",
         "options": [
           "Wood bed for dead bodies",
           "To teach their mind and soul",
@@ -1232,6 +1236,7 @@
       },
       {
         "question": "What does 'Cup-bearer' mean?",
+        "type": "Noun",
         "options": [
           "Servant who serves wines",
           "Move gradually to reach unusual place or gradually take someone else things",
@@ -1243,6 +1248,7 @@
       },
       {
         "question": "What does 'Treason' mean?",
+        "type": "Noun",
         "options": [
           "Betrayal",
           "Collection of something or mixture of dry flower and liquid",
@@ -1254,17 +1260,14 @@
       },
       {
         "question": "What does 'Alluring' mean?",
-        "options": [
-          "To improve",
-          "Attractive",
-          "Thick book",
-          "To expel"
-        ],
+        "type": "Verb",
+        "options": ["To improve", "Attractive", "Thick book", "To expel"],
         "correctOption": 1,
         "points": 10
       },
       {
         "question": "What does 'Scrutiny' mean?",
+        "type": "Noun",
         "options": [
           "Intense study of something",
           "To end",
@@ -1276,6 +1279,7 @@
       },
       {
         "question": "What does 'Opine' mean?",
+        "type": "Verb",
         "options": [
           "To get aware of",
           "To express opinion",
@@ -1287,6 +1291,7 @@
       },
       {
         "question": "What does 'Inimitable' mean?",
+        "type": "Adjective",
         "options": [
           "Impossible to copy",
           "Sinister/ unlikely",
@@ -1298,6 +1303,7 @@
       },
       {
         "question": "What does 'Gourmand/ Glutton' mean?",
+        "type": "Noun",
         "options": [
           "Who praise good food and drink or excess eat",
           "Betrayal",
@@ -1309,6 +1315,7 @@
       },
       {
         "question": "What does 'Wanderlust' mean?",
+        "type": "Noun",
         "options": [
           "To express opinion",
           "A person likes to travel",
@@ -1320,6 +1327,7 @@
       },
       {
         "question": "What does 'Divers' mean?",
+        "type": "Adjective",
         "options": [
           "A person likes to travel",
           "More than one",
@@ -1331,6 +1339,7 @@
       },
       {
         "question": "What does 'Uncanny' mean?",
+        "type": "Adjective",
         "options": [
           "Evil",
           "Expert",
@@ -1342,6 +1351,7 @@
       },
       {
         "question": "What does 'Mourn' mean?",
+        "type": "Verb",
         "options": [
           "Long, not direct",
           "Sorrowful",
@@ -1353,6 +1363,7 @@
       },
       {
         "question": "What does 'Wicked' mean?",
+        "type": "Adjective",
         "options": [
           "Evil",
           "A silly remark which is improper",
@@ -1364,6 +1375,7 @@
       },
       {
         "question": "What does 'Scholar' mean?",
+        "type": "Noun",
         "options": [
           "Expert",
           "A wildcard character who solved impossible problem",
@@ -1375,6 +1387,7 @@
       },
       {
         "question": "What does 'Nomenclature' mean?",
+        "type": "Noun",
         "options": [
           "Confused / odd / unusual",
           "System for naming in science",
@@ -1386,6 +1399,7 @@
       },
       {
         "question": "What does 'Circuitous' mean?",
+        "type": "Adjective",
         "options": [
           "Long, not direct",
           "Related to fraud",
@@ -1397,6 +1411,7 @@
       },
       {
         "question": "What does 'Edify' mean?",
+        "type": "Verb",
         "options": [
           "To teach their mind and soul",
           "Recurring idea",
@@ -1408,6 +1423,7 @@
       },
       {
         "question": "What does 'Sward' mean?",
+        "type": "Noun",
         "options": [
           "A person likes to travel",
           "More than one",
@@ -1419,6 +1435,7 @@
       },
       {
         "question": "What does 'Facetious' mean?",
+        "type": "Adjective",
         "options": [
           "Irresponsible/ careless",
           "A silly remark which is improper",
@@ -1430,6 +1447,7 @@
       },
       {
         "question": "What does 'Encroach' mean?",
+        "type": "Verb",
         "options": [
           "Servant who serves wines",
           "Move gradually to reach unusual place or gradually take someone else things",
@@ -1696,12 +1714,7 @@
       },
       {
         "question": "What does 'Pertain' mean?",
-        "options": [
-          "Belong to",
-          "Not clear",
-          "To struggle",
-          "Extreme praise"
-        ],
+        "options": ["Belong to", "Not clear", "To struggle", "Extreme praise"],
         "correctOption": 0,
         "points": 10
       },
@@ -1786,12 +1799,7 @@
       },
       {
         "question": "What does 'Put up with' mean?",
-        "options": [
-          "To continue",
-          "To find answer",
-          "Indecisive",
-          "Tolerate"
-        ],
+        "options": ["To continue", "To find answer", "Indecisive", "Tolerate"],
         "correctOption": 3,
         "points": 10
       },
@@ -2648,12 +2656,7 @@
       },
       {
         "question": "What does 'Exuberance' mean?",
-        "options": [
-          "Highest in degree",
-          "Enthusiasm",
-          "Annoyed",
-          "Lookalike"
-        ],
+        "options": ["Highest in degree", "Enthusiasm", "Annoyed", "Lookalike"],
         "correctOption": 1,
         "points": 10
       },
