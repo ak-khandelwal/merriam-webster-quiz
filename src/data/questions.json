@@ -1461,6 +1461,7 @@
     "1": [
       {
         "question": "What does 'Vicious' mean?",
+        "type": "Adjective",
         "options": [
           "Violent, cruel",
           "Extreme praise",
@@ -1472,6 +1473,7 @@
       },
       {
         "question": "What does 'Flattery' mean?",
+        "type": "Noun",
         "options": [
           "Not well planned",
           "Extreme praise",
@@ -1482,7 +1484,8 @@
         "points": 10
       },
       {
-        "question": "What does 'Disputatious person' mean?",
+        "question": "What does 'Disputatious' mean?",
+        "type": "Adjective",
         "options": [
           "A person who provokes controversies and argument",
           "Stone coffin",
@@ -1494,6 +1497,7 @@
       },
       {
         "question": "What does 'Presage' mean?",
+        "type": "Verb",
         "options": [
           "W/o prepared",
           "Word swap error",
@@ -1505,6 +1509,7 @@
       },
       {
         "question": "What does 'Spontaneous' mean?",
+        "type": "Adjective",
         "options": [
           "Not well planned",
           "Dealing with people in diplomatic way",
@@ -1516,6 +1521,7 @@
       },
       {
         "question": "What does 'Autonomous' mean?",
+        "type": "Adjective",
         "options": [
           "Rebellion",
           "Self govern",
@@ -1527,6 +1533,7 @@
       },
       {
         "question": "What does 'Insolvent' mean?",
+        "type": "Noun",
         "options": [
           "A person in heavy debt",
           "Hidden/ hard to understand",
@@ -1538,6 +1545,7 @@
       },
       {
         "question": "What does 'Sarcophagus' mean?",
+        "type": "Noun",
         "options": [
           "A person who provokes controversies and argument",
           "Stone coffin",
@@ -1549,6 +1557,7 @@
       },
       {
         "question": "What does 'Zaftig' mean?",
+        "type": "Adjective",
         "options": [
           "Violent, cruel",
           "Related to heaven",
@@ -1560,6 +1569,7 @@
       },
       {
         "question": "What does 'Canard' mean?",
+        "type": "Noun",
         "options": [
           "Hidden/ hard to understand",
           "False story/ rumor",
@@ -1571,6 +1581,7 @@
       },
       {
         "question": "What does 'Ad-lib' mean?",
+        "type": "Verb",
         "options": [
           "W/o prepared",
           "A person in heavy debt",
@@ -1582,6 +1593,7 @@
       },
       {
         "question": "What does 'Malapropism' mean?",
+        "type": "Noun",
         "options": [
           "Violent, cruel",
           "Word swap error",
@@ -1593,6 +1605,7 @@
       },
       {
         "question": "What does 'Finesse way' mean?",
+        "type": "Verb",
         "options": [
           "Traces",
           "Dealing with people in diplomatic way",
@@ -1604,6 +1617,7 @@
       },
       {
         "question": "What does 'Ecstatic' mean?",
+        "type": "Adjective",
         "options": [
           "Discharge from a job",
           "To think carefully",
@@ -1615,6 +1629,7 @@
       },
       {
         "question": "What does 'Vestige' mean?",
+        "type": "Noun",
         "options": [
           "A person in heavy debt",
           "Rounded figure",
@@ -1626,6 +1641,7 @@
       },
       {
         "question": "What does 'Insurgency' mean?",
+        "type": "Noun",
         "options": [
           "W/o prepared",
           "Rebellion",
@@ -1637,6 +1653,7 @@
       },
       {
         "question": "What does 'Celestial' mean?",
+        "type": "Adjective",
         "options": [
           "Related to heaven",
           "Happy",
@@ -1648,6 +1665,7 @@
       },
       {
         "question": "What does 'Sack' mean?",
+        "type": "Verb",
         "options": [
           "Discharge from a job",
           "Hidden/ hard to understand",
@@ -1659,6 +1677,7 @@
       },
       {
         "question": "What does 'Cryptic' mean?",
+        "type": "Adjective",
         "options": [
           "Sign of something happening in future",
           "To think carefully",
@@ -1670,6 +1689,7 @@
       },
       {
         "question": "What does 'Ruminate' mean?",
+        "type": "Verb",
         "options": [
           "Belong to",
           "To think carefully",
@@ -1681,6 +1701,7 @@
       },
       {
         "question": "What does 'Hagiography' mean?",
+        "type": "Noun",
         "options": [
           "A biography idolizes a person",
           "Traces",
@@ -1692,6 +1713,7 @@
       },
       {
         "question": "What does 'Gallant' mean?",
+        "type": "Adjective",
         "options": [
           "Bold/ courageous",
           "Rebellion",
@@ -1703,6 +1725,7 @@
       },
       {
         "question": "What does 'Non sequitur' mean?",
+        "type": "Noun",
         "options": [
           "Not following the conversation",
           "Belong to",
@@ -1714,12 +1737,14 @@
       },
       {
         "question": "What does 'Pertain' mean?",
+        "type": "Verb",
         "options": ["Belong to", "Not clear", "To struggle", "Extreme praise"],
         "correctOption": 0,
         "points": 10
       },
       {
         "question": "What does 'Obtuse' mean?",
+        "type": "Adjective",
         "options": [
           "Not clear",
           "A person in heavy debt",
@@ -1731,6 +1756,7 @@
       },
       {
         "question": "What does 'Floundered' mean?",
+        "type": "Verb",
         "options": [
           "To struggle",
           "Related to heaven",
@@ -1744,6 +1770,7 @@
     "2": [
       {
         "question": "What does 'Agnostic' mean?",
+        "type": "Noun",
         "options": [
           "To separate from main body",
           "Indecisive",
@@ -1755,6 +1782,7 @@
       },
       {
         "question": "What does 'Segregate' mean?",
+        "type": "Verb",
         "options": [
           "To separate from main body",
           "To get familiar with",
@@ -1766,6 +1794,7 @@
       },
       {
         "question": "What does 'Acquainted' mean?",
+        "type": "Adjective",
         "options": [
           "Open space for ppl to gether",
           "To separate",
@@ -1777,6 +1806,7 @@
       },
       {
         "question": "What does 'Concourse' mean?",
+        "type": "Noun",
         "options": [
           "To separate from main body",
           "Tolerate",
@@ -1788,6 +1818,7 @@
       },
       {
         "question": "What does 'Bifurcation' mean?",
+        "type": "Noun",
         "options": [
           "To present",
           "To separate",
@@ -1799,12 +1830,14 @@
       },
       {
         "question": "What does 'Put up with' mean?",
+        "type": "Verb",
         "options": ["To continue", "To find answer", "Indecisive", "Tolerate"],
         "correctOption": 3,
         "points": 10
       },
       {
         "question": "What does 'Show up' mean?",
+        "type": "Verb",
         "options": [
           "To get familiar with",
           "To present",
@@ -1816,6 +1849,7 @@
       },
       {
         "question": "What does 'Brush up on' mean?",
+        "type": "Verb",
         "options": [
           "To improve",
           "Encounter something",
@@ -1827,6 +1861,7 @@
       },
       {
         "question": "What does 'Carry on' mean?",
+        "type": "Verb",
         "options": [
           "Look real but isn't - bogus",
           "To continue",
@@ -1838,6 +1873,7 @@
       },
       {
         "question": "What does 'Figure out' mean?",
+        "type": "Verb",
         "options": [
           "Tolerate",
           "To find answer",
@@ -1849,6 +1885,7 @@
       },
       {
         "question": "What does 'Look into' mean?",
+        "type": "Verb",
         "options": [
           "To investigate",
           "Indecisive",
@@ -1860,6 +1897,7 @@
       },
       {
         "question": "What does 'Run into' mean?",
+        "type": "Verb",
         "options": [
           "To continue",
           "To separate",
@@ -1871,6 +1909,7 @@
       },
       {
         "question": "What does 'Ostensible' mean?",
+        "type": "Adjective",
         "options": [
           "Look real but isn't - bogus",
           "To improve",
@@ -1884,6 +1923,7 @@
     "5": [
       {
         "question": "What does 'Impute' mean?",
+        "type": "Verb",
         "options": [
           "Study of flags",
           "Blame",
@@ -1895,6 +1935,7 @@
       },
       {
         "question": "What does 'Debilitating' mean?",
+        "type": "Adjective",
         "options": [
           "Unable to function",
           "Very talkative",
@@ -1906,6 +1947,7 @@
       },
       {
         "question": "What does 'Minutia' mean?",
+        "type": "Noun",
         "options": [
           "Freeing someone from another’s control",
           "Small detail",
@@ -1917,6 +1959,7 @@
       },
       {
         "question": "What does 'Eloquent' mean?",
+        "type": "Adjective",
         "options": [
           "To decorate",
           "Unable to function",
@@ -1928,6 +1971,7 @@
       },
       {
         "question": "What does 'Cataract' mean?",
+        "type": "Noun",
         "options": [
           "Clouding of the lens of the eye, waterfall",
           "Order by government",
@@ -1939,6 +1983,7 @@
       },
       {
         "question": "What does 'Abstruse' mean?",
+        "type": "Adjective",
         "options": [
           "Fake",
           "Hard to understand - obscure",
@@ -1950,6 +1995,7 @@
       },
       {
         "question": "What does 'Festoon' mean?",
+        "type": "Verb",
         "options": [
           "Street, passageway",
           "To forbid by law",
@@ -1961,6 +2007,7 @@
       },
       {
         "question": "What does 'Sea change' mean?",
+        "type": "Noun",
         "options": [
           "Descendant of a group or race",
           "Failing organization or enterprise",
@@ -1972,6 +2019,7 @@
       },
       {
         "question": "What does 'Bogus' mean?",
+        "type": "Adjective",
         "options": [
           "Fake",
           "Study of flags",
@@ -1983,6 +2031,7 @@
       },
       {
         "question": "What does 'Tutelage' mean?",
+        "type": "Noun",
         "options": [
           "Clouding of the lens of the eye",
           "Guidelines by a teacher",
@@ -1994,6 +2043,7 @@
       },
       {
         "question": "What does 'Herculean' mean?",
+        "type": "Adjective",
         "options": [
           "Order by government",
           "Powerful or difficult",
@@ -2005,6 +2055,7 @@
       },
       {
         "question": "What does 'Proscribe' mean?",
+        "type": "Verb",
         "options": [
           "Confused by something",
           "Extremely hungry",
@@ -2016,6 +2067,7 @@
       },
       {
         "question": "What does 'Ordinance' mean?",
+        "type": "Noun",
         "options": [
           "Small detail",
           "Unpleasant, disgusting",
@@ -2027,6 +2079,7 @@
       },
       {
         "question": "What does 'Rambunctious' mean?",
+        "type": "Adjective",
         "options": [
           "Excited, full with energy",
           "Man who practices warcraft",
@@ -2038,6 +2091,7 @@
       },
       {
         "question": "What does 'Stammer / Stutter' mean?",
+        "type": "Verb",
         "options": [
           "Study of flags",
           "Speak with difficulty",
@@ -2049,6 +2103,7 @@
       },
       {
         "question": "What does 'Disbar' mean?",
+        "type": "Verb",
         "options": [
           "To forbid by law",
           "Expel from the bar (a lawyer) for mispractice",
@@ -2059,7 +2114,8 @@
         "points": 10
       },
       {
-        "question": "What does 'Sinking ship' mean?",
+        "question": "What does 'Sinking' mean?",
+        "type": "Noun",
         "options": [
           "Unable to function",
           "Confused by something",
@@ -2071,6 +2127,7 @@
       },
       {
         "question": "What does 'Vexillology' mean?",
+        "type": "Noun",
         "options": [
           "Street, passageway",
           "Man who practices warcraft",
@@ -2082,6 +2139,7 @@
       },
       {
         "question": "What does 'Progeny' mean?",
+        "type": "Noun",
         "options": [
           "Unable to function",
           "Extremely hungry",
@@ -2093,6 +2151,7 @@
       },
       {
         "question": "What does 'Garrulous' mean?",
+        "type": "Adjective",
         "options": [
           "Freeing someone from control",
           "Very talkative or containing too many words",
@@ -2104,6 +2163,7 @@
       },
       {
         "question": "What does 'Apologia' mean?",
+        "type": "Noun",
         "options": [
           "Defence of one's actions or opinion",
           "Blame",
@@ -2115,6 +2175,7 @@
       },
       {
         "question": "What does 'Emancipation' mean?",
+        "type": "Noun",
         "options": [
           "Sudden change",
           "Fake",
@@ -2126,6 +2187,7 @@
       },
       {
         "question": "What does 'Litmus Test' mean?",
+        "type": "Noun",
         "options": [
           "Confused by something",
           "Unable to function",
@@ -2137,6 +2199,7 @@
       },
       {
         "question": "What does 'Warlock' mean?",
+        "type": "Noun",
         "options": [
           "A man who practices warcraft, a wizard or sorcerer",
           "Street, passageway",
@@ -2148,6 +2211,7 @@
       },
       {
         "question": "What does 'Famished' mean?",
+        "type": "Adjective",
         "options": [
           "Extremely hungry",
           "To make something active",
@@ -2159,6 +2223,7 @@
       },
       {
         "question": "What does 'Bemuse' mean?",
+        "type": "Verb",
         "options": [
           "Blame",
           "Unable to function",
@@ -2170,6 +2235,7 @@
       },
       {
         "question": "What does 'Wherewithal' mean?",
+        "type": "Noun",
         "options": [
           "Fake",
           "Related to resources, money, skill",
@@ -2181,6 +2247,7 @@
       },
       {
         "question": "What does 'Alley' mean?",
+        "type": "Noun",
         "options": [
           "Study of flags",
           "Blame",
@@ -2192,6 +2259,7 @@
       },
       {
         "question": "What does 'Odor' mean?",
+        "type": "Noun",
         "options": [
           "Unable to function",
           "Clouding of the lens of the eye",
@@ -2203,6 +2271,7 @@
       },
       {
         "question": "What does 'Noisome' mean?",
+        "type": "Adjective",
         "options": [
           "Fake",
           "Blame",
@@ -2214,6 +2283,7 @@
       },
       {
         "question": "What does 'Expunge' mean?",
+        "type": "Verb",
         "options": [
           "Unable to function",
           "Street, passageway",
@@ -2225,6 +2295,7 @@
       },
       {
         "question": "What does 'Impetus' mean?",
+        "type": "Noun",
         "options": [
           "To decorate",
           "Unable to function",
@@ -2236,6 +2307,7 @@
       },
       {
         "question": "What does 'Restive' mean?",
+        "type": "Adjective",
         "options": [
           "Small detail",
           "Fake",
@@ -2247,6 +2319,7 @@
       },
       {
         "question": "What does 'Oblige' mean?",
+        "type": "Verb",
         "options": [
           "Blame",
           "Make someone to do something",
@@ -2258,6 +2331,7 @@
       },
       {
         "question": "What does 'Sumptuous' mean?",
+        "type": "Adjective",
         "options": [
           "Small detail",
           "Unable to function",
@@ -2269,6 +2343,7 @@
       },
       {
         "question": "What does 'Flotsam' mean?",
+        "type": "Noun",
         "options": [
           "To decorate",
           "Blame",
@@ -2280,6 +2355,7 @@
       },
       {
         "question": "What does 'Flotsam and Jetsam' mean?",
+        "type": "Noun",
         "options": [
           "Unimportant material",
           "Clouding of the lens of the eye",
@@ -2293,6 +2369,7 @@
     "6": [
       {
         "question": "What does 'Verbose' mean?",
+        "type": "Adjective",
         "options": [
           "More words than necessary",
           "To make loud and clumsy sound",
@@ -2304,6 +2381,7 @@
       },
       {
         "question": "What does 'Galumph' mean?",
+        "type": "Verb",
         "options": [
           "Irritating / annoying",
           "To make loud and clumsy sound",
@@ -2315,6 +2393,7 @@
       },
       {
         "question": "What does 'Desultory' mean?",
+        "type": "Adjective",
         "options": [
           "Wildly playful / funny act or action",
           "More words than necessary",
@@ -2326,6 +2405,7 @@
       },
       {
         "question": "What does 'Yankee' mean?",
+        "type": "Noun",
         "options": [
           "An American",
           "Freedom from punishment",
@@ -2337,6 +2417,7 @@
       },
       {
         "question": "What does 'Cantankerous' mean?",
+        "type": "Adjective",
         "options": [
           "To make loud and clumsy sound",
           "Irritating / annoying",
@@ -2348,6 +2429,7 @@
       },
       {
         "question": "What does 'Antic' mean?",
+        "type": "Noun",
         "options": [
           "Wildly playful / funny act or action",
           "Unpleasant or evil",
@@ -2359,6 +2441,7 @@
       },
       {
         "question": "What does 'Exemplary' mean?",
+        "type": "Adjective",
         "options": [
           "To make loud and clumsy sound",
           "Official order to claim",
@@ -2370,6 +2453,7 @@
       },
       {
         "question": "What does 'Boffo' mean?",
+        "type": "Adjective",
         "options": [
           "More words than necessary",
           "Very successfully",
@@ -2381,6 +2465,7 @@
       },
       {
         "question": "What does 'Rescind' mean?",
+        "type": "Verb",
         "options": [
           "Not related to subject",
           "To prevent something to succeed",
@@ -2392,6 +2477,7 @@
       },
       {
         "question": "What does 'Impunity' mean?",
+        "type": "Noun",
         "options": [
           "Irritating / annoying",
           "Freedom from punishment",
@@ -2403,6 +2489,7 @@
       },
       {
         "question": "What does 'Contrite' mean?",
+        "type": "Adjective",
         "options": [
           "To regret or apologize",
           "Very subtle difference",
@@ -2414,6 +2501,7 @@
       },
       {
         "question": "What does 'Nuance' mean?",
+        "type": "Noun",
         "options": [
           "More words than necessary",
           "Very subtle difference",
@@ -2425,6 +2513,7 @@
       },
       {
         "question": "What does 'Despicable' mean?",
+        "type": "Adjective",
         "options": [
           "Unpleasant or evil",
           "Very successfully",
@@ -2436,6 +2525,7 @@
       },
       {
         "question": "What does 'Sabotage' mean?",
+        "type": "Noun",
         "options": [
           "To prevent something to succeed",
           "To malign",
@@ -2447,6 +2537,7 @@
       },
       {
         "question": "What does 'Requisition' mean?",
+        "type": "Noun",
         "options": [
           "Wildly playful / funny act or action",
           "To regret or apologize",
@@ -2458,6 +2549,7 @@
       },
       {
         "question": "What does 'Impugn' mean?",
+        "type": "Verb",
         "options": [
           "To malign",
           "Not related to subject",
@@ -2469,6 +2561,7 @@
       },
       {
         "question": "What does 'Lest' mean?",
+        "type": "Conjunction",
         "options": [
           "To prevent",
           "To revoke or end",
@@ -2480,6 +2573,7 @@
       },
       {
         "question": "What does 'Tantalize' mean?",
+        "type": "Verb",
         "options": [
           "Freedom from punishment",
           "To feeling exciting",
@@ -2491,6 +2585,7 @@
       },
       {
         "question": "What does 'Abject' mean?",
+        "type": "Adjective",
         "options": [
           "An American",
           "Escapee",
@@ -2502,6 +2597,7 @@
       },
       {
         "question": "What does 'Fugitive' mean?",
+        "type": "Noun",
         "options": [
           "Escapee",
           "Subject of honor or praise",
@@ -2513,6 +2609,7 @@
       },
       {
         "question": "What does 'Meritorious' mean?",
+        "type": "Adjective",
         "options": [
           "Not decisive",
           "Subject of honor or praise",
@@ -2524,6 +2621,7 @@
       },
       {
         "question": "What does 'Devise' mean?",
+        "type": "Verb",
         "options": [
           "To create or invent",
           "To prevent",
@@ -2535,6 +2633,7 @@
       },
       {
         "question": "What does 'Logy' mean?",
+        "type": "Adjective",
         "options": [
           "Not decisive",
           "Unpleasant or evil",
@@ -2546,6 +2645,7 @@
       },
       {
         "question": "What does 'Jettison' mean?",
+        "type": "Verb",
         "options": [
           "Unlike anyone or everyone",
           "To create or invent",
@@ -2557,6 +2657,7 @@
       },
       {
         "question": "What does 'Hubris' mean?",
+        "type": "Noun",
         "options": [
           "Overconfident / too pride",
           "Great excitement or concern to something",
@@ -2568,6 +2669,7 @@
       },
       {
         "question": "What does 'Utmost' mean?",
+        "type": "Adjective",
         "options": [
           "Highest in degree",
           "Complaining",
@@ -2579,6 +2681,7 @@
       },
       {
         "question": "What does 'Panacea' mean?",
+        "type": "Noun",
         "options": [
           "Lookalike",
           "An universal remedy",
@@ -2590,6 +2693,7 @@
       },
       {
         "question": "What does 'Sui generis' mean?",
+        "type": "Adjective",
         "options": [
           "Unlike anyone or everyone",
           "Unpleasant or evil",
@@ -2601,6 +2705,7 @@
       },
       {
         "question": "What does 'Embellish' mean?",
+        "type": "Adjective",
         "options": [
           "Highest in degree",
           "Great excitement or concern to something",
@@ -2612,6 +2717,7 @@
       },
       {
         "question": "What does 'Brouhaha' mean?",
+        "type": "Noun",
         "options": [
           "Great excitement or concern to something",
           "Easily done",
@@ -2623,6 +2729,7 @@
       },
       {
         "question": "What does 'Facile' mean?",
+        "type": "Adjective",
         "options": [
           "To regret or apologize",
           "Easily done",
@@ -2634,6 +2741,7 @@
       },
       {
         "question": "What does 'Quibbling' mean?",
+        "type": "Verb",
         "options": [
           "Complaining",
           "Unpleasant or evil",
@@ -2645,6 +2753,7 @@
       },
       {
         "question": "What does 'Doppelgänger' mean?",
+        "type": "Noun",
         "options": [
           "To drop / rid of something",
           "Lookalike",
@@ -2656,12 +2765,14 @@
       },
       {
         "question": "What does 'Exuberance' mean?",
+        "type": "Noun",
         "options": ["Highest in degree", "Enthusiasm", "Annoyed", "Lookalike"],
         "correctOption": 1,
         "points": 10
       },
       {
         "question": "What does 'Petulant' mean?",
+        "type": "Adjective",
         "options": [
           "Annoyed",
           "Not related to subject",

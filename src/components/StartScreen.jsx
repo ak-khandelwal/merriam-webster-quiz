@@ -76,6 +76,7 @@ function StartScreen({ dispatch, allQuestions, isTimerOn }) {
         <div className="w-full min-h-[400px] space-y-8  overflow-y-auto">
           {years.map((year) => {
             const allMonthsForYear = Object.keys(allQuestions[year]);
+            // check if every month is selected for the year
             const areAllSelectedForYear =
               selected[year]?.length === allMonthsForYear.length &&
               allMonthsForYear.length > 0;
