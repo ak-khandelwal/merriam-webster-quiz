@@ -12,7 +12,7 @@ function Question({ question, dispatch, answer }) {
       </h4>
       {hasAnswered && question.synonyms && (
         <p className="text-lg text-gray-300 mb-4">
-          Synonyms: {question.synonyms.join(', ')}
+          <b>Synonyms</b>: {question.synonyms.join(', ')}
         </p>
       )}
       <Options
