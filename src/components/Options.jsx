@@ -1,7 +1,5 @@
-function Options({ question, dispatch, answer }) {
+function Options({ question, dispatch, answer, hasAnswered }) {
   // answer is being set after clicking the option
-  const hasAnswered = answer !== null;
-
   return (
     <div>
       {question.options.map((option, index) => (
