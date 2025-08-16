@@ -6,7 +6,9 @@
         "type": "Adjective",
         "options": ["Doubtful", "Pathetic / ill", "Concrete", "Car's trunk"],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Suspicious"],
+        "example": "She had a dubious expression on her face."
       },
       {
         "question": "What does 'Dire' mean?",
@@ -18,7 +20,9 @@
           "Funny"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Desperate", "Urgent"],
+        "example": "The situation was dire, requiring immediate action."
       },
       {
         "question": "What does 'Corroborative' mean?",
@@ -30,7 +34,9 @@
           "Calm / free from disturbance"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Confirmatory", "Supportive"],
+        "example": "The witness provided corroborative evidence to support the claim."
       },
       {
         "question": "What does 'Boot' mean?",
@@ -42,7 +48,9 @@
           "Fact/news"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Trunk"],
+        "example": "She stored her luggage in the boot of the car."
       },
       {
         "question": "What does 'Glove box' mean?",
@@ -54,14 +62,18 @@
           "To stare"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Glove compartment"],
+        "example": "He kept his registration papers in the glove box."
       },
       {
         "question": "What does 'Hunch' mean?",
         "type": "Noun",
         "options": ["To cancel", "Theory", "Unaffected", "Ill will"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Intuition", "Feeling"],
+        "example": "She had a hunch that something was wrong."
       },
       {
         "question": "What does 'Rib tickling' mean?",
@@ -73,7 +85,9 @@
           "To understand"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Hilarious", "Amusing"],
+        "example": "The comedian's rib-tickling jokes had the audience in stitches."
       },
       {
         "question": "What does 'Jiffy/ Jiff' mean?",
@@ -85,7 +99,9 @@
           "Twsited"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Moment", "Instant"],
+        "example": "I'll be back in a jiffy."
       },
       {
         "question": "What does 'Leg warmers' mean?",
@@ -109,21 +125,27 @@
           "Calm / free from disturbance"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Peaceful", "Serene"],
+        "example": "The tranquil lake reflected the clear blue sky."
       },
       {
         "question": "What does 'Ecstatic' mean?",
         "type": "Adjective",
         "options": ["Doubtful", "Happy", "Concrete", "Car's trunk"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Elated", "Overjoyed"],
+        "example": "She was ecstatic about her promotion at work."
       },
       {
         "question": "What does 'Loo' mean?",
         "type": "Noun",
         "options": ["Toilet", "Theory", "Unaffected", "Ill will"],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Restroom", "Bathroom"],
+        "example": "Excuse me, where is the nearest loo?"
       },
       {
         "question": "What does 'Resilient' mean?",
@@ -135,7 +157,9 @@
           "To understand"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Flexible", "Adaptable"],
+        "example": "Children are often more resilient than adults in facing challenges."
       },
       {
         "question": "What does 'Scoop' mean?",
@@ -147,7 +171,9 @@
           "Twsited"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Exclusive", "Inside story"],
+        "example": "The journalist had a scoop on the latest political scandal."
       },
       {
         "question": "What does 'Bogus' mean?",
@@ -159,7 +185,9 @@
           "To gain / buy"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["False", "Counterfeit"],
+        "example": "The dealer sold him a bogus watch that looked real."
       },
       {
         "question": "What does 'Bum' mean?",
@@ -171,14 +199,18 @@
           "To reduce"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Hobo", "Vagrant"],
+        "example": "The bum sat on the corner, asking for spare change."
       },
       {
         "question": "What does 'Gaze' mean?",
         "type": "Verb",
         "options": ["Doubtful", "To stare", "Pathetic / ill", "Car's trunk"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Stare", "Look intently"],
+        "example": "She couldn't help but gaze at the beautiful sunset."
       },
       {
         "question": "What does 'Call off' mean?",
@@ -190,7 +222,9 @@
           "Funny"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Cancel", "Abort"],
+        "example": "They had to call off the meeting due to unforeseen circumstances."
       },
       {
         "question": "What does 'Wear off' mean?",
@@ -202,7 +236,9 @@
           "Calm / free from disturbance"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Diminish", "Fade"],
+        "example": "The excitement of the new toy will eventually wear off."
       },
       {
         "question": "What does 'Grudge' mean?",
@@ -214,7 +250,9 @@
           "Fact/news"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Resentment", "Bitterness"],
+        "example": "She held a grudge against him for years after the argument."
       },
       {
         "question": "What does 'Rooting around' mean?",
@@ -226,14 +264,17 @@
           "To stare"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Rummaging", "Searching"],
+        "example": "He was rooting around in the attic looking for old photographs."
       },
       {
         "question": "What does 'Bloke' mean?",
         "type": "Noun",
         "options": ["To cancel", "Unaffected", "A man in UK", "Ill will"],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "example": "The bloke at the pub was very friendly."
       },
       {
         "question": "What does 'Follow' mean?",
@@ -245,7 +286,8 @@
           "To abide by"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "example": "She tried to follow the instructions but found them confusing."
       },
       {
         "question": "What does 'Comply' mean?",
@@ -257,7 +299,9 @@
           "Twsited"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Conform", "Obey"],
+        "example": "The company must comply with safety regulations."
       },
       {
         "question": "What does 'Hostage' mean?",
@@ -269,7 +313,9 @@
           "To gain / buy"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Captive", "Prisoner"],
+        "example": "The kidnappers held the hostage for ransom."
       },
       {
         "question": "What does 'Contortion' mean?",
@@ -281,14 +327,18 @@
           "Calm / free from disturbance"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Twist", "Deformation"],
+        "example": "The contortion of her body was impressive during the performance."
       },
       {
         "question": "What does 'Condols' mean?",
         "type": "Verb",
         "options": ["Doubtful", "To share sorrow", "Concrete", "Car's trunk"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Sympathize", "Commiserate"],
+        "example": "She went to the funeral to condole with the grieving family."
       },
       {
         "question": "What does 'Monetary' mean?",
@@ -300,7 +350,9 @@
           "Funny"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Financial", "Fiscal"],
+        "example": "The government announced new monetary policies to stabilize the economy."
       },
       {
         "question": "What does 'Procure' mean?",
@@ -312,7 +364,9 @@
           "Calm / free from disturbance"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Obtain", "Acquire"],
+        "example": "They managed to procure the necessary supplies for the project."
       },
       {
         "question": "What does 'Carbon credit' mean?",
@@ -343,7 +397,9 @@
         "type": "Verb",
         "options": ["To cancel", "Unaffected", "Ill will", "To reduce"],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Alleviate", "Diminish"],
+        "example": "The government took steps to mitigate the impact of the recession."
       }
     ],
     "10": [
@@ -357,7 +413,9 @@
           "Motionless, sturdy"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Deceive", "Mislead"],
+        "example": "He tried to bluff his way through the interview."
       },
       {
         "question": "What does 'Carving' mean?",
@@ -369,7 +427,9 @@
           "Horrible place/ unattractive"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Sculpture", "Engraving"],
+        "example": "The carving on the ancient temple was intricate and beautiful."
       },
       {
         "question": "What does 'Agitate' mean?",
@@ -381,7 +441,9 @@
           "Hard to understand/ difficult"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Disturb", "Upset"],
+        "example": "The news of the scandal agitated the public."
       },
       {
         "question": "What does 'Stagnant' mean?",
@@ -393,14 +455,18 @@
           "Beautiful woman"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Inactive", "Stationary"],
+        "example": "The stagnant water in the pond was a breeding ground for mosquitoes."
       },
       {
         "question": "What does 'Berth' mean?",
         "type": "Noun",
         "options": ["A contract", "Lay anchor for parking", "To leave", "Fail"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Docking space", "Ship's parking spot"],
+        "example": "The ship found a berth at the harbor."
       },
       {
         "question": "What does 'Nautical miles' mean?",
@@ -424,7 +490,9 @@
           "Related to ship"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Feared", "Apprehensive"],
+        "example": "The dreaded storm approached the coast, causing panic among the residents."
       },
       {
         "question": "What does 'Anchorage' mean?",
@@ -460,7 +528,9 @@
           "Artistic design"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Unclear", "Ambiguous"],
+        "example": "The meaning of the poem was obscure to many readers."
       },
       {
         "question": "What does 'Hinges' mean?",
@@ -472,7 +542,9 @@
           "Lay anchor for parking"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Joints", "Connectors"],
+        "example": "The door's hinges creaked as it swung open."
       },
       {
         "question": "What does 'Spring' mean?",
@@ -484,7 +556,9 @@
           "Poorly behave"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Leap", "Jump"],
+        "example": "The cat sprang onto the windowsill to chase a bird."
       },
       {
         "question": "What does 'Bonny lass' mean?",
@@ -503,7 +577,9 @@
         "type": "Noun",
         "options": ["Fail", "To invent", "Fake", "A contract"],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Agreement", "Harmony"],
+        "example": "The two countries reached an accord to end the conflict."
       },
       {
         "question": "What does 'Run off' mean?",
@@ -515,21 +591,27 @@
           "To escape"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Flee", "Depart quickly"],
+        "example": "He decided to run off to the countryside for a break."
       },
       {
         "question": "What does 'Foil' mean?",
         "type": "Verb",
         "options": ["Beautiful woman", "Fail", "A contract", "To leave"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Thwart", "Prevent"],
+        "example": "The police managed to foil the robbery before it happened."
       },
       {
         "question": "What does 'Hatch' mean?",
         "type": "Verb",
         "options": ["Fail", "To invent", "Fake", "Artistic design"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Devise", "Conceive"],
+        "example": "They hatched a plan to surprise their friend on her birthday."
       }
     ],
     "11": [
@@ -543,7 +625,9 @@
           "Blissful"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Delight", "Pleasure"],
+        "example": "The meal was prepared for the delectation of the guests."
       },
       {
         "question": "What does 'Ambient' mean?",
@@ -555,14 +639,18 @@
           "Very happy"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Surrounding", "Encompassing"],
+        "example": "The ambient music created a relaxing atmosphere in the room."
       },
       {
         "question": "What does 'Testimonial' mean?",
         "type": "Noun",
         "options": ["Review/ feedback", "Doubt", "Extra", "Related to words"],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Recommendation", "Endorsement"],
+        "example": "She wrote a glowing testimonial for the service she received."
       },
       {
         "question": "What does 'Beatific' mean?",
@@ -574,7 +662,9 @@
           "Indirect reference"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Joyful", "Blessed"],
+        "example": "The child's beatific smile lit up the room."
       },
       {
         "question": "What does 'Requite' mean?",
@@ -586,7 +676,9 @@
           "Large"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Reciprocate", "Return"],
+        "example": "He hoped she would requite his feelings of love."
       },
       {
         "question": "What does 'Elude' mean?",
@@ -598,7 +690,9 @@
           "Dazzlingly bright"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Evade", "Avoid"],
+        "example": "The thief managed to elude the police for several days."
       },
       {
         "question": "What does 'Elated' mean?",
@@ -610,7 +704,9 @@
           "To defeat"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Overjoyed", "Exhilarated"],
+        "example": "She was elated when she received the good news."
       },
       {
         "question": "What does 'Qualm' mean?",
@@ -622,7 +718,9 @@
           "Accept"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Misgiving", "Unease"],
+        "example": "He had no qualms about speaking his mind during the meeting."
       },
       {
         "question": "What does 'Auxiliary' mean?",
@@ -648,24 +746,15 @@
         "correctOption": 1,
         "points": 10
       },
-      {
-        "question": "What does 'Allusion' mean?",
-        "type": "Noun",
-        "options": [
-          "Do not direct",
-          "Blissful",
-          "Cleverly escape",
-          "Give something in return"
-        ],
-        "correctOption": 0,
-        "points": 10
-      },
+
       {
         "question": "What does 'Allude' mean?",
         "type": "Verb",
         "options": ["Indirect reference", "To admire", "Large", "To imitate"],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Refer", "Hint at"],
+        "example": "The author alludes to historical events in the story."
       },
       {
         "question": "What does 'Cavalier' mean?",
@@ -677,14 +766,18 @@
           "To do something (a action)"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Dismissive", "Nonchalant"],
+        "example": "His cavalier attitude towards the project annoyed his colleagues."
       },
       {
         "question": "What does 'Venerate' mean?",
         "type": "Verb",
         "options": ["To defeat", "Badly planned", "To admire", "Enjoyment"],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Respect", "Revere"],
+        "example": "Many cultures venerate their ancestors and seek their guidance."
       },
       {
         "question": "What does 'Immense' mean?",
@@ -696,14 +789,18 @@
           "Aggressive"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Enormous", "Huge"],
+        "example": "The immense mountain range stretched as far as the eye could see."
       },
       {
         "question": "What does 'Pastiche' mean?",
         "type": "Noun",
         "options": ["To imitate", "Accept", "Extra", "Related to words"],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Imitation", "Parody"],
+        "example": "The artist's latest work is a pastiche of various styles from the Renaissance."
       },
       {
         "question": "What does 'Sublimate' mean?",
@@ -715,7 +812,9 @@
           "Blissful"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Redirect", "Transform"],
+        "example": "He sublimated his anger into creative writing, producing a powerful novel."
       },
       {
         "question": "What does 'Fulgent' mean?",
@@ -727,7 +826,9 @@
           "To admire"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Radiant", "Shining"],
+        "example": "The fulgent sunlight streamed through the windows, illuminating the room."
       },
       {
         "question": "What does 'Galvanize' mean?",
@@ -739,7 +840,9 @@
           "To channel"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Stimulate", "Inspire"],
+        "example": "The speech galvanized the crowd into action, inspiring them to volunteer."
       },
       {
         "question": "What does 'Misbegotten' mean?",
@@ -751,7 +854,9 @@
           "Aggressive"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Ill-conceived", "Unwise"],
+        "example": "The misbegotten scheme led to significant financial losses for the company."
       },
       {
         "question": "What does 'Drub' mean?",
@@ -763,7 +868,9 @@
           "Pin to keep things firm"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Beat", "Thrash"],
+        "example": "The team was drubbed by their rivals in the championship match."
       },
       {
         "question": "What does 'Denominations' mean?",
@@ -775,7 +882,8 @@
           "Review/ feedback"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "example": "The bank offered various denominations of currency notes for exchange."
       },
       {
         "question": "What does 'Feisty' mean?",
@@ -787,14 +895,18 @@
           "Give something in return"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Spirited", "Lively"],
+        "example": "Despite her small stature, she had a feisty personality that commanded attention."
       },
       {
         "question": "What does 'Condone/Entertain' mean?",
         "type": "Verb",
         "options": ["To admire", "Accept", "Large", "To imitate"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Tolerate", "Allow"],
+        "example": "The teacher did not condone cheating and made it clear that it would not be entertained in her class."
       },
       {
         "question": "What does 'Clamp' mean?",
@@ -806,7 +918,9 @@
           "Currency note/ group of people"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Secure", "Fasten"],
+        "example": "He used a clamp to hold the pieces of wood together while the glue dried."
       },
       {
         "question": "What does 'Linchpin' mean?",
@@ -818,7 +932,8 @@
           "Aggressive"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "The linchpin of the project was the team's ability to work together effectively."
       },
       {
         "question": "What does 'Urbane' mean?",
@@ -830,7 +945,9 @@
           "Give something in return"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Sophisticated", "Cultured"],
+        "example": "His urbane manners made him a favorite at social gatherings."
       }
     ]
   },
@@ -846,7 +963,9 @@
           "Odd / unusual"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Revitalize", "Refresh"],
+        "example": "A vacation can help to rejuvenate your mind and body."
       },
       {
         "question": "What does 'Potpourri' mean?",
@@ -858,7 +977,9 @@
           "To end"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Mixture", "Medley"],
+        "example": "The potpourri of spices filled the room with a delightful aroma."
       },
       {
         "question": "What does 'Addlepated' mean?",
@@ -867,10 +988,12 @@
           "Bad anticipation / seize something",
           "To improve",
           "Boring because used too often (overused)",
-          "Confused / odd / unusual"
+          "Confused"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Dazed", "Muddled"],
+        "example": "After staying up all night, he felt completely addlepated the next day."
       },
       {
         "question": "What does 'Eccentric' mean?",
@@ -882,7 +1005,9 @@
           "Small"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Quirky", "Unconventional"],
+        "example": "Her eccentric behavior often made her the center of attention at parties."
       },
       {
         "question": "What does 'Fulminated' mean?",
@@ -894,7 +1019,9 @@
           "Related to fraud"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Protest", "Denounce"],
+        "example": "He fulminated against the unfair treatment he received at work."
       },
       {
         "question": "What does 'Countermeasure' mean?",
@@ -906,7 +1033,9 @@
           "Large no of peoples"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Preventive action", "Defense"],
+        "example": "The government implemented countermeasures to protect against cyber attacks."
       },
       {
         "question": "What does 'Wind-up' mean?",
@@ -918,7 +1047,9 @@
           "To convince"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Conclude", "Finish"],
+        "example": "They decided to wind up the meeting after discussing all the agenda items."
       },
       {
         "question": "What does 'Apprehension' mean?",
@@ -930,7 +1061,9 @@
           "Undefendable"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Anxiety", "Fear"],
+        "example": "She felt a sense of apprehension before the big presentation."
       },
       {
         "question": "What does 'Parlay' mean?",
@@ -942,7 +1075,9 @@
           "To convince"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Enhance", "Advance"],
+        "example": "He hoped to parlay his small investment into a larger profit."
       },
       {
         "question": "What does 'Hackneyed' mean?",
@@ -954,7 +1089,9 @@
           "Blue like sky"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Clichéd", "Trite"],
+        "example": "The movie was criticized for its hackneyed plot and predictable ending."
       },
       {
         "question": "What does 'Deus ex machina' mean?",
@@ -966,7 +1103,9 @@
           "To young and energize"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Unexpected solution", "Sudden resolution"],
+        "example": "The ending of the novel felt like a deus ex machina, resolving all conflicts in an unrealistic way."
       },
       {
         "question": "What does 'Secular' mean?",
@@ -974,11 +1113,13 @@
         "options": [
           "To get aware of",
           "Large in size",
-          "Not religious",
+          "Not concerned with particular religious",
           "Not smooth"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Worldly", "Temporal"],
+        "example": "The secular nature of the event allowed people of all beliefs to participate."
       },
       {
         "question": "What does 'Minuscule' mean?",
@@ -990,7 +1131,9 @@
           "Type of leggies"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Tiny", "Microscopic"],
+        "example": "The minuscule details in the painting were impressive and added depth to the artwork."
       },
       {
         "question": "What does 'Leitmotif' mean?",
@@ -1002,7 +1145,9 @@
           "Servant who serves wines"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Theme", "Motif"],
+        "example": "The leitmotif of love and sacrifice ran throughout the novel, tying the story together."
       },
       {
         "question": "What does 'Cozen' mean?",
@@ -1014,7 +1159,9 @@
           "Intense study of something"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Trick", "Swindle"],
+        "example": "He tried to cozen his way into getting a free meal at the restaurant."
       },
       {
         "question": "What does 'Scores of people' mean?",
@@ -1026,7 +1173,8 @@
           "Who praise good food and drink or excess eat"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "Scores of people gathered at the concert to see their favorite band perform."
       },
       {
         "question": "What does 'Persuade' mean?",
@@ -1038,14 +1186,18 @@
           "Very strange"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Convince", "Influence"],
+        "example": "She tried to persuade her friend to join her on the trip."
       },
       {
         "question": "What does 'Fraudulent' mean?",
         "type": "Adjective",
         "options": ["Related to fraud", "Sorrowful", "Evil", "Expert"],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Deceptive", "Dishonest"],
+        "example": "The company was accused of fraudulent practices in its financial reporting."
       },
       {
         "question": "What does 'Untenable' mean?",
@@ -1057,7 +1209,9 @@
           "To teach their mind and soul"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Indefensible", "Unjustifiable"],
+        "example": "The argument he presented was untenable and could not withstand scrutiny."
       },
       {
         "question": "What does 'Virtuoso' mean?",
@@ -1069,7 +1223,9 @@
           "Move gradually to reach unusual place or gradually take someone else things"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Expert", "Master"],
+        "example": "The pianist was a virtuoso, captivating the audience with his incredible skill."
       },
       {
         "question": "What does 'Excursion' mean?",
@@ -1081,7 +1237,9 @@
           "Tolerate"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Trip", "Outing"],
+        "example": "They went on an excursion to the mountains for the weekend."
       },
       {
         "question": "What does 'Gelid' mean?",
@@ -1093,7 +1251,9 @@
           "To get aware of"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Icy", "Freezing"],
+        "example": "The gelid wind made everyone shiver as they walked outside."
       },
       {
         "question": "What does 'Beleaguer' mean?",
@@ -1105,7 +1265,9 @@
           "Thick book"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Harass", "Bother"],
+        "example": "The beleaguered team struggled to perform under constant pressure from the fans."
       },
       {
         "question": "What does 'Tome' mean?",
@@ -1117,7 +1279,9 @@
           "To expel"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Volume", "Book"],
+        "example": "He spent hours reading the ancient tome filled with knowledge of the past."
       },
       {
         "question": "What does 'Cerulean' mean?",
@@ -1129,7 +1293,9 @@
           "To get aware of"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Sky-blue", "Azure"],
+        "example": "The cerulean waters of the ocean were breathtakingly beautiful."
       },
       {
         "question": "What does 'Evict' mean?",
@@ -1141,7 +1307,9 @@
           "Separated from group"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Remove", "Force out"],
+        "example": "The landlord had to evict the tenants for not paying their rent."
       },
       {
         "question": "What does 'Cognizance' mean?",
@@ -1153,7 +1321,9 @@
           "Type of leggies"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Awareness", "Knowledge"],
+        "example": "The detective took cognizance of all the evidence before making an arrest."
       },
       {
         "question": "What does 'Grandeur' mean?",
@@ -1165,19 +1335,23 @@
           "Wood bed for dead bodies"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Magnificence", "Splendor"],
+        "example": "The grandeur of the palace left the visitors in awe."
       },
       {
         "question": "What does 'Rough' mean?",
         "type": "Noun",
         "options": [
           "Attractive",
-          "Not smooth",
+          "Not smooth/ useless",
           "Intense study of something",
           "To young and energize"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Uneven", "Coarse"],
+        "example": "The rough surface of the stone made it difficult to walk on."
       },
       {
         "question": "What does 'Rogue' mean?",
@@ -1189,7 +1363,9 @@
           "Impossible to copy"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Outcast", "Rebel"],
+        "example": "The rogue was known for his cunning tricks and ability to evade capture."
       },
       {
         "question": "What does 'Deadbeat' mean?",
@@ -1201,7 +1377,9 @@
           "More than one"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Lazy person", "Good-for-nothing"],
+        "example": "He was considered a deadbeat for never holding a job and relying on others for support."
       },
       {
         "question": "What does 'Pantyhose' mean?",
@@ -1220,7 +1398,9 @@
           "Long, not direct"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Unfavorable", "Inappropriate"],
+        "example": "His untoward behavior at the party made everyone uncomfortable."
       },
       {
         "question": "What does 'Pyre' mean?",
@@ -1232,7 +1412,9 @@
           "A silly remark which is improper"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Funeral fire", "Cremation"],
+        "example": "The pyre was lit to honor the deceased in a traditional ceremony."
       },
       {
         "question": "What does 'Cup-bearer' mean?",
@@ -1256,14 +1438,18 @@
           "Boring because used too often (overused)"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Betrayal of trust", "Disloyalty"],
+        "example": "The spy was charged with treason for leaking classified information to a foreign government."
       },
       {
         "question": "What does 'Alluring' mean?",
         "type": "Verb",
         "options": ["To improve", "Attractive", "Thick book", "To expel"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Charming", "Fascinating"],
+        "example": "The alluring fragrance of the flowers attracted many bees to the garden."
       },
       {
         "question": "What does 'Scrutiny' mean?",
@@ -1275,7 +1461,9 @@
           "Separated from group"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Examination", "Inspection"],
+        "example": "The proposal was subject to close scrutiny before approval."
       },
       {
         "question": "What does 'Opine' mean?",
@@ -1287,7 +1475,9 @@
           "Type of leggies"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["State an opinion", "Comment"],
+        "example": "He opined that the new policy would benefit the community in the long run."
       },
       {
         "question": "What does 'Inimitable' mean?",
@@ -1299,7 +1489,9 @@
           "Servant who serves wines"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Unique", "Unmatched"],
+        "example": "Her inimitable style of painting set her apart from other artists."
       },
       {
         "question": "What does 'Gourmand/ Glutton' mean?",
@@ -1311,7 +1503,9 @@
           "Intense study of something"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Food lover", "Epicure"],
+        "example": "He was known as a gourmand, always seeking out the finest dining experiences."
       },
       {
         "question": "What does 'Wanderlust' mean?",
@@ -1335,7 +1529,9 @@
           "Sorrowful"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Various", "Diverse"],
+        "example": "The festival featured divers performances from artists around the world."
       },
       {
         "question": "What does 'Uncanny' mean?",
@@ -1347,7 +1543,9 @@
           "System for naming in science"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Strange", "Mysterious"],
+        "example": "She had an uncanny ability to predict the outcome of events before they happened."
       },
       {
         "question": "What does 'Mourn' mean?",
@@ -1359,7 +1557,9 @@
           "Garden"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Grieve", "Lament"],
+        "example": "They mourned the loss of their beloved pet for weeks after it passed away."
       },
       {
         "question": "What does 'Wicked' mean?",
@@ -1371,7 +1571,9 @@
           "To young and energize"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Sinister", "Immoral"],
+        "example": "The wicked villain plotted to take over the world with his evil schemes."
       },
       {
         "question": "What does 'Scholar' mean?",
@@ -1383,7 +1585,9 @@
           "Collection of something or mixture of dry flower and liquid"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Academic", "Learner"],
+        "example": "The scholar dedicated his life to studying ancient civilizations and their cultures."
       },
       {
         "question": "What does 'Nomenclature' mean?",
@@ -1395,7 +1599,9 @@
           "To improve"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Terminology", "Classification"],
+        "example": "The nomenclature of chemical compounds is essential for understanding their properties."
       },
       {
         "question": "What does 'Circuitous' mean?",
@@ -1407,7 +1613,9 @@
           "Small"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Indirect", "Roundabout"],
+        "example": "The circuitous route took us through several small towns before reaching our destination."
       },
       {
         "question": "What does 'Edify' mean?",
@@ -1419,7 +1627,9 @@
           "Large no of peoples"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Instruct", "Enlighten"],
+        "example": "The lecture was designed to edify the students about the importance of ethics in business."
       },
       {
         "question": "What does 'Sward' mean?",
@@ -1431,7 +1641,9 @@
           "Not smooth"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Lawn", "Grassland"],
+        "example": "The children played on the sward, enjoying the fresh air and sunshine."
       },
       {
         "question": "What does 'Facetious' mean?",
@@ -1443,7 +1655,9 @@
           "Wood bed for dead bodies"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Flippant", "Joking"],
+        "example": "His facetious comments during the serious meeting were not well received by the team."
       },
       {
         "question": "What does 'Encroach' mean?",
@@ -1455,7 +1669,9 @@
           "Attractive"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Intrude", "Invade"],
+        "example": "The weeds began to encroach upon the garden, threatening to overtake the flowers."
       }
     ],
     "1": [
@@ -1469,7 +1685,9 @@
           "Sign of something happening in future"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Savage", "Ferocious"],
+        "example": "The vicious attack left the victim with serious injuries."
       },
       {
         "question": "What does 'Flattery' mean?",
@@ -1481,7 +1699,9 @@
           "A person in heavy debt"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Compliment", "Praise"],
+        "example": "She used flattery to win over her boss and secure a promotion."
       },
       {
         "question": "What does 'Disputatious' mean?",
@@ -1493,7 +1713,9 @@
           "False story/ rumor"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Argumentative", "Contentious"],
+        "example": "His disputatious nature often led to heated debates with colleagues."
       },
       {
         "question": "What does 'Presage' mean?",
@@ -1505,7 +1727,9 @@
           "Not well planned"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Foretell", "Predict"],
+        "example": "The dark clouds presaged a storm that would hit the area later in the day."
       },
       {
         "question": "What does 'Spontaneous' mean?",
@@ -1517,7 +1741,9 @@
           "Traces"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Unplanned", "Impulsive"],
+        "example": "Their spontaneous decision to go on a road trip led to an unforgettable adventure."
       },
       {
         "question": "What does 'Autonomous' mean?",
@@ -1529,7 +1755,9 @@
           "Discharge from a job"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Independent", "Self-governing"],
+        "example": "The autonomous region was able to make its own laws and regulations without interference from the central government."
       },
       {
         "question": "What does 'Insolvent' mean?",
@@ -1541,7 +1769,9 @@
           "To think carefully"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Bankrupt", "Unable to pay debts"],
+        "example": "The company declared itself insolvent after failing to meet its financial obligations."
       },
       {
         "question": "What does 'Sarcophagus' mean?",
@@ -1553,7 +1783,8 @@
           "Not following the conversation"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "The ancient sarcophagus was intricately carved and contained the remains of a long-dead pharaoh."
       },
       {
         "question": "What does 'Zaftig' mean?",
@@ -1565,7 +1796,9 @@
           "Belong to"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Curvy", "Full-figured"],
+        "example": "The actress was known for her zaftig figure, which was celebrated in the media."
       },
       {
         "question": "What does 'Canard' mean?",
@@ -1577,7 +1810,9 @@
           "To struggle"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Fabrication", "Falsehood"],
+        "example": "The canard about the celebrity's scandal spread quickly on social media."
       },
       {
         "question": "What does 'Ad-lib' mean?",
@@ -1589,7 +1824,9 @@
           "Dealing with people in diplomatic way"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Improvise", "Extemporize"],
+        "example": "The actor had to ad-lib his lines when he forgot the script during the performance."
       },
       {
         "question": "What does 'Malapropism' mean?",
@@ -1601,7 +1838,8 @@
           "Happy"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "His use of malapropism during the speech made everyone laugh, as he confused similar-sounding words."
       },
       {
         "question": "What does 'Finesse way' mean?",
@@ -1613,7 +1851,9 @@
           "Related to heaven"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Diplomacy", "Tact"],
+        "example": "She handled the delicate situation with finesse, ensuring that all parties were satisfied."
       },
       {
         "question": "What does 'Ecstatic' mean?",
@@ -1625,7 +1865,9 @@
           "Stone coffin"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Overjoyed", "Elated"],
+        "example": "The crowd was ecstatic when their team won the championship, celebrating with cheers and applause."
       },
       {
         "question": "What does 'Vestige' mean?",
@@ -1637,7 +1879,9 @@
           "Traces"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Trace", "Remnant"],
+        "example": "The archaeologists found a vestige of an ancient civilization buried beneath the ground."
       },
       {
         "question": "What does 'Insurgency' mean?",
@@ -1649,7 +1893,9 @@
           "Dealing with people in diplomatic way"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Revolt", "Uprising"],
+        "example": "The insurgency in the region led to widespread unrest and conflict."
       },
       {
         "question": "What does 'Celestial' mean?",
@@ -1661,7 +1907,9 @@
           "Self govern"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Heavenly", "Divine"],
+        "example": "The celestial bodies in the night sky were a breathtaking sight, inspiring awe and wonder."
       },
       {
         "question": "What does 'Sack' mean?",
@@ -1673,7 +1921,9 @@
           "Bold/ courageous"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Fire", "Dismiss"],
+        "example": "The company had to sack several employees due to budget cuts and restructuring."
       },
       {
         "question": "What does 'Cryptic' mean?",
@@ -1685,7 +1935,9 @@
           "Not following the conversation"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Mysterious", "Enigmatic"],
+        "example": "The cryptic message left everyone puzzled, as its meaning was not immediately clear."
       },
       {
         "question": "What does 'Ruminate' mean?",
@@ -1697,7 +1949,9 @@
           "To struggle"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Reflect", "Meditate"],
+        "example": "She took a moment to ruminate on the decision before making her final choice."
       },
       {
         "question": "What does 'Hagiography' mean?",
@@ -1721,7 +1975,9 @@
           "To think carefully"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Brave", "Chivalrous"],
+        "example": "The gallant knight rode into battle, ready to defend his kingdom with honor."
       },
       {
         "question": "What does 'Non sequitur' mean?",
@@ -1733,14 +1989,17 @@
           "Hidden/ hard to understand"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "His comment was a non sequitur, completely unrelated to the topic being discussed."
       },
       {
         "question": "What does 'Pertain' mean?",
         "type": "Verb",
         "options": ["Belong to", "Not clear", "To struggle", "Extreme praise"],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Relate to", "Concern"],
+        "example": "The rules pertain to all members of the organization, ensuring fairness and consistency."
       },
       {
         "question": "What does 'Obtuse' mean?",
@@ -1752,7 +2011,9 @@
           "W/o prepared"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Dull", "Slow-witted"],
+        "example": "His obtuse response to the question showed that he did not understand the topic at all."
       },
       {
         "question": "What does 'Floundered' mean?",
@@ -1764,7 +2025,9 @@
           "Traces"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Flail", "Wallow"],
+        "example": "The swimmer floundered in the water, trying to regain her balance after being knocked off course by a wave."
       }
     ],
     "2": [
@@ -1778,7 +2041,9 @@
           "Open space for ppl to gether"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Undecided", "Skeptical"],
+        "example": "He identified as an agnostic, unsure about the existence of a higher power."
       },
       {
         "question": "What does 'Segregate' mean?",
@@ -1790,7 +2055,9 @@
           "To separate"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Isolate", "Separate"],
+        "example": "The policy aimed to segregate waste materials for better recycling practices."
       },
       {
         "question": "What does 'Acquainted' mean?",
@@ -1802,7 +2069,9 @@
           "Tolerate"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Familiar", "Informed"],
+        "example": "She became acquainted with the local customs after living in the town for a few months."
       },
       {
         "question": "What does 'Concourse' mean?",
@@ -1814,7 +2083,9 @@
           "To present"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Gathering", "Assembly"],
+        "example": "The concourse was filled with people waiting for their flights, creating a bustling atmosphere."
       },
       {
         "question": "What does 'Bifurcation' mean?",
@@ -1826,14 +2097,18 @@
           "To improve"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Division", "Splitting"],
+        "example": "The bifurcation of the river created two distinct paths for the water to flow."
       },
       {
         "question": "What does 'Put up with' mean?",
         "type": "Verb",
         "options": ["To continue", "To find answer", "Indecisive", "Tolerate"],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Endure", "Bear"],
+        "example": "She had to put up with the noise from the construction site next door for several months."
       },
       {
         "question": "What does 'Show up' mean?",
@@ -1845,7 +2120,9 @@
           "To investigate"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Appear", "Arrive"],
+        "example": "He promised to show up at the party, but he never arrived."
       },
       {
         "question": "What does 'Brush up on' mean?",
@@ -1857,7 +2134,9 @@
           "Indecisive"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Refresh", "Review"],
+        "example": "She decided to brush up on her Spanish skills before traveling to Spain."
       },
       {
         "question": "What does 'Carry on' mean?",
@@ -1869,7 +2148,9 @@
           "To present"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Persist", "Continue"],
+        "example": "Despite the challenges, they decided to carry on with their project."
       },
       {
         "question": "What does 'Figure out' mean?",
@@ -1881,7 +2162,9 @@
           "To investigate"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Solve", "Understand"],
+        "example": "After hours of brainstorming, they finally managed to figure out the solution to the problem."
       },
       {
         "question": "What does 'Look into' mean?",
@@ -1893,7 +2176,9 @@
           "To find answer"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Examine", "Research"],
+        "example": "The detective was assigned to look into the mysterious disappearance of the artifact."
       },
       {
         "question": "What does 'Run into' mean?",
@@ -1905,7 +2190,9 @@
           "Encounter something"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Meet unexpectedly", "Bump into"],
+        "example": "I ran into an old friend at the grocery store, and we caught up on old times."
       },
       {
         "question": "What does 'Ostensible' mean?",
@@ -1917,7 +2204,9 @@
           "Open space for ppl to gether"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Apparent", "Seeming"],
+        "example": "The ostensible reason for his absence was a family emergency, but many suspected otherwise."
       }
     ],
     "5": [
@@ -1931,7 +2220,9 @@
           "Extremely hungry"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Attribute", "Assign blame"],
+        "example": "The manager tried to impute the failure of the project on his team, but it was clear that he had not provided adequate support."
       },
       {
         "question": "What does 'Debilitating' mean?",
@@ -1943,7 +2234,9 @@
           "Street, passageway"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Weakened", "Enfeebling"],
+        "example": "The debilitating illness left him unable to perform even the simplest tasks."
       },
       {
         "question": "What does 'Minutia' mean?",
@@ -1955,7 +2248,8 @@
           "Defence of one's actions or opinion"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "The report was filled with minutia that distracted from the main findings."
       },
       {
         "question": "What does 'Eloquent' mean?",
@@ -1967,7 +2261,9 @@
           "Extremely hungry"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Articulate", "Expressive"],
+        "example": "Her eloquent speech moved the audience to tears, conveying deep emotion and passion."
       },
       {
         "question": "What does 'Cataract' mean?",
@@ -1979,7 +2275,8 @@
           "Unpleasant, disgusting"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "The doctor diagnosed him with a cataract, which was causing his vision to blur."
       },
       {
         "question": "What does 'Abstruse' mean?",
@@ -1991,7 +2288,9 @@
           "Extremely hungry"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Complex", "Recondite"],
+        "example": "The professor's lecture on quantum physics was so abstruse that many students struggled to follow along."
       },
       {
         "question": "What does 'Festoon' mean?",
@@ -2003,7 +2302,9 @@
           "To decorate"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Adorn", "Embellish"],
+        "example": "They festooned the hall with colorful banners and lights for the celebration."
       },
       {
         "question": "What does 'Sea change' mean?",
@@ -2015,7 +2316,8 @@
           "Freeing someone from control"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "example": "The new CEO implemented a sea change in the company's culture, focusing on innovation and employee well-being."
       },
       {
         "question": "What does 'Bogus' mean?",
@@ -2027,7 +2329,9 @@
           "Unable to function"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Counterfeit", "Fraudulent"],
+        "example": "The police arrested the gang for selling bogus tickets to unsuspecting concertgoers."
       },
       {
         "question": "What does 'Tutelage' mean?",
@@ -2039,7 +2343,9 @@
           "To decorate"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Instruction", "Mentorship"],
+        "example": "Under the tutelage of her mentor, she developed her skills and gained confidence in her abilities."
       },
       {
         "question": "What does 'Herculean' mean?",
@@ -2051,7 +2357,9 @@
           "Descendant of a group or race"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Mighty", "Formidable"],
+        "example": "The team faced a herculean task in completing the project on time, but they managed to pull it off with hard work and dedication."
       },
       {
         "question": "What does 'Proscribe' mean?",
@@ -2063,7 +2371,9 @@
           "Forbid, especially by law"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Ban", "Outlaw"],
+        "example": "The government decided to proscribe the use of certain harmful chemicals in agriculture to protect the environment."
       },
       {
         "question": "What does 'Ordinance' mean?",
@@ -2075,7 +2385,9 @@
           "Failing organization"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Regulation", "Law"],
+        "example": "The city council passed an ordinance to regulate noise levels in residential areas during the night."
       },
       {
         "question": "What does 'Rambunctious' mean?",
@@ -2087,7 +2399,9 @@
           "Unable to function"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Unruly", "Boisterous"],
+        "example": "The rambunctious children ran around the playground, laughing and playing without a care in the world."
       },
       {
         "question": "What does 'Stammer / Stutter' mean?",
@@ -2099,7 +2413,9 @@
           "Fake"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Hesitate", "Falter"],
+        "example": "He began to stammer when he was nervous, struggling to get his words out clearly."
       },
       {
         "question": "What does 'Disbar' mean?",
@@ -2111,7 +2427,9 @@
           "Freeing someone from control"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Disqualify", "Remove from practice"],
+        "example": "The lawyer was disbarred for unethical conduct, preventing him from practicing law again."
       },
       {
         "question": "What does 'Sinking' mean?",
@@ -2123,7 +2441,8 @@
           "Failing organization or enterprise"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "example": "The sinking of the ship was a tragic event that led to the loss of many lives."
       },
       {
         "question": "What does 'Vexillology' mean?",
@@ -2147,7 +2466,9 @@
           "Descendant of particular group or race"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Descendants"],
+        "example": "The scientist studied the progeny of the genetically modified plants to understand their growth patterns."
       },
       {
         "question": "What does 'Garrulous' mean?",
@@ -2159,7 +2480,9 @@
           "Defence of one's actions or opinion"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Talkative", "Loquacious"],
+        "example": "The garrulous neighbor would often stop by for long chats, sharing stories about his life."
       },
       {
         "question": "What does 'Apologia' mean?",
@@ -2171,7 +2494,9 @@
           "Order by government"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Defense", "Justification"],
+        "example": "The politician's apologia for his controversial decision was met with mixed reactions from the public."
       },
       {
         "question": "What does 'Emancipation' mean?",
@@ -2183,7 +2508,9 @@
           "Freeing someone from another’s control or power"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Liberation", "Freedom"],
+        "example": "The Emancipation Proclamation was a significant step towards ending slavery in the United States."
       },
       {
         "question": "What does 'Litmus Test' mean?",
@@ -2195,7 +2522,8 @@
           "To decorate"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "example": "The new policy was a litmus test for the company's commitment to sustainability, determining whether they would take meaningful action."
       },
       {
         "question": "What does 'Warlock' mean?",
@@ -2219,7 +2547,9 @@
           "Small detail"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Starving", "Ravenous"],
+        "example": "After hiking all day, they were famished and couldn't wait to eat a hearty meal."
       },
       {
         "question": "What does 'Bemuse' mean?",
@@ -2231,7 +2561,9 @@
           "Very expensive or rich"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Baffle", "Perplex"],
+        "example": "The complex instructions bemused the new employees, leaving them unsure of how to proceed."
       },
       {
         "question": "What does 'Wherewithal' mean?",
@@ -2243,7 +2575,8 @@
           "Small detail"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "She had the wherewithal to start her own business, thanks to her savings and experience in the industry."
       },
       {
         "question": "What does 'Alley' mean?",
@@ -2267,7 +2600,8 @@
           "To decorate"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "example": "The odor of freshly baked bread filled the kitchen, making everyone feel hungry."
       },
       {
         "question": "What does 'Noisome' mean?",
@@ -2279,7 +2613,9 @@
           "Unable to function"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Foul", "Offensive"],
+        "example": "The noisome smell from the garbage dump made it difficult to breathe in the area."
       },
       {
         "question": "What does 'Expunge' mean?",
@@ -2291,7 +2627,9 @@
           "Freeing someone from control"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Erase", "Delete"],
+        "example": "The court decided to expunge the defendant's criminal record after he completed his rehabilitation program."
       },
       {
         "question": "What does 'Impetus' mean?",
@@ -2303,7 +2641,9 @@
           "Blame"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Motivation", "Incentive"],
+        "example": "The new funding provided the impetus needed to launch the innovative project, driving it forward."
       },
       {
         "question": "What does 'Restive' mean?",
@@ -2315,7 +2655,9 @@
           "To become impatient or state of uneasiness"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Restless", "Impatient"],
+        "example": "The restive crowd grew impatient as they waited for the concert to start longer than expected."
       },
       {
         "question": "What does 'Oblige' mean?",
@@ -2327,7 +2669,9 @@
           "Unable to function"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Compel", "Require"],
+        "example": "The law obliges citizens to pay taxes, ensuring that everyone contributes to the welfare of society."
       },
       {
         "question": "What does 'Sumptuous' mean?",
@@ -2339,7 +2683,9 @@
           "Very expensive or rich"
         ],
         "correctOption": 3,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Luxurious", "Magnificent"],
+        "example": "The sumptuous banquet featured a wide array of gourmet dishes and fine wines, impressing all the guests with its opulence."
       },
       {
         "question": "What does 'Flotsam' mean?",
@@ -2351,7 +2697,8 @@
           "Unable to function"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "example": "After the storm, the beach was littered with flotsam from the shipwreck, including pieces of wood and personal belongings."
       },
       {
         "question": "What does 'Flotsam and Jetsam' mean?",
@@ -2363,7 +2710,8 @@
           "Fake"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "The attic was filled with flotsam and jetsam from years of collecting, including old toys and forgotten books."
       }
     ],
     "6": [
@@ -2377,7 +2725,9 @@
           "An American"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Wordy", "Long-winded"],
+        "example": "His verbose explanation made it difficult to understand the main point he was trying to convey."
       },
       {
         "question": "What does 'Galumph' mean?",
@@ -2389,7 +2739,9 @@
           "Very successfully"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Stomp", "Trudge"],
+        "example": "The elephant galumphed through the jungle, its heavy footsteps echoing in the quiet surroundings."
       },
       {
         "question": "What does 'Desultory' mean?",
@@ -2401,7 +2753,9 @@
           "To revoke or end"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Aimless", "Disconnected"],
+        "example": "His desultory efforts to complete the project left his team frustrated and confused about the direction they were heading."
       },
       {
         "question": "What does 'Yankee' mean?",
@@ -2413,7 +2767,8 @@
           "Very good or exceptional"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "During the Revolutionary War, the term 'Yankee' was used to refer to American colonists who supported independence from British rule."
       },
       {
         "question": "What does 'Cantankerous' mean?",
@@ -2425,7 +2780,8 @@
           "Very subtle difference"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "The cantankerous old man argued with everyone in the neighborhood over the smallest issues."
       },
       {
         "question": "What does 'Antic' mean?",
@@ -2437,7 +2793,9 @@
           "An American"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Prank", "Trick"],
+        "example": "The children performed an antic that had everyone laughing, showcasing their playful spirit."
       },
       {
         "question": "What does 'Exemplary' mean?",
@@ -2449,7 +2807,9 @@
           "Irritating / annoying"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Model", "Outstanding"],
+        "example": "Her exemplary performance in the competition earned her a scholarship to a prestigious university."
       },
       {
         "question": "What does 'Boffo' mean?",
@@ -2461,7 +2821,8 @@
           "To revoke or end"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "The movie received a boffo reception at the box office, breaking records for ticket sales in its opening weekend."
       },
       {
         "question": "What does 'Rescind' mean?",
@@ -2473,7 +2834,9 @@
           "To regret or apologize"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Cancel", "Annul"],
+        "example": "The company decided to rescind the job offer after discovering discrepancies in the candidate's resume."
       },
       {
         "question": "What does 'Impunity' mean?",
@@ -2485,7 +2848,9 @@
           "Very good or exceptional"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Exemption", "Immunity"],
+        "example": "The corrupt officials acted with impunity, knowing they would not face any consequences for their actions."
       },
       {
         "question": "What does 'Contrite' mean?",
@@ -2497,7 +2862,8 @@
           "To revoke or end"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "He felt contrite after realizing the harm his words had caused, and he immediately apologized to those affected."
       },
       {
         "question": "What does 'Nuance' mean?",
@@ -2509,7 +2875,8 @@
           "Official order to claim"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "The artist captured the nuances of light and shadow in her painting, giving it a lifelike quality."
       },
       {
         "question": "What does 'Despicable' mean?",
@@ -2521,7 +2888,8 @@
           "Not related to subject"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "His despicable actions towards his colleagues led to a toxic work environment, causing many to leave the company."
       },
       {
         "question": "What does 'Sabotage' mean?",
@@ -2533,7 +2901,9 @@
           "An American"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Vandalism", "Interference"],
+        "example": "The workers were accused of sabotage after they intentionally damaged the machinery to delay production."
       },
       {
         "question": "What does 'Requisition' mean?",
@@ -2545,7 +2915,8 @@
           "Unpleasant or evil"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "example": "The military issued a requisition for additional supplies to support the ongoing operations in the region."
       },
       {
         "question": "What does 'Impugn' mean?",
@@ -2557,7 +2928,8 @@
           "Irritating / annoying"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "The lawyer tried to impugn the credibility of the witness by questioning his motives and character."
       },
       {
         "question": "What does 'Lest' mean?",
@@ -2569,7 +2941,8 @@
           "More words than necessary"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "She took detailed notes during the lecture lest she forget any important information for the exam."
       },
       {
         "question": "What does 'Tantalize' mean?",
@@ -2581,7 +2954,8 @@
           "Very successfully"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "The aroma of the freshly baked cookies tantalized everyone in the house, making it hard to resist having one."
       },
       {
         "question": "What does 'Abject' mean?",
@@ -2593,7 +2967,9 @@
           "To malign"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Wretched", "Miserable"],
+        "example": "The abject poverty in the region was evident, with many families struggling to meet their basic needs."
       },
       {
         "question": "What does 'Fugitive' mean?",
@@ -2605,7 +2981,8 @@
           "Unpleasant or evil"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "The fugitive was on the run from the law, evading capture for several months before being apprehended."
       },
       {
         "question": "What does 'Meritorious' mean?",
@@ -2617,7 +2994,8 @@
           "Wildly playful / funny act or action"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "Her meritorious service to the community earned her a prestigious award, recognizing her dedication and hard work."
       },
       {
         "question": "What does 'Devise' mean?",
@@ -2629,7 +3007,9 @@
           "To drop / rid of something"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Conceive", "Formulate"],
+        "example": "The team worked together to devise a new strategy that would improve their chances of success in the competition."
       },
       {
         "question": "What does 'Logy' mean?",
@@ -2641,7 +3021,9 @@
           "An universal remedy"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Dull", "Sluggish"],
+        "example": "After staying up late, he felt logy the next day, struggling to stay awake during meetings."
       },
       {
         "question": "What does 'Jettison' mean?",
@@ -2653,7 +3035,9 @@
           "Make attractive"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Discard", "Abandon"],
+        "example": "The crew had to jettison some cargo to lighten the ship and prevent it from sinking during the storm."
       },
       {
         "question": "What does 'Hubris' mean?",
@@ -2665,7 +3049,8 @@
           "Easily done"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "His hubris led him to underestimate his opponents, ultimately resulting in his defeat in the competition."
       },
       {
         "question": "What does 'Utmost' mean?",
@@ -2677,7 +3062,9 @@
           "Lookalike"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Maximum", "Greatest"],
+        "example": "She put forth her utmost effort to ensure the success of the project, leaving no stone unturned in her pursuit of excellence."
       },
       {
         "question": "What does 'Panacea' mean?",
@@ -2689,7 +3076,8 @@
           "Irritating / annoying"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "Many people believe that technology is a panacea for all societal problems, but it often creates new challenges as well."
       },
       {
         "question": "What does 'Sui generis' mean?",
@@ -2701,7 +3089,9 @@
           "An American"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Unique", "In a class of its own"],
+        "example": "Her artistic style is sui generis, setting her apart from other artists in the contemporary art scene."
       },
       {
         "question": "What does 'Embellish' mean?",
@@ -2713,7 +3103,8 @@
           "More words than necessary"
         ],
         "correctOption": 2,
-        "points": 10
+        "points": 10,
+        "example": "The designer decided to embellish the dress with intricate beadwork, making it more visually appealing for the gala."
       },
       {
         "question": "What does 'Brouhaha' mean?",
@@ -2725,7 +3116,9 @@
           "Complaining"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Commotion", "Fuss"],
+        "example": "The announcement of the new policy caused a brouhaha among the employees, leading to heated discussions and debates in the office."
       },
       {
         "question": "What does 'Facile' mean?",
@@ -2737,7 +3130,8 @@
           "Annoyed"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "The facile solution to the problem seemed too good to be true, and further investigation revealed its flaws."
       },
       {
         "question": "What does 'Quibbling' mean?",
@@ -2749,7 +3143,8 @@
           "Subject of honor or praise"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "example": "They spent hours quibbling over minor details of the contract, delaying the signing process and frustrating everyone involved."
       },
       {
         "question": "What does 'Doppelgänger' mean?",
@@ -2761,14 +3156,17 @@
           "Easily done"
         ],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "example": "She was surprised to meet her doppelgänger at the event, someone who looked exactly like her but was completely unrelated."
       },
       {
         "question": "What does 'Exuberance' mean?",
         "type": "Noun",
         "options": ["Highest in degree", "Enthusiasm", "Annoyed", "Lookalike"],
         "correctOption": 1,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Elation", "Joyfulness"],
+        "example": "The children's exuberance was contagious as they played in the park, their laughter filling the air with joy."
       },
       {
         "question": "What does 'Petulant' mean?",
@@ -2780,7 +3178,9 @@
           "Very successfully"
         ],
         "correctOption": 0,
-        "points": 10
+        "points": 10,
+        "synonyms": ["Irritable", "Peevish"],
+        "example": "The petulant child threw a tantrum when he didn't get his way, demanding attention from his parents."
       }
     ]
   }
