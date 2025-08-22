@@ -3182,6 +3182,302 @@
         "synonyms": ["Irritable", "Peevish"],
         "example": "The petulant child threw a tantrum when he didn't get his way, demanding attention from his parents."
       }
+    ],
+    "7": [
+      {
+        "question": "What does 'Apathy' mean?",
+        "type": "Noun",
+        "options": [
+          "Lack of concern/feeling/emotion",
+          "A large body of water",
+          "To move quickly on foot",
+          "A place where books are kept"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Indifference", "Disinterest"],
+        "example": "His apathy towards the project was evident, as he showed no interest in contributing or providing feedback."
+      },
+      {
+        "question": "What does 'validate' mean?",
+        "type": "Verb",
+        "options": [
+          "To make something invalid",
+          "To create a new version",
+          "To remove or delete",
+          "To confirm or support"
+        ],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["Authenticate", "Verify"],
+        "example": "The scientist conducted experiments to validate her hypothesis, ensuring that her findings were accurate and reliable."
+      },
+      {
+        "question": "What does 'salient' mean?",
+        "type": "Adjective",
+        "options": [
+          "Hidden or concealed",
+          "Unimportant or trivial",
+          "Prominent or noticeable",
+          "Dull or boring"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["Conspicuous", "Striking"],
+        "example": "The salient features of the new smartphone include its high-resolution camera and long-lasting battery life."
+      },
+      {
+        "question": "What does 'euphemism' mean?",
+        "type": "Noun",
+        "options": [
+          "A type of musical instrument",
+          "A mild or indirect word or expression substituted for one considered to be too harsh or blunt",
+          "A form of government",
+          "A literary genre"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["Substitute"],
+        "example": "Using 'passed away' as a euphemism for 'died' is common in many cultures, as it softens the harshness of the reality of death."
+      },
+      {
+        "question": "what does 'Ostentatious' mean?",
+        "type": "Adjective",
+        "options": [
+          "Excessively showy or designed to attract attention",
+          "Subtle or understated",
+          "Dull or boring",
+          "Practical or functional"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Showy"],
+        "example": "The celebrity's ostentatious display of wealth at the charity gala drew criticism from many who felt it was inappropriate for the occasion."
+      },
+      {
+        "question": "what does 'glitch' mean?",
+        "type": "Noun",
+        "options": [
+          "A type of software",
+          "A minor malfunction or error",
+          "A form of entertainment",
+          "A type of food"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["Bug", "Hiccup"],
+        "example": "The software update caused a glitch that temporarily disrupted the app's functionality, but it was quickly resolved by the developers."
+      },
+      {
+        "question": "What does 'Tempestuous' mean?",
+        "type": "Adjective",
+        "options": [
+          "Calm and peaceful",
+          "Dull and boring",
+          "Characterized by strong and turbulent or conflicting emotions",
+          "Subtle and understated"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["Turbulent", "Furious"],
+        "example": "Their tempestuous relationship was marked by frequent arguments and passionate reconciliations, making it both exciting and exhausting for those around them."
+      },
+      {
+        "question": "What does 'meander' mean?",
+        "type": "Verb",
+        "options": [
+          "To move in a straight line",
+          "To run quickly",
+          "To climb steeply",
+          "To wander aimlessly or casually without urgent destination"
+        ],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["Wander", "Drift"],
+        "example": "We decided to meander through the park, enjoying the scenery and taking our time to explore the various paths and gardens."
+      },
+      {
+        "question": "what does 'Immutable' mean?",
+        "type": "Adjective",
+        "options": [
+          "Unchanging over time or unable to be changed",
+          "Subject to change",
+          "Temporary or fleeting",
+          "Flexible and adaptable"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Unalterable", "Fixed"],
+        "example": "The laws of physics are considered immutable, as they remain constant regardless of the circumstances or conditions."
+      },
+      {
+        "question": "What does 'Calculus' mean?",
+        "type": "Noun",
+        "options": [
+          "A type of software",
+          "A branch of mathematics that deals with rates of change and slopes of curves/ Practical Judgement",
+          "A form of government",
+          "A type of musical instrument"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["calculation", "computation"],
+        "example": "By my calculus the more efficient air conditioner will have paid for itself within a span of five years"
+      },
+      {
+        "question": "What does 'Ramshackle' mean?",
+        "type": "Adjective",
+        "options": [
+          "Well-built and sturdy",
+          "Modern and stylish",
+          "In a state of severe disrepair",
+          "Expensive and luxurious"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["Dilapidated", "Decrepit"],
+        "example": "Toward the back of the property stood a ramshackle old shed."
+      },
+      {
+        "question": "What does 'stipulate' mean?",
+        "type": "Verb",
+        "options": [
+          "To ignore or overlook",
+          "To delay or postpone",
+          "To simplify or clarify",
+          "To demand or specify a requirement"
+        ],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["Specify", "Demand"],
+        "example": "The contract stipulates that the tenant must pay rent by the first of each month."
+      },
+      {
+        "question": "What does 'hidebound' mean?",
+        "type": "Adjective",
+        "options": [
+          "Narrow-minded and rigid",
+          "Open-minded and flexible",
+          "Creative and innovative",
+          "Adventurous and daring"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Conservative", "Inflexible"],
+        "example": "The hidebound traditions of the small town made it difficult for new ideas to take root."
+      },
+      {
+        "question": "What does 'behemoth' mean?",
+        "type": "Noun",
+        "options": [
+          "A small creature",
+          "A large and powerful entity",
+          "A type of plant",
+          "A musical instrument"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["Giant", "Colossus"],
+        "example": "The tech company has become a behemoth in the industry, dominating the market with its innovative products and services."
+      },
+      {
+        "question": "What does 'winsome' mean?",
+        "type": "Adjective",
+        "options": [
+          "Unpleasant and unattractive",
+          "Boring and dull",
+          "Charming and attractive",
+          "Aggressive and hostile"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["Pleasant", "Appealing"],
+        "example": "Her winsome smile and friendly demeanor made her popular among her peers, drawing people to her effortlessly."
+      },
+      {
+        "question": "What does 'adjudicate' mean?",
+        "type": "Verb",
+        "options": [
+          "To ignore or overlook",
+          "To delay or postpone",
+          "To simplify or clarify",
+          "Act as a judge"
+        ],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["Arbitrate", "Judge"],
+        "example": "The case will be adjudicated in the state courts."
+      },
+      {
+        "question": "What does 'Largesse' mean?",
+        "type": "Noun",
+        "options": [
+          "Charity/ donation",
+          "A type of food",
+          "A form of entertainment",
+          "A type of clothing"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Generosity"],
+        "example": "The community has benefited greatly from the largesse of its wealthiest family."
+      },
+      {
+        "question": "What does 'Contentious' mean?",
+        "type": "Adjective",
+        "options": [
+          "Friendly and agreeable",
+          "Likely to cause an argument/ A person willing to argue",
+          "Calm and peaceful",
+          "Boring and dull"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["Disputatious", "Quarrelsome"],
+        "example": "I think it’s wise to avoid such a contentious topic at a dinner party."
+      },
+      {
+        "question": "What does 'tapestry' mean?",
+        "type": "Noun",
+        "options": [
+          "A type of fabric",
+          "A form of entertainment",
+          "A complex combination of things",
+          "A type of food"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["Mosaic", "Intricate design"],
+        "example": "The walls were adorned with handwoven tapestries."
+      },
+      {
+        "question": "What does 'Egregious' mean?",
+        "type": "Adjective",
+        "options": [
+          "Very good or excellent",
+          "Mild or moderate",
+          "Unnoticeable or insignificant",
+          "Outstandingly bad"
+        ],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["Shocking", "Outrageous"],
+        "example": "Leaving one’s phone on during a performance is an egregious breach of theater etiquette."
+      },
+      {
+        "question": "What does 'dissociate' mean?",
+        "type": "Verb",
+        "options": [
+          "To separate or disconnect",
+          "To connect or associate",
+          "To simplify or clarify",
+          "To delay or postpone"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Disengage", "Detach"],
+        "example": "The director has tried to dissociate herself from her earlier films."
+      }
     ]
   }
 }
