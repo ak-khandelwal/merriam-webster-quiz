@@ -11,7 +11,7 @@ function Question({ question, dispatch, answer }) {
         </span>
       </h4>
       {hasAnswered && question.synonyms && (
-        <p className="text-lg text-gray-300 mb-4">
+        <p className="text-xl text-gray-300 mb-4">
           <b>Synonyms</b>: {question.synonyms.join(', ')}
         </p>
       )}

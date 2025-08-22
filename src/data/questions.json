@@ -3202,9 +3202,9 @@
         "question": "What does 'validate' mean?",
         "type": "Verb",
         "options": [
-          "To make something invalid",
-          "To create a new version",
-          "To remove or delete",
+          "make something invalid",
+          "create a new version",
+          "remove or delete",
           "To confirm or support"
         ],
         "correctOption": 3,
@@ -3286,10 +3286,10 @@
         "question": "What does 'meander' mean?",
         "type": "Verb",
         "options": [
-          "To move in a straight line",
-          "To run quickly",
-          "To climb steeply",
-          "To wander aimlessly or casually without urgent destination"
+          "move in a straight line",
+          "run quickly",
+          "climb steeply",
+          "wander aimlessly or casually without urgent destination"
         ],
         "correctOption": 3,
         "points": 10,
@@ -3468,10 +3468,10 @@
         "question": "What does 'dissociate' mean?",
         "type": "Verb",
         "options": [
-          "To separate or disconnect",
-          "To connect or associate",
-          "To simplify or clarify",
-          "To delay or postpone"
+          "disconnect / detach",
+          "To connect",
+          "simplify or clarify",
+          "delay or postpone"
         ],
         "correctOption": 0,
         "points": 10,
