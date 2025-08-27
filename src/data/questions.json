@@ -3477,6 +3477,62 @@
         "points": 10,
         "synonyms": ["Disengage", "Detach"],
         "example": "The director has tried to dissociate herself from her earlier films."
+      },
+      {
+        "question": "What does 'flagrant' mean?",
+        "type": "Adjective",
+        "options": [
+          "Concealed or hidden",
+          "Immoral or offensive",
+          "Mild or moderate",
+          "Unnoticeable or insignificant"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["Egregious"],
+        "example": "The referee called a foul on the player for his flagrant disregard of the rules."
+      },
+      {
+        "question": "What does 'cloister' mean?",
+        "type": "Verb",
+        "options": [
+          "To connect",
+          "To simplify or clarify",
+          "To confine or seclude",
+          "To delay or postpone"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["Isolate", "Seclude"],
+        "example": "The monks chose to cloister themselves in the monastery, dedicating their lives to prayer and contemplation."
+      },
+      {
+        "question": "What does 'Undulant' mean?",
+        "type": "Adjective",
+        "options": [
+          "Flat or smooth",
+          "Rigid or stiff",
+          "Sharp or pointed",
+          "Wavy or having a wave-like appearance"
+        ],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["Wavy", "Rippled"],
+        "example": " The exhibit featured a painting with beautiful green strokes that resembled undulant hills."
+      },
+      {
+        "question": "What does 'Trepidation' mean?",
+        "type": "Noun",
+        "options": [
+          "A feeling of fear or agitation about something that may happen",
+          "A feeling of excitement",
+          "A feeling of joy",
+          "A feeling of indifference"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Anxiety", "Apprehension"],
+        "example": "The students felt a sense of trepidation upon being summoned to the principal's office."
       }
     ]
   }
