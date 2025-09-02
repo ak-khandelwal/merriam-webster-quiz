@@ -17,7 +17,7 @@ function Question({ question, dispatch, answer }) {
           {question.type ? `(${question.type})` : ''}
         </span>
         {audioUrl && (
-          <button onClick={playAudio} className="p-2 rounded">
+          <button onClick={playAudio} className="p-2 rounded" tabIndex={-1}>
             🔊
           </button>
         )}
