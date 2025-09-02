@@ -3533,6 +3533,56 @@
         "points": 10,
         "synonyms": ["Anxiety", "Apprehension"],
         "example": "The students felt a sense of trepidation upon being summoned to the principal's office."
+      },
+      {
+        "word": "Nebulous",
+        "question": "What does 'Nebulous' mean?",
+        "type": "adjective",
+        "options": ["Clear", "Vague", "Precise", "Detailed"],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["unclear", "hazy", "indistinct"],
+        "example": "His ideas about the project were still nebulous and not well-defined."
+      },
+      {
+        "word": "Diminution",
+        "question": "What does 'Diminution' mean?",
+        "type": "noun",
+        "options": ["Increase", "Expansion", "Decrease", "Growth"],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["reduction", "decline", "lessening"],
+        "example": "There was a gradual diminution in his influence over the years."
+      },
+      {
+        "word": "Incisive",
+        "question": "What does 'Incisive' mean?",
+        "type": "adjective",
+        "options": ["Confused", "Dull", "Unclear", "Sharp"],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["penetrating", "clear-cut", "keen"],
+        "example": "Her incisive analysis impressed the entire team."
+      },
+      {
+        "word": "Protocol",
+        "question": "What does 'Protocol' mean?",
+        "type": "noun",
+        "options": ["Rules", "Story", "Object", "Image"],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["procedure", "guidelines", "code"],
+        "example": "The company follows a strict protocol for data security."
+      },
+      {
+        "word": "Simpatico",
+        "question": "What does 'Simpatico' mean?",
+        "type": "adjective",
+        "options": ["Difficult", "Compatible", "Opposite", "Unfriendly"],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["agreeable", "like-minded", "friendly"],
+        "example": "I found my new colleague quite simpatico, and we worked well together."
       }
     ]
   }
