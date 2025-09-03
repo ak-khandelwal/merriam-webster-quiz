@@ -1,9 +1,27 @@
 import Options from './Options';
 import fetchWordAudio from '../utils/fetchWordAudio';
+import { getTheWord, localStorageKey } from '../utils/helper';
 let audioUrl = null;
+
 function Question({ question, dispatch, answer }) {
+  function optionClicks(e) {
+    const type = e.target.dataset.type;
+    let index = null;
+    if (type === 'option') index = Number(e.target.dataset.index);
+    if (type === 'option' && index !== null) {
+      dispatch({ type: 'newAnswer', payload: index });
+      // set the word to the localstorage if answer is wrong
+      if (index !== question.correctOption) {
+        const word = question.word || getTheWord(question.question);
+        const answer = question.options[question.correctOption];
+        const value = JSON.parse(localStorage.getItem(localStorageKey) || '[]');
+        value.push({ word, answer });
+        localStorage.setItem(localStorageKey, JSON.stringify(value));
+      }
+    }
+  }
   // Fetch audio URL using the utility function
-  const word = question.question.match(/'([^']+)'/)?.[1] || null;
+  const word = question.word || getTheWord(question.question) || null;
   audioUrl = fetchWordAudio(word);
   const playAudio = () => {
     if (audioUrl) new Audio(audioUrl).play();
@@ -27,12 +45,14 @@ function Question({ question, dispatch, answer }) {
           <b>Synonyms</b>: {question.synonyms.join(', ')}
         </p>
       )}
-      <Options
-        question={question}
-        dispatch={dispatch}
-        answer={answer}
-        hasAnswered={hasAnswered}
-      />
+      <div onClick={optionClicks}>
+        <Options
+          question={question}
+          dispatch={dispatch}
+          answer={answer}
+          hasAnswered={hasAnswered}
+        />
+      </div>
       {hasAnswered && question.example && (
         <p className="text-white tracking-wide mt-4">
           <strong>Example:</strong> {question.example}

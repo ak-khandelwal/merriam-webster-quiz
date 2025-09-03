@@ -1,9 +1,10 @@
-function Options({ question, dispatch, answer, hasAnswered }) {
+function Options({ question, dispatch, hasAnswered }) {
   // answer is being set after clicking the option
   return (
     <div>
       {question.options.map((option, index) => (
         <button
+          data-type="option"
           className={`btn btn-option ${
             hasAnswered
               ? index === question.correctOption
@@ -13,7 +14,7 @@ function Options({ question, dispatch, answer, hasAnswered }) {
           }`}
           key={index}
           disabled={hasAnswered}
-          onClick={() => dispatch({ type: 'newAnswer', payload: index })}
+          data-index={index}
         >
           {option}
         </button>

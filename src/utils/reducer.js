@@ -1,4 +1,4 @@
-import shuffleArray from '../utils/suffleArray';
+import { shuffleArray, localStorageKey } from './helper';
 export const SECS_PER_QUESTION = 10;
 
 export const initialState = {
@@ -35,6 +35,8 @@ export function reducer(state, action) {
       );
       // Shuffle the selected questions
       const shuffledArray = shuffleArray(selectedQuestions);
+      // empty the localstorage
+      localStorage.clear(localStorageKey);
       return {
         ...state,
         questions: shuffledArray,

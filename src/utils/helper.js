@@ -1,4 +1,4 @@
-function shuffleArray(array) {
+export function shuffleArray(array) {
   const arr = array.slice();
   let len = arr.length;
   for (let i = len - 1; i > 0; i--) {
@@ -10,4 +10,8 @@ function shuffleArray(array) {
   return arr;
 }
 
-export default shuffleArray;
+export function getTheWord(ques) {
+  return ques.match(/'([^']+)'/)?.[1];
+}
+
+export const localStorageKey = 'wrongAnswers';

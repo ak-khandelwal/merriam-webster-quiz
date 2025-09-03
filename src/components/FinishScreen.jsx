@@ -15,8 +15,28 @@ function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
         {maxPossiblePoints} ({Math.ceil(percentage)}%)
       </p>
       <p className="highscore">(Highscore: {highscore} points)</p>
+      {(() => {
+        const wrongAnswers = JSON.parse(
+          localStorage.getItem('wrongAnswers') || '[]'
+        );
+        return wrongAnswers.length > 0 ? (
+          <div className="bg-red-50 border border-red-200 rounded-xl p-4">
+            <h3 className="text-lg font-semibold text-red-700 mb-2">
+              Wrong Questions:
+            </h3>
+            <ul className="list-disc pl-5 space-y-1 text-red-800">
+              {wrongAnswers.map((item, index) => (
+                <li key={index} className="text-base">
+                  <span className="font-medium">{item.word}</span> →{' '}
+                  <span className="italic">{item.answer}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null;
+      })()}
       <button
-        className="btn btn-ui"
+        className="btn btn-ui my-5"
         onClick={() => dispatch({ type: 'restart' })}
       >
         Restart quiz
