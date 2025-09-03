@@ -1,3 +1,4 @@
+export const localStorageKey = 'wrongAnswers';
 export function shuffleArray(array) {
   const arr = array.slice();
   let len = arr.length;
@@ -14,4 +15,12 @@ export function getTheWord(ques) {
   return ques.match(/'([^']+)'/)?.[1];
 }
 
-export const localStorageKey = 'wrongAnswers';
+export const SECS_PER_QUESTION = 10;
+// add word and its crossponsing answer to localStorage
+export function addToLocalStorage(question) {
+  const word = question.word || getTheWord(question.question);
+  const answer = question.options[question.correctOption];
+  const value = JSON.parse(localStorage.getItem(localStorageKey) || '[]');
+  value.push({ word, answer });
+  localStorage.setItem(localStorageKey, JSON.stringify(value));
+}

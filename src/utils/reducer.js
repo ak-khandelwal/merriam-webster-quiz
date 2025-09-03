@@ -1,5 +1,4 @@
-import { shuffleArray, localStorageKey } from './helper';
-export const SECS_PER_QUESTION = 10;
+import { shuffleArray, localStorageKey, SECS_PER_QUESTION } from './helper';
 
 export const initialState = {
   allQuestions: {},

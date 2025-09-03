@@ -1,6 +1,6 @@
 import Options from './Options';
 import fetchWordAudio from '../utils/fetchWordAudio';
-import { getTheWord, localStorageKey } from '../utils/helper';
+import { getTheWord, addToLocalStorage } from '../utils/helper';
 let audioUrl = null;
 
 function Question({ question, dispatch, answer }) {
@@ -12,11 +12,7 @@ function Question({ question, dispatch, answer }) {
       dispatch({ type: 'newAnswer', payload: index });
       // set the word to the localstorage if answer is wrong
       if (index !== question.correctOption) {
-        const word = question.word || getTheWord(question.question);
-        const answer = question.options[question.correctOption];
-        const value = JSON.parse(localStorage.getItem(localStorageKey) || '[]');
-        value.push({ word, answer });
-        localStorage.setItem(localStorageKey, JSON.stringify(value));
+        addToLocalStorage(question);
       }
     }
   }
