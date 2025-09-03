@@ -1,9 +1,16 @@
 import Options from './Options';
 import fetchWordAudio from '../utils/fetchWordAudio';
 import { getTheWord, addToLocalStorage } from '../utils/helper';
+import { useEffect, useRef } from 'react';
 let audioUrl = null;
 
 function Question({ question, dispatch, answer }) {
+  const firstOptionRef = useRef(null);
+  useEffect(() => {
+    if (firstOptionRef.current) {
+      firstOptionRef.current.focus(); // set focus on mount
+    }
+  }, [question]);
   function optionClicks(e) {
     const type = e.target.dataset.type;
     let index = null;
@@ -42,6 +49,7 @@ function Question({ question, dispatch, answer }) {
         </p>
       )}
       <div onClick={optionClicks}>
+        <button ref={firstOptionRef} className="sr-only"></button>
         <Options
           question={question}
           dispatch={dispatch}

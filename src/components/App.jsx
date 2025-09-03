@@ -14,7 +14,6 @@ import '../App.css';
 
 import { initialState } from '../utils/reducer';
 import { reducer } from '../utils/reducer';
-
 export default function App() {
   const [
     {
@@ -74,6 +73,7 @@ export default function App() {
               answer={answer}
               numQuestions={numQuestions}
               index={index}
+              question={questions[index]}
             />
           </Footer>
         </div>
