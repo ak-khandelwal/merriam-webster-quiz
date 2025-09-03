@@ -1,5 +1,53 @@
 {
   "2024": {
+    "8": [
+      {
+        "question": "What does '1' mean?",
+        "type": "Adjective",
+        "options": ["Doubtful", "Pathetic / ill", "Concrete", "Car's trunk"],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Suspicious"],
+        "example": "She had a dubious expression on her face."
+      },
+      {
+        "question": "What does '2' mean?",
+        "type": "Adjective",
+        "options": [
+          "Small compartment in car under dashboard",
+          "Theory",
+          "Pathetic / ill",
+          "Funny"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["Desperate", "Urgent"],
+        "example": "The situation was dire, requiring immediate action."
+      },
+      {
+        "question": "What does '3' mean?",
+        "type": "Verb",
+        "options": [
+          "Short period",
+          "Type of shocks",
+          "Concrete",
+          "Calm / free from disturbance"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["Confirmatory", "Supportive"],
+        "example": "The witness provided corroborative evidence to support the claim."
+      },
+      {
+        "question": "What does '4' mean?",
+        "type": "Noun",
+        "options": ["To cancel", "A Theory", "Unaffected", "Ill will"],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["Intuition", "Feeling"],
+        "example": "She had a hunch that something was wrong."
+      }
+    ],
     "9": [
       {
         "question": "What does 'Dubious' mean?",

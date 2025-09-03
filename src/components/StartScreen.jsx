@@ -1,4 +1,5 @@
 import { useState } from 'react';
+const isTesting = false;
 function StartScreen({ dispatch, allQuestions, isTimerOn }) {
   const [selected, setSelected] = useState({});
 
@@ -121,24 +122,28 @@ function StartScreen({ dispatch, allQuestions, isTimerOn }) {
                 </div>
 
                 <div className="flex flex-wrap gap-4">
-                  {allMonthsForYear.map((month) => (
-                    <label
-                      key={month}
-                      htmlFor={`${year}-${month}`}
-                      className="flex items-center gap-3 bg-gray-900/50 border border-gray-700 px-4 py-2 rounded-lg hover:bg-gray-700/50 transition cursor-pointer"
-                    >
-                      <input
-                        type="checkbox"
-                        id={`${year}-${month}`}
-                        checked={selected[year]?.includes(month) || false}
-                        onChange={() => handleMonthChange(year, month)}
-                        className="h-6 w-6 accent-blue-400 rounded border-2 border-blue-400 bg-gray-900 transition-transform duration-150 hover:scale-110"
-                      />
-                      <span className="text-gray-200 ">
-                        {monthNames[month]}
-                      </span>
-                    </label>
-                  ))}
+                  {allMonthsForYear.map((month) => {
+                    return !isTesting && year == '2024' && month == '8' ? (
+                      ''
+                    ) : (
+                      <label
+                        key={month}
+                        htmlFor={`${year}-${month}`}
+                        className="flex items-center gap-3 bg-gray-900/50 border border-gray-700 px-4 py-2 rounded-lg hover:bg-gray-700/50 transition cursor-pointer"
+                      >
+                        <input
+                          type="checkbox"
+                          id={`${year}-${month}`}
+                          checked={selected[year]?.includes(month) || false}
+                          onChange={() => handleMonthChange(year, month)}
+                          className="h-6 w-6 accent-blue-400 rounded border-2 border-blue-400 bg-gray-900 transition-transform duration-150 hover:scale-110"
+                        />
+                        <span className="text-gray-200 ">
+                          {monthNames[month]}
+                        </span>
+                      </label>
+                    );
+                  })}
                 </div>
               </div>
             );
