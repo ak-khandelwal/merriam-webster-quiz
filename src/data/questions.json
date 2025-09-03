@@ -69,7 +69,7 @@
       {
         "question": "What does 'Hunch' mean?",
         "type": "Noun",
-        "options": ["To cancel", "Theory", "Unaffected", "Ill will"],
+        "options": ["To cancel", "A Theory", "Unaffected", "Ill will"],
         "correctOption": 1,
         "points": 10,
         "synonyms": ["Intuition", "Feeling"],
@@ -275,19 +275,6 @@
         "correctOption": 2,
         "points": 10,
         "example": "The bloke at the pub was very friendly."
-      },
-      {
-        "question": "What does 'Follow' mean?",
-        "type": "Verb",
-        "options": [
-          "To search thoroughly",
-          "A man in UK",
-          "To understand",
-          "To abide by"
-        ],
-        "correctOption": 2,
-        "points": 10,
-        "example": "She tried to follow the instructions but found them confusing."
       },
       {
         "question": "What does 'Comply' mean?",
@@ -550,14 +537,14 @@
         "question": "What does 'Spring' mean?",
         "type": "Verb",
         "options": [
-          "To escape",
+          "To Leap",
           "Related to ship",
           "Ship parking area",
           "Poorly behave"
         ],
         "correctOption": 0,
         "points": 10,
-        "synonyms": ["Leap", "Jump"],
+        "synonyms": ["Jump"],
         "example": "The cat sprang onto the windowsill to chase a bird."
       },
       {
@@ -585,10 +572,10 @@
         "question": "What does 'Run off' mean?",
         "type": "Verb",
         "options": [
-          "To leave",
+          "To escape",
           "Horrible place/ unattractive",
           "Thing that hold something together",
-          "To escape"
+          "To Invent"
         ],
         "correctOption": 0,
         "points": 10,
@@ -902,7 +889,7 @@
       {
         "question": "What does 'Condone/Entertain' mean?",
         "type": "Verb",
-        "options": ["To admire", "Accept", "Large", "To imitate"],
+        "options": ["lie", "Accept", "Large", "To imitate"],
         "correctOption": 1,
         "points": 10,
         "synonyms": ["Tolerate", "Allow"],
@@ -2038,7 +2025,7 @@
           "To separate from main body",
           "Indecisive",
           "To get familiar with",
-          "Open space for ppl to gether"
+          "Open space for people to gather"
         ],
         "correctOption": 1,
         "points": 10,
@@ -2052,7 +2039,7 @@
           "To separate from main body",
           "To get familiar with",
           "Indecisive",
-          "To separate"
+          "to cancel"
         ],
         "correctOption": 0,
         "points": 10,
@@ -2063,7 +2050,7 @@
         "question": "What does 'Acquainted' mean?",
         "type": "Adjective",
         "options": [
-          "Open space for ppl to gether",
+          "Open space for people to gather",
           "To separate",
           "To get familiar with",
           "Tolerate"
@@ -2079,7 +2066,7 @@
         "options": [
           "To separate from main body",
           "Tolerate",
-          "Open space for ppl to gether",
+          "Open space for people to gather",
           "To present"
         ],
         "correctOption": 2,
@@ -2159,7 +2146,7 @@
           "Tolerate",
           "To find answer",
           "Encounter something",
-          "To investigate"
+          "To carve"
         ],
         "correctOption": 1,
         "points": 10,
@@ -2173,7 +2160,7 @@
           "To investigate",
           "Indecisive",
           "Look real but isn't - bogus",
-          "To find answer"
+          "To deny"
         ],
         "correctOption": 0,
         "points": 10,
@@ -2201,7 +2188,7 @@
           "Look real but isn't - bogus",
           "To improve",
           "To get familiar with",
-          "Open space for ppl to gether"
+          "Open space for people to gather"
         ],
         "correctOption": 0,
         "points": 10,
@@ -2775,7 +2762,7 @@
         "type": "Adjective",
         "options": [
           "To make loud and clumsy sound",
-          "Irritating / annoying",
+          "a complainer",
           "To revoke or end",
           "Very subtle difference"
         ],
@@ -2929,6 +2916,7 @@
         ],
         "correctOption": 0,
         "points": 10,
+        "synonyms": ["to question honesty"],
         "example": "The lawyer tried to impugn the credibility of the witness by questioning his motives and character."
       },
       {
@@ -2937,7 +2925,7 @@
         "options": [
           "To prevent",
           "To revoke or end",
-          "To prevent something to succeed",
+          "afraid of",
           "More words than necessary"
         ],
         "correctOption": 0,
@@ -2949,7 +2937,7 @@
         "type": "Verb",
         "options": [
           "Freedom from punishment",
-          "To feeling exciting",
+          "Sense of desire",
           "Extremely bad or severe",
           "Very successfully"
         ],
@@ -3110,7 +3098,7 @@
         "question": "What does 'Brouhaha' mean?",
         "type": "Noun",
         "options": [
-          "Great excitement or concern to something",
+          "over excitement",
           "Easily done",
           "To malign",
           "Complaining"
@@ -3231,13 +3219,12 @@
         "type": "Noun",
         "options": [
           "A type of musical instrument",
-          "A mild or indirect word or expression substituted for one considered to be too harsh or blunt",
+          "A substitute word for harsh one",
           "A form of government",
           "A literary genre"
         ],
         "correctOption": 1,
         "points": 10,
-        "synonyms": ["Substitute"],
         "example": "Using 'passed away' as a euphemism for 'died' is common in many cultures, as it softens the harshness of the reality of death."
       },
       {
@@ -3442,7 +3429,7 @@
         "options": [
           "A type of fabric",
           "A form of entertainment",
-          "A complex combination of things",
+          "A form of texttile art",
           "A type of food"
         ],
         "correctOption": 2,
@@ -3558,7 +3545,7 @@
         "word": "Incisive",
         "question": "What does 'Incisive' mean?",
         "type": "adjective",
-        "options": ["Confused", "Dull", "Unclear", "Sharp"],
+        "options": ["Confused", "Dull", "Unclear", "Sharp/ Clear"],
         "correctOption": 3,
         "points": 10,
         "synonyms": ["penetrating", "clear-cut", "keen"],
