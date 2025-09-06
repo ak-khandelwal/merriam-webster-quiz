@@ -1,2 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
 @import 'tailwindcss';
+
+@theme {
+  --color-primary: #1c77c5;
+  --color-primary-darker: #1963a3;
+}
+

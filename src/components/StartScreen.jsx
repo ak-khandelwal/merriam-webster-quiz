@@ -67,7 +67,7 @@ function StartScreen({ dispatch, allQuestions, isTimerOn }) {
     <div className="tailwind-page text-2xl sm:text-3xl">
       <div className="flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-100 px-4 py-8 ">
         <h2 className="font-extrabold mb-2 text-blue-400 drop-shadow text-4xl sm:text-5xl">
-          Merriam-Webster Quiz
+          WordNinja Quiz
         </h2>
         <h3 className="font-medium mb-8 text-gray-300 text-xl sm:text-2xl">
           Please select the year and month for the quiz

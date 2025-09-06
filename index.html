@@ -3,10 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Merriam-Webster Quiz</title>
+    <title>🐱‍👤 WordNinja.in - Master Your Vocabulary</title>
+    <link rel="stylesheet" href="./src/index.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="bg-white">
+      <header class="bg-[#FCF8F1] bg-opacity-30">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16 lg:h-20">
+            <div class="flex-shrink-0">
+              <a href="#" title="" class="flex">
+                <img class="w-30" src="./src/assets/logo.png" alt="logo" />
+              </a>
+            </div>
+
+            <a
+              href="./dashboard.html"
+              title=""
+              class="lg:inline-flex items-center justify-center px-5 py-2.5 text-base transition-all duration-200 hover:bg-primary-darker font-semibold text-white bg-primary rounded-full"
+              role="button"
+            >
+              Dashboard
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <section class="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-12">
+        <div
+          class="grid items-center grid-cols-1 lg:grid-cols-2 px-4 mx-auto max-w-7xl sm:px-6 lg:px-8"
+        >
+          <div class="text-center lg:text-left h-[10rem] lg:h-fit">
+            <p
+              class="text-base font-semibold tracking-wider text-primary uppercase"
+            >
+              A vocabulary trainer for learners
+            </p>
+            <h1 class="mt-4 text-4xl font-bold text-black lg:mt-8 xl:text-6xl">
+              Master words like a true
+              <img
+                src="./src/assets/shuriken-2.png"
+                alt="shuriken"
+                class="inline-block w-12 h-12 mix-blend-multiply ml-"
+              />
+            </h1>
+            <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">
+              Slice through vocabulary barriers with fun & interactive quizzes.
+              <br />
+              Learn faster. Retain longer. Speak smarter.
+            </p>
+
+            <a
+              href="#"
+              title=""
+              class="inline-flex items-center px-6 py-4 mt-8 font-semibold text-black transition-all duration-200 bg-yellow-300 rounded-full lg:mt-16 hover:bg-yellow-400 focus:bg-yellow-400 invisible"
+              role="button"
+            >
+              Join for free
+              <svg
+                class="w-6 h-6 ml-8 -mr-2"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </a>
+
+            <p class="mt-5 text-gray-600 invisible">
+              Already joined us?
+              <a
+                href="#"
+                title=""
+                class="text-black transition-all duration-200 hover:underline"
+                >Log in</a
+              >
+            </p>
+          </div>
+
+          <div class="flex justify-center">
+            <img
+              class="w-auto lg:h-[50%]"
+              src="./src/assets/ninja-bg-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
