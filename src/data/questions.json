@@ -2,50 +2,55 @@
   "2024": {
     "8": [
       {
-        "question": "What does '1' mean?",
-        "type": "Adjective",
-        "options": ["Doubtful", "Pathetic / ill", "Concrete", "Car's trunk"],
-        "correctOption": 0,
-        "points": 10,
-        "synonyms": ["Suspicious"],
-        "example": "She had a dubious expression on her face."
-      },
-      {
-        "question": "What does '2' mean?",
+        "question": "What does 'Serene' mean?",
         "type": "Adjective",
         "options": [
-          "Small compartment in car under dashboard",
-          "Theory",
-          "Pathetic / ill",
-          "Funny"
+          "Calm and peaceful",
+          "Full of energy",
+          "Extremely loud",
+          "Very hot"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Tranquil", "Peaceful"],
+        "example": "The lake looked serene under the evening sky."
+      },
+      {
+        "question": "What does 'Euphoria' mean?",
+        "type": "Noun",
+        "options": [
+          "Deep sadness",
+          "Intense happiness",
+          "Laziness",
+          "Confusion"
         ],
         "correctOption": 1,
         "points": 10,
-        "synonyms": ["Desperate", "Urgent"],
-        "example": "The situation was dire, requiring immediate action."
+        "synonyms": ["Joy", "Bliss"],
+        "example": "Winning the championship filled her with euphoria."
       },
       {
-        "question": "What does '3' mean?",
+        "question": "What does 'Murmur' mean?",
         "type": "Verb",
         "options": [
-          "Short period",
-          "Type of shocks",
-          "Concrete",
-          "Calm / free from disturbance"
+          "To shout loudly",
+          "To jump suddenly",
+          "To speak softly",
+          "To sleep deeply"
         ],
         "correctOption": 2,
         "points": 10,
-        "synonyms": ["Confirmatory", "Supportive"],
-        "example": "The witness provided corroborative evidence to support the claim."
+        "synonyms": ["Whisper", "Mutter"],
+        "example": "He murmured something under his breath."
       },
       {
-        "question": "What does '4' mean?",
-        "type": "Noun",
-        "options": ["To cancel", "A Theory", "Unaffected", "Ill will"],
+        "question": "What does 'Gloomy' mean?",
+        "type": "Adjective",
+        "options": ["Very bright", "Colorful", "Excited", "Sad and dark"],
         "correctOption": 3,
         "points": 10,
-        "synonyms": ["Intuition", "Feeling"],
-        "example": "She had a hunch that something was wrong."
+        "synonyms": ["Dull", "Depressing"],
+        "example": "The sky looked gloomy before the storm."
       }
     ],
     "9": [

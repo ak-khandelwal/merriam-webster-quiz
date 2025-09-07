@@ -43,6 +43,7 @@ function StartScreen({ dispatch, allQuestions, isTimerOn }) {
     setSelected((prevSelected) => {
       const newSelected = { ...prevSelected };
       // ["0","1"] - contains index of the month
+      // if year 2024 then ignore 8
       const allMonthsForYear = Object.keys(allQuestions[year]);
       if (newSelected[year]?.length === allMonthsForYear.length) {
         // Deselect all
@@ -123,9 +124,7 @@ function StartScreen({ dispatch, allQuestions, isTimerOn }) {
 
                 <div className="flex flex-wrap gap-4">
                   {allMonthsForYear.map((month) => {
-                    return !isTesting && year == '2024' && month == '8' ? (
-                      ''
-                    ) : (
+                    return (
                       <label
                         key={month}
                         htmlFor={`${year}-${month}`}
