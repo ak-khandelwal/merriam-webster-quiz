@@ -475,7 +475,7 @@
         "question": "What does 'Agitate' mean?",
         "type": "Adjective",
         "options": [
-          "Excited/ discuss",
+          "unsettle",
           "Ship parking area",
           "Poorly behave",
           "Hard to understand/ difficult"
@@ -3623,6 +3623,106 @@
         "points": 10,
         "synonyms": ["agreeable", "like-minded", "friendly"],
         "example": "I found my new colleague quite simpatico, and we worked well together."
+      }
+    ],
+    "12": [
+      {
+        "question": "What does 'Bellhop' mean?",
+        "type": "Noun",
+        "options": [
+          "Hotel staff who carries luggage",
+          "Person who repairs bells",
+          "Reception desk manager",
+          "Chef assistant in the kitchen"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Porter", "Bellman"],
+        "example": "The bellhop quickly carried our bags to the room."
+      },
+      {
+        "question": "What does 'Hood ornament' mean?",
+        "type": "Noun",
+        "options": [
+          "Car mechanic’s tool",
+          "A showpiece on car's bonnet or hood",
+          "Car’s air intake system",
+          "Spare tire cover"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["Car emblem", "Bonnet mascot"],
+        "example": "The vintage car had a beautiful hood ornament."
+      },
+      {
+        "question": "What does 'Flank' mean?",
+        "type": "Noun",
+        "options": [
+          "Front view of a building",
+          "Secret storage area",
+          "A place to the side",
+          "Protective armor for vehicles"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["Side", "Edge"],
+        "example": "The army attacked from the left flank."
+      },
+      {
+        "question": "What does 'Soggy' mean?",
+        "type": "Adjective",
+        "options": [
+          "Completely dry",
+          "Perfectly smooth",
+          "Made of pure silk",
+          "Slow or dire; wet and heavy"
+        ],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["Sluggish", "Miserable"],
+        "example": "The team's performance was soggy in the first half."
+      },
+      {
+        "question": "What does 'Usher' mean?",
+        "type": "Noun",
+        "options": [
+          "An escorter or assistant",
+          "A person who sells tickets",
+          "Owner of the theater",
+          "Security guard at the entrance"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Guide", "Attendant"],
+        "example": "The usher guided us to our seats in the theater."
+      },
+      {
+        "question": "What does 'Superstitious' mean?",
+        "type": "Adjective",
+        "options": [
+          "Person who studies astronomy",
+          "False belief in luck or omens",
+          "Extremely logical thinker",
+          "Professional magician"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["Mythical", "Irrational"],
+        "example": "She is superstitious about black cats crossing her path."
+      },
+      {
+        "question": "What does 'Stern' mean?",
+        "type": "Adjective",
+        "options": [
+          "Harsh or strict in manner",
+          "Extremely funny",
+          "Soft and gentle",
+          "Completely silent"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["Strict", "Severe"],
+        "example": "The teacher gave a stern warning to the noisy class."
       }
     ]
   }

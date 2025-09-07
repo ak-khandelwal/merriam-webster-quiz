@@ -15,7 +15,8 @@ function StartScreen({ dispatch, allQuestions, isTimerOn }) {
     'September',
     'October',
     'November',
-    'December'
+    'December',
+    'Extra'
   ];
   const years = allQuestions ? Object.keys(allQuestions) : [];
 
