@@ -3146,14 +3146,14 @@
         "question": "What does 'Brouhaha' mean?",
         "type": "Noun",
         "options": [
-          "over excitement",
+          "over excitement/ Confusion",
           "Easily done",
           "To malign",
           "Complaining"
         ],
         "correctOption": 0,
         "points": 10,
-        "synonyms": ["Commotion", "Fuss"],
+        "synonyms": ["Commotion"],
         "example": "The announcement of the new policy caused a brouhaha among the employees, leading to heated discussions and debates in the office."
       },
       {
