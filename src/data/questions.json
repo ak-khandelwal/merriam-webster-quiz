@@ -3625,6 +3625,143 @@
         "example": "I found my new colleague quite simpatico, and we worked well together."
       }
     ],
+    "8": [
+      {
+        "word": "perpetuity",
+        "question": "What does 'perpetuity' mean?",
+        "type": "noun",
+        "options": [
+          "A financial instrument that matures in ten years",
+          "A temporary pause or delay",
+          "The state or quality of lasting forever; eternity",
+          "A legal document granting property rights for a limited period"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["eternity", "foreverness", "permanence", "endlessness"],
+        "example": "The endowment was established to provide scholarships in perpetuity."
+      },
+      {
+        "word": "consummate",
+        "question": "What does 'consummate' mean?",
+        "type": "adjective",
+        "options": [
+          "Something done halfway or partially",
+          "Related to consuming food or drink",
+          "A legal agreement between two parties",
+          "Showing a high degree of skill and flair; complete or perfect"
+        ],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["masterful", "accomplished", "superb", "perfect"],
+        "example": "She is a consummate professional who always delivers quality work."
+      },
+      {
+        "word": "flummox",
+        "question": "What does 'flummox' mean?",
+        "type": "verb",
+        "options": [
+          "To completely bewilder or confuse",
+          "To fix or repair something broken",
+          "To decorate in a fancy way",
+          "To speak in a formal manner"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["baffle", "puzzle", "confuse", "perplex"],
+        "example": "The complex instructions managed to flummox even the most experienced users."
+      },
+      {
+        "word": "zoomorphic",
+        "question": "What does 'zoomorphic' mean?",
+        "type": "adjective",
+        "options": [
+          "Related to the study of the universe",
+          "Having or representing animal forms or characteristics",
+          "Made entirely out of plants",
+          "Describing a fast-moving object"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["animal-shaped", "beast-like", "creature-formed"],
+        "example": "The ancient vase had zoomorphic designs depicting lions and birds."
+      },
+      {
+        "word": "griot",
+        "question": "What does 'griot' mean?",
+        "type": "noun",
+        "options": [
+          "A type of musical instrument used in Europe",
+          "A farmer who specializes in growing rare crops",
+          "A West African storyteller, poet, or musician who preserves oral traditions",
+          "An ancient warrior from North Africa"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["storyteller", "bard", "minstrel", "oral historian"],
+        "example": "The griot captivated the audience with tales of ancestral heroes and kings."
+      },
+      {
+        "word": "insinuate",
+        "question": "What does 'insinuate' mean?",
+        "type": "verb",
+        "options": [
+          "To directly accuse someone of wrongdoing",
+          "To speak clearly and openly",
+          "To praise someone with enthusiasm",
+          "To suggest or hint at something in an indirect way"
+        ],
+        "correctOption": 3,
+        "points": 10,
+        "synonyms": ["hint", "imply", "suggest"],
+        "example": "She tried to insinuate that I was responsible for the mistake without saying it outright."
+      },
+      {
+        "word": "sanguine",
+        "question": "What does 'sanguine' mean?",
+        "type": "adjective",
+        "options": [
+          "Optimistic or positive, especially in a difficult situation",
+          "Fearful and anxious about the future",
+          "Related to blood or medical studies",
+          "Marked by anger or aggression"
+        ],
+        "correctOption": 0,
+        "points": 10,
+        "synonyms": ["optimistic", "hopeful", "positive", "confident"],
+        "example": "Despite the challenges, he remained sanguine about the project's success."
+      },
+      {
+        "word": "mollify",
+        "question": "What does 'mollify' mean?",
+        "type": "verb",
+        "options": [
+          "To intensify someone's anger",
+          "To soften or reduce someone's anger or anxiety",
+          "To ignore a person's feelings",
+          "To demand immediate action from someone"
+        ],
+        "correctOption": 1,
+        "points": 10,
+        "synonyms": ["pacify", "soothe", "appease", "calm"],
+        "example": "The manager tried to mollify the unhappy customer with a full refund."
+      },
+      {
+        "word": "behest",
+        "question": "What does 'behest' mean?",
+        "type": "noun",
+        "options": [
+          "A casual remark during a conversation",
+          "A formal agreement between parties",
+          "An urgent request or command",
+          "An unexpected problem or difficulty"
+        ],
+        "correctOption": 2,
+        "points": 10,
+        "synonyms": ["command", "instruction", "request", "order"],
+        "example": "He joined the army at his father's behest."
+      }
+    ],
     "12": [
       {
         "question": "What does 'Bellhop' mean?",
