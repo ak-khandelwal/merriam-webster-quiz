@@ -42,6 +42,22 @@ function Question({ question, dispatch, answer }) {
             🔊
           </button>
         )}
+        {hasAnswered &&
+          (answer === question.correctOption ? (
+            <span
+              title="Correct"
+              className="inline-block align-middle ml-2 text-green-400 text-3xl"
+            >
+              ✔️
+            </span>
+          ) : (
+            <span
+              title="Wrong"
+              className="inline-block align-middle ml-2 text-red-400 text-3xl"
+            >
+              ❌
+            </span>
+          ))}
       </div>
       {hasAnswered && question.synonyms && (
         <p className="text-xl text-gray-300 mb-4">
